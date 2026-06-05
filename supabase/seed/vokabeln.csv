@@ -1,0 +1,501 @@
+hangul,romanisierung,deutsch,lektion
+و,vâv / va,und,101
+که,ke,dass / der / die / welcher,101
+تا,tâ,bis / damit / um zu,101
+پس,pas,dann / also / nach,101
+دیگر,digar,anderer / sonst / nicht mehr,101
+اما,ammâ,aber,101
+هم,ham,auch / ebenfalls / beide,101
+یا,yâ,oder,101
+نیز,niz,auch / ebenfalls,101
+اگر,agar,wenn / falls,101
+یعنی,ya'ni,das heißt / nämlich,101
+ولی,vali,aber,101
+چون,chun,weil / wie,101
+همچنین,hamchenin,außerdem / ebenso,101
+بلکه,balke,sondern / vielmehr,101
+وقتی,vaghti,wenn / als,101
+جز,joz,außer / abgesehen von,101
+از,az,von / aus / seit,102
+به,be,zu / nach / an,102
+در,dar,in / in dem,102
+با,bâ,mit,102
+برای,barâye,für,102
+بر,bar,auf / über / an,102
+میان,miyân,zwischen / Mitte,102
+بین,beyn,zwischen,102
+بدون,bedun,ohne,102
+رو,ru,auf / Gesicht / Oberfläche,102
+جهت,jahat,Richtung / wegen,102
+داخل,dâkhel,innen / innerhalb,102
+درباره,darbâre,über / betreffend,102
+تحت,taht,unter,102
+طی,tey,während / im Verlauf,102
+توسط,tavassot,durch / seitens,102
+زیر,zir,unter / unterhalb,102
+مقابل,moghâbel,gegenüber,102
+کنار,kenâr,neben / Seite,102
+تو,to,"in / hinein (ugs. „du"")",102
+این,in,dies / dieser / diese,103
+خود,khod,selbst / sich,103
+آن,ân,das / jener / jene,103
+ما,mâ,wir,103
+او,u,er / sie,103
+همین,hamin,genau dieser / derselbe,103
+من,man,ich / mich,103
+وی,vey,er / sie,103
+شما,shomâ,ihr / Sie,103
+چنین,chenin,solch / derartig,103
+همان,hamân,eben jener / derselbe,103
+سایر,sâyer,übrige / andere,103
+ایشان,ishân,sie / er/sie (höflich),103
+هر,har,jede/r/s,104
+بیش,bish,mehr,104
+همه,hame,alle / alles,104
+کم,kam,wenig / niedrig,104
+تمام,tamâm,ganz / vollständig / alle,104
+چند,chand,einige / mehrere / wie viele,104
+برخی,barkhi,einige / manche,104
+چه,che,was / welcher / wie,105
+آیا,âyâ,ob (Fragepartikel),105
+چرا,cherâ,warum,105
+هیچ,hich,kein / nichts / überhaupt,106
+نه,na,nein / nicht (auch: neun),106
+بودن,budan,sein,201
+شدن,shodan,werden / geschehen,201
+خواستن,khâstan,wollen / wünschen,201
+داشتن,dâshtan,haben,201
+کردن,kardan,machen / tun,201
+کرد,kard,tat / machte; Kurd,201
+رسیدن,residan,ankommen / erreichen,201
+گرفتن,gereftan,nehmen / bekommen / greifen,201
+گفتن,goftan,sagen / sprechen,201
+دادن,dâdan,geben,201
+داشته,dâshte,gehabt / Besitz,201
+کند,konad / kond,macht / langsam,201
+داده,dâde,gegeben / Daten,201
+دانستن,dânestan,wissen / kennen,201
+آمدن,âmadan,kommen,201
+یافتن,yâftan,finden,201
+آوردن,âvardan,bringen,202
+وارد,vâred,eintretend / importiert / hinein,202
+رفتن,raftan,gehen,202
+بردن,bordan,tragen / bringen / nehmen,202
+رساندن,resândan,überbringen / zustellen,202
+گذاشتن,gozâshtan,legen / lassen,202
+دیدن,didan,sehen,202
+پرداختن,pardâkhtan,zahlen / sich befassen,202
+گذشتن,gozashtan,vorbeigehen / vergehen,202
+افزودن,afzudan,hinzufügen,202
+یافته,yâfte,gefunden / vorgefunden,202
+خواندن,khândan,lesen / studieren,202
+نمودن,nemudan,zeigen / tun,202
+زدن,zadan,schlagen / klopfen,202
+نوشتن,neveshtan,schreiben,202
+ساختن,sâkhtan,bauen / herstellen,202
+بایستن,bâyestan,müssen / sollen,203
+توانستن,tavânestan,können / fähig sein,203
+شایستن,shâyastan,möglich sein / sich geziemen,203
+نشان دادن,neshân dâdan,zeigen,204
+قرار گرفتن,gharâr gereftan,sich befinden / liegen,204
+وجود داشتن,vojud dâshtan,existieren,204
+انجام دادن,anjâm dâdan,durchführen / erledigen,204
+دست دادن,dast dâdan,die Hand geben / verlieren,204
+پیدا کردن,peydâ kardan,finden,204
+قرار دادن,gharâr dâdan,platzieren / festlegen,204
+قرار داشتن,gharâr dâshtan,sich befinden / liegen,204
+استفاده کردن,estefâde kardan,benutzen / verwenden,204
+خارج شدن,khârej shodan,hinausgehen / herauskommen,204
+ادامه دادن,edâme dâdan,fortsetzen,204
+قرار بودن,gharâr budan,vorgesehen sein / sollen,204
+انجام شدن,anjâm shodan,erledigt werden / geschehen,204
+انتخاب کردن,entekhâb kardan,wählen / auswählen,204
+کار,kâr,Arbeit / Sache,301
+صورت,surat,Gesicht / Form / Weise,301
+نظر,nazar,Meinung / Sicht,301
+عنوان,onvân,Titel / Überschrift / Bezeichnung,301
+مورد,mowred,Fall / Gegenstand / betreffend,301
+دست,dast,Hand,301
+قرار,gharâr,Vereinbarung / Lage / Plan,301
+برنامه,barnâme,Programm / Plan,301
+بخش,bakhsh,Teil / Abschnitt / Bereich,301
+وجود,vojood,Existenz / Vorhandensein,301
+مسئله,mas'ale,Problem / Frage / Angelegenheit,301
+توجه,tavajjoh,Aufmerksamkeit,301
+امر,amr,Angelegenheit / Sache / Befehl,301
+طور,towr,Art / Weise,301
+مشکل,moshkel,Problem / schwierig,301
+نتیجه,natije,Ergebnis / Folge,301
+رابطه,râbete,Beziehung / Verbindung,301
+شرط,shart,Bedingung,301
+اساس,asâs,Grundlage / Basis,301
+زمینه,zamine,Hintergrund / Feld / Grundlage,301
+دلیل,dalil,Grund,301
+نقش,naghsh,Rolle,301
+نام,nâm,Name,301
+استفاده,estefâde,Verwendung / Gebrauch,301
+حرکت,harekat,Bewegung,301
+طرح,tarh,Entwurf / Plan,301
+حدود,hodud,Grenzen / etwa,301
+ایجاد,ijâd,Schaffung / Erzeugung,302
+حضور,hozur,Anwesenheit / Präsenz,302
+نیرو,niru,Kraft / Truppe,302
+فعالیت,fa'âliyat,Aktivität / Tätigkeit,302
+تن,tan,Körper / Tonne,302
+اشاره,eshâre,Hinweis / Andeutung,302
+درصد,darsad,Prozent,302
+قانون,ghânun,Gesetz,302
+هدف,hadaf,Ziel,302
+بزرگی,bozorgi,Größe / Ausmaß,302
+حق,hagh,Recht,302
+اثر,asar,Spur / Wirkung / Werk,302
+بحث,bahs,Diskussion / Debatte,302
+ارزش,arzesh,Wert,302
+موضوع,movzu',Thema / Gegenstand,302
+طرف,taraf,Seite,302
+آب,âb,Wasser,302
+نوع,nov',Art / Typ,302
+اجرا,ejrâ,Ausführung / Umsetzung,302
+عمل,amal,Handlung / Tat,302
+زندگی,zendegi,Leben,302
+نظام,nezâm,System / Ordnung,302
+شکل,shekl,Form / Gestalt,302
+نسبت,nesbat,Verhältnis / Bezug,302
+دنیا,donyâ,Welt,302
+کتاب,ketâb,Buch,302
+توسعه,tovse'e,Entwicklung / Ausbau,303
+انجام,anjâm,Durchführung / Ausführung,303
+اعلام,e'lâm,Bekanntgabe / Ankündigung,303
+اطلاع,ettelâ',Information / Kenntnis,303
+گفته,gofte,Aussage / gesagt,303
+گزارش,gozâresh,Bericht,303
+سر,sar,Kopf / Spitze,303
+تغییر,taghyir,Veränderung,303
+تعداد,te'dâd,Anzahl / Anzahl,303
+بررسی,barresi,Untersuchung / Prüfung,303
+اقدام,eghdâm,Maßnahme / Schritt,303
+افزایش,afzâyesh,Zunahme / Erhöhung,303
+گونه,gune,Art / Sorte,303
+خدمت,khedmat,Dienst,303
+خبر,khabar,Nachricht,303
+منبع,manba',Quelle,303
+خط,khatt,Linie / Schrift,303
+قدرت,ghodrat,Macht / Stärke,303
+نیاز,niyâz,Bedarf / Bedürfnis,303
+میزان,mizân,Maß / Ausmaß,303
+اختیار,ekhtiyâr,Befugnis / Verfügung,303
+ارائه,erâ'e,Darbietung / Vorlage,303
+باعث,bâ'es,Ursache / Anlass,303
+رشد,roshd,Wachstum,303
+دنبال,dombâl,Verfolgung / hinter,303
+انتخاب,entekhâb,Auswahl / Wahl,303
+گفت‌وگو,goftogu,Gespräch,304
+خاطر,khâter,Gedanke / um … willen,304
+سمت,samt,Seite / Position,304
+عامل,âmel,Faktor / Akteur,304
+تأثیر,ta'sir,Einfluss / Wirkung,304
+ساخت,sâkht,Bau / Herstellung,304
+طریق,tarigh,Weg / Methode,304
+کاهش,kâhesh,Verringerung,304
+تشکیل,tashkil,Bildung / Gründung,304
+غیر,gheyr,Nicht- / andere,304
+نقطه,noghte,Punkt,304
+بازی,bâzi,Spiel,304
+تولید,tovlid,Produktion,304
+دیده,dide,Auge / gesehen,304
+اصل,asl,Prinzip / Ursprung,304
+کمک,komak,Hilfe,304
+اهمیت,âhammiyyat,Bedeutung / Wichtigkeit,304
+اندیشه,andishe,Gedanke / Idee,304
+دفاع,defâ',Verteidigung,304
+نامه,nâme,Brief,304
+دیدار,didâr,Treffen / Besuch,304
+فرصت,forsat,Gelegenheit / Chance,304
+تأکید,ta'kid,Betonung / Nachdruck,304
+ترتیب,tartib,Reihenfolge / Ordnung,304
+علت,ellat,Grund / Ursache,304
+آزادی,âzâdi,Freiheit,304
+وضعیت,vaz'iyyat,Situation / Lage,305
+جریان,jarayân,Strömung / Vorgang,305
+تلاش,talâsh,Anstrengung / Bemühung,305
+حمایت,hemâyat,Unterstützung / Schutz,305
+چیز,chiz,Ding / Sache,305
+ادامه,edâme,Fortsetzung,305
+دلار,dolâr,Dollar,305
+سطح,sath,Ebene / Niveau,305
+تصویر,tasvir,Bild / Abbildung,305
+سفر,safar,Reise,305
+جمع,jam',Summe / Mehrzahl,305
+پیشنهاد,pishnehâd,Vorschlag,305
+ماده,mâde,Material / Substanz / weiblich,305
+معنا,ma'nâ,Bedeutung / Sinn,305
+رأی,raɁy,Stimme / Votum,305
+حقیقت,haghighat,Wahrheit / Wirklichkeit,305
+تأمین,ta'min,Sicherung / Bereitstellung,305
+امکان,emkân,Möglichkeit,305
+علم,elm,Wissenschaft,305
+انتظار,entezâr,Erwartung / Warten,305
+کل,kol,Ganzes / gesamt,305
+شدت,sheddat,Intensität / Heftigkeit,305
+حقوق,hoghugh,Rechte / Gehalt,305
+گل,gol,Blume / Tor (Sport),305
+رشته,reshte,Fach / Disziplin,305
+جلسه,jalase,Sitzung / Treffen,305
+سؤال,so'âl,Frage,306
+فضا,fazâ,Raum / Atmosphäre,306
+فیلم,film,Film,306
+منظور,manzur,Absicht / Zweck,306
+زبان,zabân,Sprache / Zunge,306
+مسابقه,mosâbeghe,Wettbewerb / Wettkampf,306
+حوزه,hovze,Bereich / Bezirk,306
+بیان,bayân,Ausdruck / Äußerung,306
+واحد,vâhed,Einheit,306
+مرگ,marg,Tod,306
+سخن,sokhan,Rede / Wort,306
+ارتباط,ertebât,Verbindung / Kontakt,306
+حد,hadd,Grenze / Maß,306
+امید,omid,Hoffnung,306
+روش,ravesh,Methode / Vorgehen,306
+امنیت,amniyat,Sicherheit,306
+نفت,naft,Erdöl,306
+چاپ,châp,Druck (Print) / Auflage,306
+شبکه,shabake,Netz / Netzwerk,306
+مانع,mâne',Hindernis,306
+نشان,neshân,Zeichen / Abzeichen,306
+روند,ravand,Prozess / Verlauf,306
+پول,pul,Geld,306
+پاسخ,pâsokh,Antwort,306
+واقعیت,vâghe'iyyat,Wirklichkeit / Realität,306
+فشار,feshâr,Druck,306
+دستور,dastur,Befehl / Anweisung,307
+اصلاح,eslâh,Korrektur / Reform,307
+سعی,sa'y,Versuch / Mühe,307
+پرداخت,pardâkht,Zahlung / bezahlt,307
+طول,tul,Länge,307
+حفظ,hefz,Bewahrung / Erhalt,307
+حادثه,hâdese,Vorfall / Unfall,307
+عرصه,arse,Bereich / Arena,307
+مقاله,maghâle,Artikel / Aufsatz,307
+وضع,vaz',Lage / Zustand,307
+دستگاه,dastgâh,Gerät / Apparat,307
+سیستم,sistem,System,307
+خواست,khâst,Wunsch / wollte,307
+هزینه,hazine,Kosten,307
+هوا,havâ,Luft / Wetter,307
+فکر,fekr,Gedanke / Denken,307
+انتقال,enteghâl,Übertragung / Transfer,307
+انگلیسی,engelisi,Englisch / englisch,307
+تحقیق,tahghigh,Forschung / Recherche,307
+پی,pey,Fundament / Folge,307
+موجب,mujeb,Ursache / Grund,307
+خطر,khatar,Gefahr / Risiko,307
+نقل,naghl,Übertragung / Zitat,307
+فوتبال,futbâl,Fußball,307
+آموزش,âmuzesh,Ausbildung / Unterricht,307
+کنترل,kontrol,Kontrolle / Steuerung,307
+کشور,keshvar,Land / Staat,308
+مردم,mardom,Menschen / Volk,308
+گروه,goruh,Gruppe,308
+اسلامی,eslâmi,islamisch,308
+رئیس,ra'is,Leiter / Präsident / Chef,308
+دولت,dowlat,Regierung / Staat,308
+جمله,jomle,Satz / Summe,308
+نفر,nafar,Person / Kopfzahl,308
+سیاسی,siyâsi,politisch,308
+جهان,jahân,Welt,308
+علی,Ali,Ali,308
+سازمان,sâzmân,Organisation,308
+فرد,fard,Individuum / Einzelperson,308
+تیم,tim,Team,308
+شورا,shurâ,Rat / Council,308
+وزیر,vazir,Minister,308
+آقا,âghâ,Herr (Anrede),308
+شرکت,sherkat,Firma / Teilnahme,308
+کس,kas,jemand / Person,308
+عضو,ozv,Mitglied,308
+محمد,mohammad,Mohammad,309
+جامعه,jâme'e,Gesellschaft,309
+مقام,maghâm,Rang / Amt,309
+مجلس,majles,Parlament / Versammlung,309
+زن,zan,Frau,309
+جمهوری,jomhuri,Republik,309
+سیاست,siyâsat,Politik / Strategie,309
+نماینده,namâyande,Vertreter / Abgeordneter,309
+ملت,mellat,Nation / Volk,309
+روزنامه,ruznâme,Zeitung,309
+جنگ,jang,Krieg,309
+صنعت,san'at,Industrie,309
+همکاری,hamkâri,Zusammenarbeit,309
+اسلام,eslâm,Islam,309
+حسن,hasan,Hasan (Name) / Tugend,309
+خانواده,khânevâde,Familie,309
+وزارت,vezârat,Ministerium,309
+انسان,ensân,Mensch,309
+دانشگاه,dâneshgâh,Universität,309
+استاد,ostâd,Professor / Meister,310
+انتخابات,entekhâbât,Wahlen,310
+فرهنگ,farhang,Kultur,310
+انقلاب,enghelâb,Revolution,310
+جمعیت,jam'iyyat,Bevölkerung / Menge,310
+دین,din,Religion,310
+دکتر,doktor,Arzt / Doktor,310
+هیئت,hey'at,Gremium / Delegation,310
+شهید,shahid,Märtyrer,310
+شاهد,shâhed,Zeuge,310
+حزب,hezb,Partei,310
+حاکم,hâkem,Herrscher / herrschend,310
+مرد,mard,Mann,310
+امام,emâm,Imam,310
+کودک,kudak,Kind,310
+بانک,bânk,Bank,310
+اداره,edâre,Amt / Behörde,310
+دوست,dust,Freund,310
+صاحب,sâheb,Herr / Besitzer,310
+شهر,shahr,Stadt,311
+ایران,Irân,Iran,311
+راه,râh,Weg / Straße / Methode,311
+نزدیک,nazdik,nah / nahe bei,311
+سو,su,Seite / Richtung,311
+منطقه,mantaqe,Region / Gebiet,311
+بالا,bâlâ,oben / hoch,311
+آمریکا,âmrikâ,Amerika / USA,311
+تهران,tehrân,Teheran,311
+جا,jâ,Platz / Stelle,311
+مرکز,markaz,Zentrum,311
+زمین,zamin,Boden / Erde,311
+خارج,khârej,außen / Ausland,311
+استان,ostân,Provinz,311
+خانه,khâne,Haus,311
+بازار,bâzâr,Markt / Basar,311
+میدان,meydân,Platz / Feld,311
+دفتر,daftar,Büro / Heft,311
+فرانسه,farânse,Frankreich / französisch,311
+مدرسه,madrese,Schule,311
+مسیر,masir,Weg / Route,311
+افغانستان,afghânestân,Afghanistan,311
+محل,mahal,Ort / Stelle,311
+اروپا,orupâ,Europa,311
+چین,chin,China,311
+بزرگ,bozorg,groß / wichtig,312
+مهم,mohem,wichtig,312
+بهتر,behtar,besser,312
+مختلف,mokhtalef,verschieden / unterschiedlich,312
+جدید,jadid,neu,312
+جوان,javân,jung,312
+ملی,melli,national,312
+اقتصادی,eghtesâdi,wirtschaftlich,312
+حاضر,hâzer,anwesend / bereit,312
+ممکن,momken,möglich,312
+زیادی,ziyâdi,übermäßig / zu viel,312
+اصلی,asli,haupt- / wesentlich,312
+خارجی,khâreji,ausländisch / fremd,312
+همراه,hamrâh,begleitend / zusammen mit,312
+جهانی,jahâni,global / weltweit,312
+ویژه,vizhe,besonders / speziell,312
+برابر,barâbar,gleich / gegenüber,312
+ایرانی,irâni,iranisch,312
+کامل,kâmel,vollständig,312
+آزاد,âzâd,frei,312
+مسئول,mas'ul,verantwortlich / zuständig,312
+موفق,movaffagh,erfolgreich,312
+اخیر,akhir,jüngst / kürzlich,313
+دور,dovr,fern / Runde,313
+برگزار,bargozâr,abgehalten / veranstaltet,313
+قابل,ghâbel,fähig / verfügbar,313
+عمومی,omumi,öffentlich / allgemein,313
+جدی,jeddi,ernst,313
+داخلی,dâkheli,intern / inländisch,313
+الزم,lâzem,nötig / erforderlich,313
+علمی,elmi,wissenschaftlich,313
+اجتماعی,ejtemâ'i,sozial,313
+مرکزی,markazi,zentral,313
+مطرح,matrah,viel diskutiert / aufgeworfen,313
+انسانی,ensâni,menschlich,313
+خاص,khâss,speziell / eigen,313
+مشخص,moshakhkhas,bestimmt / festgelegt,313
+کلی,kolli,allgemein / gesamt,313
+کوتاه,kutâh,kurz,313
+فرهنگی,farhangi,kulturell,313
+کاری,kâri,arbeits- / tätig,313
+زمانی,zamâni,zeitlich,313
+موافق,movâfegh,einverstanden,313
+مناسب,monâseb,passend / geeignet,313
+آماده,âmâde,bereit,314
+موجود,movjud,vorhanden / Lebewesen,314
+کوچک,kuchak,klein,314
+پیدا,peydâ,gefunden / sichtbar,314
+طولانی,tulâni,lang / langwierig,314
+معتقد,mo'taghed,überzeugt / gläubig,314
+مشترک,moshtarak,gemeinsam / Teilnehmer,314
+مستقیم,mostaghim,direkt / gerade,314
+آمریکایی,âmrikâyi,amerikanisch,314
+مالی,mâli,finanziell,314
+ساخته,sâkhte,hergestellt / gefertigt,314
+واقعی,vâghe'i,echt / wirklich,314
+دینی,dini,religiös,314
+دولتی,dovlati,staatlich / Regierungs-,314
+رسمی,rasmi,offiziell,314
+سنگین,sangin,schwer,314
+نظامی,nezâmi,militärisch,314
+شدید,shadid,heftig / stark,314
+مربوط,marbut,zugehörig / betreffend,314
+واقع,vâghe',gelegen / tatsächlich,314
+کافی,kâfi,ausreichend / genug,314
+بسیار,besyâr,sehr / viel,315
+تنها,tanhâ,allein / nur,315
+البته,albatte,natürlich / freilich,315
+در حال,darhâl,im Begriff (zu) / dabei,315
+حتی,hattâ,sogar,315
+آخر,âkhar,letzte/r/s / schließlich,315
+کاملاً,kâmelan,völlig / vollständig,315
+هنوز,hanuz,noch / immer noch,315
+نخست,nokhost,zuerst / erstens,315
+مانند,mânand,wie / ähnlich,315
+اکنون,aknun,jetzt / nun,315
+فقط,faghat,nur / bloß,315
+خیلی,kheyli,sehr,315
+خوبی,khubi,Güte / gut,315
+زیاد,ziyâd,viel / sehr,315
+تازه,tâze,frisch / neu,315
+تاکنون,tâknun,bisher,315
+اول,avval,erste/r/s / zuerst,401
+سال,sâl,Jahr,401
+روز,ruz,Tag,401
+پیش,pish,vor / vorher / bei,401
+قبل,ghabl,vorher / bevor,401
+مدت,moddat,Dauer / Zeitraum,401
+گذشته,gozashte,Vergangenheit / vergangen,401
+ماه,mâh,Monat / Mond,401
+زمان,zamân,Zeit,401
+بار,bâr,Mal / Last,401
+حال,hâl,Zustand / Gegenwart / jetzt,401
+بعد,ba'd,danach / nach / später,401
+دوره,dovre,Periode / Kurs,401
+پایان,pâyân,Ende,401
+آینده,âyande,Zukunft / künftig,401
+امروز,emruz,heute,402
+ساعت,sâ'at,Stunde / Uhr,402
+هفته,hafte,Woche,402
+آغاز,âghâz,Beginn / Anfang,402
+مرحله,marhale,Stufe / Phase,402
+تاریخ,târikh,Geschichte / Datum,402
+دقیقه,daghighe,Minute,402
+دوران,dovrân,Ära / Zeitraum,402
+وقت,vaght,Zeit,402
+فصل,fasl,Jahreszeit / Kapitel,402
+شب,shab,Nacht,402
+شروع,shoru',Beginn / Start,402
+ابتدا,ebtedâ,Anfang / zuerst,402
+شنبه,shambe,Samstag,402
+دهه,dahe,Jahrzehnt,402
+یک,yek,eins / ein,403
+دو,do,zwei,403
+دوم,dovvom,zweite/r/s,403
+سه,se,drei,403
+هزار,hezâr,tausend,403
+میلیون,milyun,Million,403
+سوم,sevvom,dritte/r/s,403
+میلیارد,milyârd,Milliarde,403
+چهار,chahâr,vier,403
+چهارم,chahârom,vierte/r/s,403
+ده,dah,zehn (auch: Dorf),403
