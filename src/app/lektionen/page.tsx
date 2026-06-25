@@ -23,6 +23,7 @@ const TEIL_STYLE: Record<number, { rand: string; tint: string; akzent: string }>
   2: { rand: "border-t-taeguk-red", tint: "bg-taeguk-red/[0.03] dark:bg-taeguk-red/10", akzent: "text-taeguk-red" },
   3: { rand: "border-t-amber-500", tint: "bg-amber-500/[0.04] dark:bg-amber-500/10", akzent: "text-amber-600" },
   4: { rand: "border-t-sky-500", tint: "bg-sky-500/[0.04] dark:bg-sky-500/10", akzent: "text-sky-600" },
+  5: { rand: "border-t-violet-500", tint: "bg-violet-500/[0.04] dark:bg-violet-500/10", akzent: "text-violet-600" },
 };
 const TEIL_FALLBACK = { rand: "border-t-slate-300", tint: "bg-white dark:bg-slate-800", akzent: "text-slate-600 dark:text-slate-300" };
 

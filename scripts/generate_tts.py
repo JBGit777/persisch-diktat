@@ -46,8 +46,12 @@ def collect_texts() -> dict:
     with open(ROOT / "supabase/seed/vokabeln.csv", encoding="utf-8") as f:
         for row in csv.DictReader(f):
             add(row["hangul"])
-    # Beispielsätze aus dem SQL-Seed (beispielsatz_ko = 5. Tupel-Feld)
-    sql = (ROOT / "supabase/seed/persisch_seed.sql").read_text(encoding="utf-8")
+    # Wörter + Beispielsätze aus den SQL-Seeds (hangul = 1. Feld, beispielsatz_ko = 5. Feld)
+    sql = "\n".join(
+        (ROOT / "supabase/seed" / name).read_text(encoding="utf-8")
+        for name in ("persisch_seed.sql", "fussball_seed.sql")
+        if (ROOT / "supabase/seed" / name).exists()
+    )
     for m in re.finditer(r"^\s{2}\((.*)\),?\s*$", sql, re.M):
         fields, cur, q, i = [], "", False, 0
         line = m.group(1)
@@ -64,6 +68,9 @@ def collect_texts() -> dict:
             i += 1
         fields.append(cur)
         if len(fields) == 8:  # Vokabel-Tupel (Quotes sind oben bereits entfernt)
+            w = fields[0].strip()  # hangul (persisches Wort)
+            if w and w != "NULL":
+                add(w)
             ex = fields[4].strip()  # beispielsatz_ko
             if ex and ex != "NULL":
                 add(ex)
