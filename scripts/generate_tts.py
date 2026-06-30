@@ -49,7 +49,7 @@ def collect_texts() -> dict:
     # Wörter + Beispielsätze aus den SQL-Seeds (hangul = 1. Feld, beispielsatz_ko = 5. Feld)
     sql = "\n".join(
         (ROOT / "supabase/seed" / name).read_text(encoding="utf-8")
-        for name in ("persisch_seed.sql", "fussball_seed.sql")
+        for name in ("persisch_seed.sql", "fussball_seed.sql", "seed_persische_phrasen.sql")
         if (ROOT / "supabase/seed" / name).exists()
     )
     for m in re.finditer(r"^\s{2}\((.*)\),?\s*$", sql, re.M):
