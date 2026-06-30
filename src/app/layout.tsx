@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Vazirmatn } from "next/font/google";
 import "./globals.css";
+import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 
 // Persische Web-Schrift mit vollständiger Fa-Abdeckung. Wird über die
 // CSS-Variable --font-vazirmatn als Standard-Schrift (siehe tailwind.config.ts)
@@ -51,7 +52,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <ServiceWorkerRegister />
+        {children}
+      </body>
     </html>
   );
 }
