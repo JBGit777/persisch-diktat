@@ -57,14 +57,34 @@ export default function Lexikon({
     return m;
   }, [lektionen]);
 
+  // Dubletten zusammenführen: dasselbe Wort (normalisiert) erscheint im Lexikon
+  // nur EINMAL. Bevorzugt der Eintrag mit Beispielsatz, sonst die niedrigste
+  // Lektion. (In den Lektionen selbst bleiben die Wörter mehrfach erhalten.)
+  const eindeutig = useMemo(() => {
+    const best = new Map<string, LexEintrag>();
+    for (const v of vokabeln) {
+      const key = normalizeFa(v.hangul);
+      const cur = best.get(key);
+      if (
+        !cur ||
+        (!cur.beispielsatz_ko && v.beispielsatz_ko) ||
+        ((!cur.beispielsatz_ko === !v.beispielsatz_ko) &&
+          (v.lektion_nummer ?? 9999) < (cur.lektion_nummer ?? 9999))
+      ) {
+        best.set(key, v);
+      }
+    }
+    return [...best.values()];
+  }, [vokabeln]);
+
   const teile = useMemo(
-    () => [...new Set(vokabeln.map((v) => titelMap.get(v.lektion_nummer ?? -1)?.buch ?? 0))].sort(),
-    [vokabeln, titelMap]
+    () => [...new Set(eindeutig.map((v) => titelMap.get(v.lektion_nummer ?? -1)?.buch ?? 0))].sort(),
+    [eindeutig, titelMap]
   );
 
   const gefiltert = useMemo(() => {
     const nq = normalizeFa(q).toLowerCase();
-    const list = vokabeln.filter((v) => {
+    const list = eindeutig.filter((v) => {
       const buch = titelMap.get(v.lektion_nummer ?? -1)?.buch ?? 0;
       if (teil !== "alle" && buch !== teil) return false;
       if (!nq) return true;
@@ -86,7 +106,7 @@ export default function Lexikon({
       return (a.romanisierung ?? a.deutsch).localeCompare(b.romanisierung ?? b.deutsch);
     });
     return list;
-  }, [vokabeln, titelMap, q, teil, sort]);
+  }, [eindeutig, titelMap, q, teil, sort]);
 
   return (
     <div>
@@ -122,7 +142,7 @@ export default function Lexikon({
             <option value="haeufigkeit">Nach Häufigkeit</option>
           </select>
           <span className="ml-auto tabular-nums text-slate-400 dark:text-slate-500">
-            {gefiltert.length} / {vokabeln.length}
+            {gefiltert.length} / {eindeutig.length}
           </span>
         </div>
       </div>
