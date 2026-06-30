@@ -26,6 +26,7 @@ const TEIL_NAME: Record<number, string> = {
   3: "Wortschatz",
   4: "Zeit & Zahlen",
   5: "Themen",
+  6: "Alltag & Redewendungen",
 };
 const TEIL_BADGE: Record<number, string> = {
   1: "bg-taeguk-blue/10 text-taeguk-blue",
@@ -33,6 +34,7 @@ const TEIL_BADGE: Record<number, string> = {
   3: "bg-amber-500/10 text-amber-600",
   4: "bg-sky-500/10 text-sky-600",
   5: "bg-violet-500/10 text-violet-600",
+  6: "bg-rose-500/10 text-rose-600",
 };
 
 type Sortierung = "alpha" | "lektion" | "haeufigkeit";
