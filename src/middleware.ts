@@ -14,3 +14,5 @@ export const config = {
     "/((?!_next/static|_next/image|favicon.ico|sw.js|tts|.*\\.(?:svg|png|jpg|jpeg|gif|webp|mp3|m4a|ogg|wav)$).*)",
   ],
 };
+
+// PWA: /sw.js ist im Matcher oben ausgenommen (öffentlich, kein Auth-Redirect).
