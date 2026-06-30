@@ -11,6 +11,6 @@ export const config = {
      * Alle Pfade außer statischen Assets, Bildern und den öffentlichen
      * TTS-Audiodateien (/tts/*.mp3 – kein Login nötig).
      */
-    "/((?!_next/static|_next/image|favicon.ico|tts|.*\\.(?:svg|png|jpg|jpeg|gif|webp|mp3|m4a|ogg|wav)$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|sw.js|tts|.*\\.(?:svg|png|jpg|jpeg|gif|webp|mp3|m4a|ogg|wav)$).*)",
   ],
 };
