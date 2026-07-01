@@ -42,11 +42,13 @@ type Sortierung = "alpha" | "lektion" | "haeufigkeit";
 export default function Lexikon({
   vokabeln,
   lektionen,
+  initialQuery = "",
 }: {
   vokabeln: LexEintrag[];
   lektionen: LektionMeta[];
+  initialQuery?: string;
 }) {
-  const [q, setQ] = useState("");
+  const [q, setQ] = useState(initialQuery);
   const [teil, setTeil] = useState<number | "alle">("alle");
   const [sort, setSort] = useState<Sortierung>("alpha");
 

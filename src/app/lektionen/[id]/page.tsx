@@ -80,21 +80,45 @@ export default async function LektionDetailPage({
                           ? "text-orange-500"
                           : "text-slate-400 dark:text-slate-500";
                 return (
-                  <li key={v.id} className="flex items-center justify-between gap-3 px-5 py-2.5">
-                    <span className="flex items-center gap-1.5">
-                      <span className="text-lg">{v.hangul}</span>
-                      <SprechButton text={v.hangul} mitLangsam />
-                    </span>
-                    <span className="flex items-center gap-3">
-                      <span className="text-sm text-slate-500 dark:text-slate-400">{v.deutsch}</span>
-                      <span
-                        title={`Häufigkeit ${h}/5`}
-                        className={`shrink-0 font-mono text-xs tracking-tighter ${farbe}`}
-                      >
-                        {"●".repeat(h)}
-                        <span className="text-slate-200">{"●".repeat(5 - h)}</span>
-                      </span>
-                    </span>
+                  <li key={v.id} className="px-5 py-3">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="min-w-0">
+                        <div className="flex items-center gap-1.5">
+                          <Link
+                            href={`/lexikon?q=${encodeURIComponent(v.hangul)}`}
+                            className="text-lg font-medium hover:text-taeguk-blue hover:underline"
+                            title="Im Lexikon ansehen"
+                          >
+                            {v.hangul}
+                          </Link>
+                          <SprechButton text={v.hangul} mitLangsam />
+                        </div>
+                        {v.romanisierung && (
+                          <p className="text-xs italic text-slate-400 dark:text-slate-500">{v.romanisierung}</p>
+                        )}
+                      </div>
+                      <div className="flex shrink-0 items-center gap-3">
+                        <span className="text-sm text-slate-500 dark:text-slate-400">{v.deutsch}</span>
+                        <span
+                          title={`Häufigkeit ${h}/5`}
+                          className={`shrink-0 font-mono text-xs tracking-tighter ${farbe}`}
+                        >
+                          {"●".repeat(h)}
+                          <span className="text-slate-200 dark:text-slate-600">{"●".repeat(5 - h)}</span>
+                        </span>
+                      </div>
+                    </div>
+                    {v.beispielsatz_ko && (
+                      <div className="mt-1.5 flex flex-wrap items-center gap-2 text-sm">
+                        <span lang="fa" dir="rtl" className="font-medium text-slate-700 dark:text-slate-200">
+                          {v.beispielsatz_ko}
+                        </span>
+                        <SprechButton text={v.beispielsatz_ko} />
+                        {v.beispielsatz_de && (
+                          <span className="text-slate-400 dark:text-slate-500">– {v.beispielsatz_de}</span>
+                        )}
+                      </div>
+                    )}
                   </li>
                 );
               })}

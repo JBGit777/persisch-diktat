@@ -6,7 +6,12 @@ import { alleZeilen } from "@/lib/paginate";
 
 export const dynamic = "force-dynamic";
 
-export default async function LexikonPage() {
+export default async function LexikonPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
+  const { q } = await searchParams;
   const supabase = await createClient();
 
   const [vokabeln, { data: lektionen }] = await Promise.all([
@@ -50,7 +55,7 @@ export default async function LexikonPage() {
             </Link>
           </div>
         ) : (
-          <Lexikon vokabeln={vokabeln} lektionen={lektionen ?? []} />
+          <Lexikon vokabeln={vokabeln} lektionen={lektionen ?? []} initialQuery={q ?? ""} />
         )}
       </main>
     </>
