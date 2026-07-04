@@ -85,14 +85,17 @@ export default function Lexikon({
   );
 
   const gefiltert = useMemo(() => {
-    const nq = normalizeFa(q).toLowerCase();
+    // Umschrift-Varianten falten (ā/â, auch bloßes a), damit die Suche
+    // unabhängig von der Diakritik-Schreibweise trifft.
+    const fold = (s: string) => s.toLowerCase().replace(/[āâ]/g, "a");
+    const nq = fold(normalizeFa(q));
     const list = eindeutig.filter((v) => {
       const buch = titelMap.get(v.lektion_nummer ?? -1)?.buch ?? 0;
       if (teil !== "alle" && buch !== teil) return false;
       if (!nq) return true;
       const hay = [
         normalizeFa(v.hangul),
-        (v.romanisierung ?? "").toLowerCase(),
+        fold(v.romanisierung ?? ""),
         v.deutsch.toLowerCase(),
         normalizeFa(v.beispielsatz_ko ?? ""),
         (v.beispielsatz_de ?? "").toLowerCase(),
