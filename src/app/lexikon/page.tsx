@@ -55,9 +55,9 @@ export default async function LexikonPage({
             </Link>
           </div>
         ) : (
-          {/* key erzwingt Remount bei neuem ?q= – sonst bliebe der alte
-              useState-Suchbegriff stehen (Client-Komponente wird bei reiner
-              searchParams-Änderung nicht neu gemountet). */}
+          // key erzwingt Remount bei neuem ?q= – sonst bliebe der alte
+          // useState-Suchbegriff stehen (Client-Komponente wird bei reiner
+          // searchParams-Änderung nicht neu gemountet).
           <Lexikon key={q ?? ""} vokabeln={vokabeln} lektionen={lektionen ?? []} initialQuery={q ?? ""} />
         )}
       </main>
