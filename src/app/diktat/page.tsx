@@ -15,11 +15,13 @@ export const dynamic = "force-dynamic";
 export default async function DiktatPage({
   searchParams,
 }: {
-  searchParams: Promise<{ lektion?: string }>;
+  searchParams: Promise<{ lektion?: string; fokus?: string }>;
 }) {
-  const { lektion } = await searchParams;
+  const { lektion, fokus } = await searchParams;
   const parsed = lektion ? parseInt(lektion, 10) : NaN;
   const initialLektion = Number.isNaN(parsed) ? null : parsed;
+  // Nur persische Buchstaben als Fokus zulassen (aus der Schwächenkarte).
+  const fokusBuchstaben = (fokus ?? "").replace(/[^؀-ۿ]/g, "").slice(0, 40) || undefined;
 
   const supabase = await createClient();
   const {
@@ -79,6 +81,7 @@ export default async function DiktatPage({
           reviews={reviews ?? []}
           lektionen={lektionen ?? []}
           initialLektion={initialLektion}
+          fokusBuchstaben={fokusBuchstaben}
         />
       </main>
     </>

@@ -60,6 +60,16 @@ export default async function DashboardPage() {
 
   const keineVokabeln = daten.vokabelnGesamt === 0;
 
+  // Problem-Buchstaben aus den häufigsten Verwechslungen (für „Gezielt üben").
+  const fokusChars = [
+    ...new Set(
+      schwaechen.verwechslungen
+        .slice(0, 5)
+        .flatMap((v) => v.paar.split("↔"))
+        .filter((c) => [...c].length === 1)
+    ),
+  ].join("");
+
   // Fortschritt pro Teil.
   const teilMap = new Map<number, { gesamt: number; fertig: number }>();
   for (const l of lektionen) {
@@ -211,6 +221,14 @@ export default async function DashboardPage() {
                     Ausgelassene Zeichen: {schwaechen.ausgelassen} · zu viel getippt:{" "}
                     {schwaechen.zuviel}
                   </p>
+                )}
+                {fokusChars && (
+                  <Link
+                    href={`/diktat?fokus=${encodeURIComponent(fokusChars)}`}
+                    className="mt-3 inline-flex items-center gap-1.5 rounded-lg bg-gradient-to-br from-taeguk-blue to-emerald-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:brightness-110 active:scale-95"
+                  >
+                    🎯 Gezielt üben
+                  </Link>
                 )}
               </section>
             )}

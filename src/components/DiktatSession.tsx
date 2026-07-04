@@ -49,6 +49,8 @@ interface Props {
   reviews: ReviewZeile[];
   lektionen: LektionLite[];
   initialLektion?: number | null;
+  /** Fokus-Buchstaben (aus der Schwächenkarte): nur Wörter, die diese enthalten. */
+  fokusBuchstaben?: string;
 }
 
 type Phase = "setup" | "frage" | "ergebnis" | "fertig";
@@ -66,6 +68,7 @@ export default function DiktatSession({
   reviews,
   lektionen,
   initialLektion,
+  fokusBuchstaben,
 }: Props) {
   const router = useRouter();
   const supabase = useMemo(() => createClient(), []);
@@ -140,6 +143,10 @@ export default function DiktatSession({
 
   // Vokabeln nach Lektionsauswahl, Mindest-Häufigkeit und (optional) Fälligkeit
   // filtern. „Fällig" = noch nie geübt ODER Wiederholung heute/überfällig.
+  const fokusSet = useMemo(
+    () => new Set(fokusBuchstaben ? [...fokusBuchstaben] : []),
+    [fokusBuchstaben]
+  );
   const gefilterteVokabeln = useMemo(() => {
     const jetzt = Date.now();
     return vokabeln.filter((v) => {
@@ -149,9 +156,13 @@ export default function DiktatSession({
         const r = reviewMap.get(v.id);
         if (r && new Date(r.naechste_faelligkeit).getTime() > jetzt) return false;
       }
+      if (fokusSet.size > 0) {
+        const text = v.hangul + (v.beispielsatz_ko ?? "");
+        if (![...text].some((ch) => fokusSet.has(ch))) return false;
+      }
       return true;
     });
-  }, [vokabeln, ausgewaehlt, minHaeufigkeit, nurFaellige, reviewMap]);
+  }, [vokabeln, ausgewaehlt, minHaeufigkeit, nurFaellige, reviewMap, fokusSet]);
 
   function sitzungStarten() {
     if (gefilterteVokabeln.length === 0) return;
@@ -256,6 +267,17 @@ export default function DiktatSession({
           {gefilterteVokabeln.length} Vokabeln in der Auswahl. Fällige und schwache
           Karten werden zuerst geübt.
         </p>
+        {fokusSet.size > 0 && (
+          <div className="mt-3 flex flex-wrap items-center gap-2 rounded-lg bg-rose-50 dark:bg-rose-950/40 px-3 py-2 text-sm text-rose-800 dark:text-rose-200">
+            <span className="font-medium">🎯 Fokus auf deine Schwächen:</span>
+            <span lang="fa" className="text-lg font-semibold tracking-wide">
+              {[...fokusSet].join(" ")}
+            </span>
+            <span className="text-xs text-rose-500 dark:text-rose-400">
+              nur Wörter mit diesen Buchstaben
+            </span>
+          </div>
+        )}
 
         {/* Übungsart */}
         <fieldset className="mt-6">
