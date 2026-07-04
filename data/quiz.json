@@ -1,0 +1,464 @@
+[
+ {
+  "satz": "من یک ___ می‌خوانم.",
+  "loesung": "کتاب",
+  "optionen": [
+   "کتاب",
+   "روزنامه",
+   "خبر",
+   "گزارش"
+  ],
+  "uebersetzung": "Ich lese ein Buch."
+ },
+ {
+  "satz": "فردا به ___ می‌رویم.",
+  "loesung": "دریا",
+  "optionen": [
+   "دریا",
+   "شهر",
+   "تهران",
+   "ایران"
+  ],
+  "uebersetzung": "Morgen fahren wir ans Meer."
+ },
+ {
+  "satz": "___ هوا خیلی خوب است.",
+  "loesung": "امروز",
+  "optionen": [
+   "امروز",
+   "فردا",
+   "دیروز",
+   "امشب"
+  ],
+  "uebersetzung": "Heute ist das Wetter sehr schön."
+ },
+ {
+  "satz": "این کتاب خیلی ___ است.",
+  "loesung": "مهم",
+  "optionen": [
+   "مهم",
+   "بزرگ",
+   "جدید",
+   "آزاد"
+  ],
+  "uebersetzung": "Dieses Buch ist sehr wichtig."
+ },
+ {
+  "satz": "او ___ زیادی دارد.",
+  "loesung": "قدرت",
+  "optionen": [
+   "قدرت",
+   "کار",
+   "ارزش",
+   "نیرو"
+  ],
+  "uebersetzung": "Er hat viel Macht."
+ },
+ {
+  "satz": "___ من علی است.",
+  "loesung": "نام",
+  "optionen": [
+   "نام",
+   "کار",
+   "شهر",
+   "راه"
+  ],
+  "uebersetzung": "Mein Name ist Ali."
+ },
+ {
+  "satz": "لطفاً به من ___ کن.",
+  "loesung": "کمک",
+  "optionen": [
+   "کمک",
+   "توجه",
+   "کار",
+   "خدمت"
+  ],
+  "uebersetzung": "Bitte hilf mir."
+ },
+ {
+  "satz": "او هر ___ ورزش می‌کند.",
+  "loesung": "روز",
+  "optionen": [
+   "روز",
+   "سال",
+   "ماه",
+   "هفته"
+  ],
+  "uebersetzung": "Er treibt jeden Tag Sport."
+ },
+ {
+  "satz": "این ___ سختی است.",
+  "loesung": "مسئله",
+  "optionen": [
+   "مسئله",
+   "مشکل",
+   "موضوع",
+   "کار"
+  ],
+  "uebersetzung": "Das ist ein schwieriges Problem."
+ },
+ {
+  "satz": "ما ___ خوبی با هم داریم.",
+  "loesung": "رابطه",
+  "optionen": [
+   "رابطه",
+   "کار",
+   "برنامه",
+   "نتیجه"
+  ],
+  "uebersetzung": "Wir haben eine gute Beziehung."
+ },
+ {
+  "satz": "___، چطوری؟",
+  "loesung": "سلام",
+  "optionen": [
+   "سلام",
+   "ممنون",
+   "مرسی",
+   "خداحافظ"
+  ],
+  "uebersetzung": "Hallo, wie geht's?"
+ },
+ {
+  "satz": "خیلی ___!",
+  "loesung": "ممنون",
+  "optionen": [
+   "ممنون",
+   "سلام",
+   "نه",
+   "بله"
+  ],
+  "uebersetzung": "Vielen Dank!"
+ },
+ {
+  "satz": "من ___ نمی‌دانم.",
+  "loesung": "هیچ",
+  "optionen": [
+   "هیچ",
+   "کم",
+   "همه",
+   "بیش"
+  ],
+  "uebersetzung": "Ich weiß gar nichts."
+ },
+ {
+  "satz": "او ___ کتاب دارد؟",
+  "loesung": "چند",
+  "optionen": [
+   "چند",
+   "هر",
+   "همه",
+   "هیچ"
+  ],
+  "uebersetzung": "Wie viele Bücher hat er?"
+ },
+ {
+  "satz": "___ باران می‌بارید.",
+  "loesung": "دیروز",
+  "optionen": [
+   "دیروز",
+   "امروز",
+   "فردا",
+   "امشب"
+  ],
+  "uebersetzung": "Gestern regnete es."
+ },
+ {
+  "satz": "لطفاً ___ اینجا.",
+  "loesung": "بیا",
+  "optionen": [
+   "بیا",
+   "برو",
+   "بگو",
+   "بکن"
+  ],
+  "uebersetzung": "Bitte komm her."
+ },
+ {
+  "satz": "الان ___ بیرون.",
+  "loesung": "برو",
+  "optionen": [
+   "برو",
+   "بیا",
+   "بگو",
+   "بدو"
+  ],
+  "uebersetzung": "Geh jetzt raus."
+ },
+ {
+  "satz": "این کار ___ است.",
+  "loesung": "ممکن",
+  "optionen": [
+   "ممکن",
+   "مهم",
+   "آزاد",
+   "کامل"
+  ],
+  "uebersetzung": "Diese Sache ist möglich."
+ },
+ {
+  "satz": "او در یک ___ بزرگ کار می‌کند.",
+  "loesung": "شرکت",
+  "optionen": [
+   "شرکت",
+   "سازمان",
+   "گروه",
+   "تیم"
+  ],
+  "uebersetzung": "Er arbeitet in einer großen Firma."
+ },
+ {
+  "satz": "___ پایتخت ایران است.",
+  "loesung": "تهران",
+  "optionen": [
+   "تهران",
+   "آمریکا",
+   "ایران",
+   "شهر"
+  ],
+  "uebersetzung": "Teheran ist die Hauptstadt des Iran."
+ },
+ {
+  "satz": "من ___ می‌خواهم.",
+  "loesung": "آب",
+  "optionen": [
+   "آب",
+   "کتاب",
+   "نام",
+   "کار"
+  ],
+  "uebersetzung": "Ich möchte Wasser."
+ },
+ {
+  "satz": "او ___ خوبی نوشت.",
+  "loesung": "نامه",
+  "optionen": [
+   "نامه",
+   "کتاب",
+   "خبر",
+   "کار"
+  ],
+  "uebersetzung": "Er schrieb einen guten Brief."
+ },
+ {
+  "satz": "___ آینده سفر می‌رویم.",
+  "loesung": "هفته",
+  "optionen": [
+   "هفته",
+   "ماه",
+   "سال",
+   "روز"
+  ],
+  "uebersetzung": "Nächste Woche verreisen wir."
+ },
+ {
+  "satz": "___ درد می‌کند.",
+  "loesung": "سر",
+  "optionen": [
+   "سر",
+   "دست",
+   "تن",
+   "دیده"
+  ],
+  "uebersetzung": "Der Kopf tut weh."
+ },
+ {
+  "satz": "او ___ زیادی دارد.",
+  "loesung": "کار",
+  "optionen": [
+   "کار",
+   "قدرت",
+   "نیرو",
+   "ارزش"
+  ],
+  "uebersetzung": "Er hat viel Arbeit."
+ },
+ {
+  "satz": "___ خیلی بزرگ است.",
+  "loesung": "دنیا",
+  "optionen": [
+   "دنیا",
+   "شهر",
+   "کشور",
+   "منطقه"
+  ],
+  "uebersetzung": "Die Welt ist sehr groß."
+ },
+ {
+  "satz": "او مرد ___ است.",
+  "loesung": "جوان",
+  "optionen": [
+   "جوان",
+   "بزرگ",
+   "آزاد",
+   "مهم"
+  ],
+  "uebersetzung": "Er ist ein junger Mann."
+ },
+ {
+  "satz": "آن‌ها ___ می‌کنند.",
+  "loesung": "بازی",
+  "optionen": [
+   "بازی",
+   "کار",
+   "کمک",
+   "ورزش"
+  ],
+  "uebersetzung": "Sie spielen."
+ },
+ {
+  "satz": "___ سال نو مبارک.",
+  "loesung": "آغاز",
+  "optionen": [
+   "آغاز",
+   "پایان",
+   "اول",
+   "آخر"
+  ],
+  "uebersetzung": "Frohen Beginn des neuen Jahres."
+ },
+ {
+  "satz": "این ___ دوم است.",
+  "loesung": "بار",
+  "optionen": [
+   "بار",
+   "روز",
+   "سال",
+   "ماه"
+  ],
+  "uebersetzung": "Das ist das zweite Mal."
+ },
+ {
+  "satz": "او نفر ___ شد.",
+  "loesung": "سوم",
+  "optionen": [
+   "سوم",
+   "دوم",
+   "اول",
+   "یک"
+  ],
+  "uebersetzung": "Er wurde Dritter."
+ },
+ {
+  "satz": "___ چند است؟",
+  "loesung": "ساعت",
+  "optionen": [
+   "ساعت",
+   "روز",
+   "ماه",
+   "سال"
+  ],
+  "uebersetzung": "Wie spät ist es?"
+ },
+ {
+  "satz": "این کار را ___.",
+  "loesung": "نکن",
+  "optionen": [
+   "نکن",
+   "بکن",
+   "بگو",
+   "بیا"
+  ],
+  "uebersetzung": "Mach das nicht."
+ },
+ {
+  "satz": "او ___ مهم است.",
+  "loesung": "بسیار",
+  "optionen": [
+   "بسیار",
+   "کم",
+   "تنها",
+   "هیچ"
+  ],
+  "uebersetzung": "Es ist sehr wichtig."
+ },
+ {
+  "satz": "___ کجاست؟",
+  "loesung": "کتاب",
+  "optionen": [
+   "کتاب",
+   "کار",
+   "نام",
+   "آب"
+  ],
+  "uebersetzung": "Wo ist das Buch?"
+ },
+ {
+  "satz": "او ___ آمد.",
+  "loesung": "دیروز",
+  "optionen": [
+   "دیروز",
+   "امروز",
+   "فردا",
+   "امشب"
+  ],
+  "uebersetzung": "Er kam gestern."
+ },
+ {
+  "satz": "ما به ___ نیاز داریم.",
+  "loesung": "کمک",
+  "optionen": [
+   "کمک",
+   "آب",
+   "خبر",
+   "کتاب"
+  ],
+  "uebersetzung": "Wir brauchen Hilfe."
+ },
+ {
+  "satz": "این ___ خیلی خوب بود.",
+  "loesung": "سفر",
+  "optionen": [
+   "سفر",
+   "کار",
+   "بازی",
+   "کتاب"
+  ],
+  "uebersetzung": "Diese Reise war sehr gut."
+ },
+ {
+  "satz": "ما ___ خوبی گرفتیم.",
+  "loesung": "نتیجه",
+  "optionen": [
+   "نتیجه",
+   "خبر",
+   "نامه",
+   "گزارش"
+  ],
+  "uebersetzung": "Wir haben ein gutes Ergebnis erzielt."
+ },
+ {
+  "satz": "او به ___ ما آمد.",
+  "loesung": "خانواده",
+  "optionen": [
+   "خانواده",
+   "گروه",
+   "شرکت",
+   "تیم"
+  ],
+  "uebersetzung": "Er kam zu unserer Familie."
+ },
+ {
+  "satz": "این ___ تازه‌ای است.",
+  "loesung": "خبر",
+  "optionen": [
+   "خبر",
+   "کتاب",
+   "نامه",
+   "کار"
+  ],
+  "uebersetzung": "Das ist eine neue Nachricht."
+ },
+ {
+  "satz": "مردم این ___ مهربان‌اند.",
+  "loesung": "کشور",
+  "optionen": [
+   "کشور",
+   "شهر",
+   "منطقه",
+   "دنیا"
+  ],
+  "uebersetzung": "Die Menschen dieses Landes sind freundlich."
+ }
+]

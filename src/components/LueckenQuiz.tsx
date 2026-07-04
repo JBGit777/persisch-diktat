@@ -19,7 +19,7 @@ type Phase = "start" | "laedt" | "quiz" | "fertig";
  * (Zielwörter = persönliche Schwächen). Bewertung rein clientseitig – das
  * Quiz beeinflusst den SRS-Fortschritt bewusst nicht.
  */
-export default function LueckenQuiz() {
+export default function LueckenQuiz({ kiVerfuegbar = false }: { kiVerfuegbar?: boolean }) {
   const [phase, setPhase] = useState<Phase>("start");
   const [fehlerText, setFehlerText] = useState<string | null>(null);
   const [aufgaben, setAufgaben] = useState<Aufgabe[]>([]);
@@ -27,14 +27,14 @@ export default function LueckenQuiz() {
   const [gewaehlt, setGewaehlt] = useState<string | null>(null);
   const [richtig, setRichtig] = useState(0);
 
-  async function starten() {
+  async function starten(modus: "pool" | "live" = "pool") {
     setPhase("laedt");
     setFehlerText(null);
     try {
       const res = await fetch("/api/luecken", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ anzahl: 8 }),
+        body: JSON.stringify({ anzahl: 8, modus }),
       });
       const json = await res.json();
       if (!res.ok) throw new Error(json.error ?? "Generierung fehlgeschlagen.");
@@ -73,18 +73,28 @@ export default function LueckenQuiz() {
         </div>
         <h2 className="mt-3 text-xl font-bold">Lücken-Quiz</h2>
         <p className="mx-auto mt-2 max-w-md text-sm text-slate-500 dark:text-slate-400">
-          Claude erstellt frische Lückensätze aus deinem Wortschatz – die
-          Zielwörter sind bevorzugt deine persönlich schwächsten. Wähle jeweils
-          das passende Wort.
+          Wähle das passende Wort für jede Lücke. Die Sätze bestehen nur aus
+          deinem Wortschatz – bevorzugt aus deinen schwächsten Wörtern.
         </p>
         {fehlerText && <p className="mt-3 text-sm text-red-600">{fehlerText}</p>}
-        <button
-          onClick={starten}
-          disabled={phase === "laedt"}
-          className="mt-6 rounded-lg bg-gradient-to-br from-taeguk-blue to-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:brightness-110 active:scale-95 disabled:opacity-60"
-        >
-          {phase === "laedt" ? "Aufgaben werden erstellt … (bis zu 1 Min.)" : "8 Aufgaben erzeugen"}
-        </button>
+        <div className="mt-6 flex flex-col items-center gap-3">
+          <button
+            onClick={() => starten("pool")}
+            disabled={phase === "laedt"}
+            className="rounded-lg bg-gradient-to-br from-taeguk-blue to-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:brightness-110 active:scale-95 disabled:opacity-60"
+          >
+            {phase === "laedt" ? "Aufgaben werden geladen …" : "8 Aufgaben starten"}
+          </button>
+          {kiVerfuegbar && (
+            <button
+              onClick={() => starten("live")}
+              disabled={phase === "laedt"}
+              className="inline-flex items-center gap-1.5 rounded-lg bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-700 ring-1 ring-indigo-200 transition hover:bg-indigo-100 disabled:opacity-60 dark:bg-indigo-950/40 dark:text-indigo-300 dark:ring-indigo-900"
+            >
+              ✨ Frische Aufgaben per KI (bis zu 1 Min.)
+            </button>
+          )}
+        </div>
       </div>
     );
   }
@@ -99,7 +109,7 @@ export default function LueckenQuiz() {
         </p>
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{quote} % richtig</p>
         <button
-          onClick={starten}
+          onClick={() => starten("pool")}
           className="mt-6 inline-flex items-center gap-1.5 rounded-lg bg-gradient-to-br from-taeguk-blue to-emerald-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm transition hover:brightness-110 active:scale-95"
         >
           <RotateCcw size={15} /> Neue Runde
