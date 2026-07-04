@@ -78,6 +78,28 @@ export function startZustand(): SrsEingang {
 }
 
 /**
+ * Leitet die Bewertung automatisch aus den Messwerten ab, statt den Nutzer
+ * selbst einschätzen zu lassen:
+ *  - Genauigkeit < 85 %  → schwer (nicht sicher gekonnt)
+ *  - kleine Fehler       → mittel
+ *  - fehlerfrei          → leicht, wenn zügig getippt; sonst mittel
+ * `antwortzeitMs`/`zeichen` steuern nur die Feinunterscheidung leicht↔mittel.
+ */
+export function autoBewertung(
+  genauigkeit: number,
+  antwortzeitMs: number | null,
+  zeichen: number
+): Schwierigkeit {
+  if (genauigkeit < 0.85) return "schwer";
+  if (genauigkeit < 1) return "mittel";
+  if (antwortzeitMs != null && antwortzeitMs > 0) {
+    const grenze = 2000 + Math.max(1, zeichen) * 900; // ~0,9 s pro Zeichen + 2 s
+    return antwortzeitMs <= grenze ? "leicht" : "mittel";
+  }
+  return "leicht";
+}
+
+/**
  * Sortier-Score für die Kartenauswahl: kleinere Werte = höhere Priorität.
  * Fällige Karten zuerst (je überfälliger, desto wichtiger), danach schwache
  * Karten (niedriger Ease-Factor).

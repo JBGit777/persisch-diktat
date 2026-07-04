@@ -15,7 +15,8 @@ import {
   Headphones,
   PenLine,
 } from "lucide-react";
-import { berechneNaechstenZustand, startZustand } from "@/lib/srs";
+import { berechneNaechstenZustand, startZustand, autoBewertung } from "@/lib/srs";
+import { analysiereFehler } from "@/lib/fehleranalyse";
 import Confetti from "@/components/Confetti";
 import SprechButton from "@/components/SprechButton";
 import {
@@ -103,6 +104,7 @@ export default function DiktatSession({
   const [auswahlState, setAuswahlState] = useState<Set<number> | null>(null);
   const ausgewaehlt = auswahlState ?? defaultAuswahl;
   const [minHaeufigkeit, setMinHaeufigkeit] = useState(1);
+  const [nurFaellige, setNurFaellige] = useState(false);
   const [groesse, setGroesse] = useState(20);
 
   function toggleLektion(n: number) {
@@ -119,7 +121,9 @@ export default function DiktatSession({
   const [vergleich, setVergleich] = useState<VergleichsErgebnis | null>(null);
   const [statistik, setStatistik] = useState<{ korrekt: boolean; genauigkeit: number }[]>([]);
   const [speichert, setSpeichert] = useState(false);
+  const [antwortzeit, setAntwortzeit] = useState<number | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const frageStartRef = useRef<number>(0);
 
   const aktuelleKarte = karten[index];
   const aktuellerText = aktuelleKarte ? zielText(aktuelleKarte, zielmodus) : "";
@@ -129,21 +133,25 @@ export default function DiktatSession({
     if (phase === "frage") {
       if (modus === "hoeren" && aktuellerText && unterstuetzt) sprich(aktuellerText, 1);
       inputRef.current?.focus();
+      frageStartRef.current = Date.now(); // Startzeitpunkt für die Antwortzeit
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, index]);
 
-  // Vokabeln nach Lektionsauswahl und Mindest-Häufigkeit filtern.
-  const gefilterteVokabeln = useMemo(
-    () =>
-      vokabeln.filter(
-        (v) =>
-          v.lektion_nummer != null &&
-          ausgewaehlt.has(v.lektion_nummer) &&
-          (v.haeufigkeit ?? 3) >= minHaeufigkeit
-      ),
-    [vokabeln, ausgewaehlt, minHaeufigkeit]
-  );
+  // Vokabeln nach Lektionsauswahl, Mindest-Häufigkeit und (optional) Fälligkeit
+  // filtern. „Fällig" = noch nie geübt ODER Wiederholung heute/überfällig.
+  const gefilterteVokabeln = useMemo(() => {
+    const jetzt = Date.now();
+    return vokabeln.filter((v) => {
+      if (v.lektion_nummer == null || !ausgewaehlt.has(v.lektion_nummer)) return false;
+      if ((v.haeufigkeit ?? 3) < minHaeufigkeit) return false;
+      if (nurFaellige) {
+        const r = reviewMap.get(v.id);
+        if (r && new Date(r.naechste_faelligkeit).getTime() > jetzt) return false;
+      }
+      return true;
+    });
+  }, [vokabeln, ausgewaehlt, minHaeufigkeit, nurFaellige, reviewMap]);
 
   function sitzungStarten() {
     if (gefilterteVokabeln.length === 0) return;
@@ -160,6 +168,7 @@ export default function DiktatSession({
     e?.preventDefault();
     if (!aktuelleKarte) return;
     const erg = vergleiche(aktuellerText, eingabe);
+    setAntwortzeit(frageStartRef.current ? Date.now() - frageStartRef.current : null);
     setVergleich(erg);
     setPhase("ergebnis");
   }
@@ -172,13 +181,19 @@ export default function DiktatSession({
       const vorher = aktuelleKarte.review ?? startZustand();
       const neu = berechneNaechstenZustand(vorher, schwierigkeit);
 
-      await Promise.all([
+      // allSettled: schlägt der Attempt-Insert fehl (z. B. Migration 0006 noch
+      // nicht eingespielt), bleibt der Ablauf trotzdem flüssig; der SRS-Zustand
+      // (review_state) wird unabhängig davon gespeichert.
+      await Promise.allSettled([
         supabase.from("dictation_attempts").insert({
           user_id: userId,
           vocab_item_id: aktuelleKarte.id,
           eingabe,
           korrekt: vergleich.korrekt,
           zeichen_genauigkeit: vergleich.genauigkeit,
+          antwortzeit_ms: antwortzeit,
+          ziel: aktuellerText,
+          fehler: analysiereFehler(vergleich.segmente),
         }),
         supabase.from("review_state").upsert(
           {
@@ -209,8 +224,22 @@ export default function DiktatSession({
         setPhase("frage");
       }
     },
-    [aktuelleKarte, vergleich, eingabe, index, karten.length, supabase, userId]
+    [aktuelleKarte, vergleich, eingabe, index, karten.length, supabase, userId, antwortzeit, aktuellerText]
   );
+
+  // Enter im Ergebnis-Screen: mit der automatischen Note zur nächsten Karte.
+  useEffect(() => {
+    if (phase !== "ergebnis" || !vergleich) return;
+    const note = autoBewertung(vergleich.genauigkeit, antwortzeit, [...aktuellerText].length);
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        bewerten(note);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [phase, vergleich, antwortzeit, aktuellerText, bewerten]);
 
   // ---- Render: Einrichtung ----
   if (phase === "setup") {
@@ -420,6 +449,22 @@ export default function DiktatSession({
         <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
           Unabhängig davon kommen häufige Wörter in der Auswahl bevorzugt dran.
         </p>
+
+        {/* Fällig-Queue */}
+        <label className="mt-6 flex cursor-pointer items-start gap-2 text-sm text-slate-700 dark:text-slate-200">
+          <input
+            type="checkbox"
+            checked={nurFaellige}
+            onChange={(e) => setNurFaellige(e.target.checked)}
+            className="mt-0.5"
+          />
+          <span>
+            <span className="font-medium">Nur fällige Karten</span>
+            <span className="block text-xs text-slate-500 dark:text-slate-400">
+              Heutige Wiederholungen + noch nie geübte Wörter ({gefilterteVokabeln.length} in der Auswahl)
+            </span>
+          </span>
+        </label>
 
         {/* Kartenanzahl */}
         <label className="mt-6 block text-sm font-medium text-slate-700 dark:text-slate-200">
@@ -731,21 +776,64 @@ export default function DiktatSession({
             })()}
           </div>
 
-          <p className="mt-6 text-sm font-medium text-slate-700 dark:text-slate-200">
-            Wie schwer war diese Karte?
-          </p>
-          <div className="mt-2 grid grid-cols-3 gap-3">
-            {SCHWIERIGKEITEN.map((s) => (
-              <button
-                key={s.key}
-                onClick={() => bewerten(s.key)}
-                disabled={speichert}
-                className={`rounded-lg px-4 py-2.5 text-sm font-medium text-white disabled:opacity-50 ${s.klasse}`}
-              >
-                {s.label}
-              </button>
-            ))}
-          </div>
+          {(() => {
+            const zeichen = [...aktuellerText].length;
+            const autoNote = autoBewertung(vergleich.genauigkeit, antwortzeit, zeichen);
+            const konf = analysiereFehler(vergleich.segmente).filter(
+              (f) => f.art === "konfusion"
+            );
+            const autoLabel =
+              SCHWIERIGKEITEN.find((s) => s.key === autoNote)?.label ?? autoNote;
+            return (
+              <>
+                {konf.length > 0 && (
+                  <div className="mt-4 rounded-lg bg-rose-50 dark:bg-rose-950/40 px-3 py-2 text-sm text-rose-800 dark:text-rose-200">
+                    <span className="font-medium">Verwechselt: </span>
+                    {konf.map((f, i) => (
+                      <span key={i} className="mr-3 inline-block whitespace-nowrap">
+                        <b lang="fa">{"eingabe" in f ? f.eingabe : ""}</b> statt{" "}
+                        <b lang="fa">{"erwartet" in f ? f.erwartet : ""}</b>
+                        {f.art === "konfusion" && (
+                          <span className="text-rose-400 dark:text-rose-500"> ({f.gruppe})</span>
+                        )}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
+                <div className="mt-6 flex flex-wrap items-center gap-3">
+                  <button
+                    onClick={() => bewerten(autoNote)}
+                    disabled={speichert}
+                    className="rounded-lg bg-gradient-to-br from-taeguk-blue to-emerald-600 px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:brightness-110 active:scale-95 disabled:opacity-50"
+                  >
+                    Weiter →
+                  </button>
+                  <span className="text-xs text-slate-400 dark:text-slate-500">
+                    automatisch bewertet:{" "}
+                    <span className="font-medium text-slate-600 dark:text-slate-300">
+                      {autoLabel}
+                    </span>
+                    {antwortzeit != null && <> · {(antwortzeit / 1000).toFixed(1)} s</>}
+                  </span>
+                </div>
+
+                <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-slate-400 dark:text-slate-500">
+                  <span>anders bewerten:</span>
+                  {SCHWIERIGKEITEN.map((s) => (
+                    <button
+                      key={s.key}
+                      onClick={() => bewerten(s.key)}
+                      disabled={speichert}
+                      className="rounded px-2 py-1 ring-1 ring-slate-300 dark:ring-slate-600 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-50"
+                    >
+                      {s.label}
+                    </button>
+                  ))}
+                </div>
+              </>
+            );
+          })()}
         </div>
       )}
     </div>

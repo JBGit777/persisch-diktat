@@ -13,6 +13,7 @@ import Taegeuk from "@/components/Taegeuk";
 import SprechButton from "@/components/SprechButton";
 import { createClient } from "@/lib/supabase/server";
 import { ladeDashboardDaten } from "@/lib/dashboard";
+import { ladeSchwaechen } from "@/lib/schwaechen";
 import { ladeLektionen } from "@/lib/lessons";
 
 export const dynamic = "force-dynamic";
@@ -51,9 +52,10 @@ function Kennzahl({
 
 export default async function DashboardPage() {
   const supabase = await createClient();
-  const [daten, lektionen] = await Promise.all([
+  const [daten, lektionen, schwaechen] = await Promise.all([
     ladeDashboardDaten(supabase),
     ladeLektionen(supabase),
+    ladeSchwaechen(supabase),
   ]);
 
   const keineVokabeln = daten.vokabelnGesamt === 0;
@@ -179,6 +181,37 @@ export default async function DashboardPage() {
                     );
                   })}
                 </div>
+              </section>
+            )}
+
+            {/* Persönliche Fehler-Taxonomie: welche Buchstaben werden vertauscht */}
+            {schwaechen.verwechslungen.length > 0 && (
+              <section className="mt-6 rounded-2xl bg-white dark:bg-slate-800 p-5 shadow-sm ring-1 ring-slate-200 dark:ring-slate-700">
+                <h2 className="text-sm font-semibold text-slate-700 dark:text-slate-200">
+                  Häufigste Verwechslungen
+                </h2>
+                <p className="mt-0.5 text-xs text-slate-400 dark:text-slate-500">
+                  Aus {schwaechen.versuche} ausgewerteten Versuchen – die Buchstaben, die du am
+                  ehesten vertauschst.
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {schwaechen.verwechslungen.slice(0, 8).map((v) => (
+                    <span
+                      key={v.gruppe + v.paar}
+                      title={v.gruppe}
+                      className="inline-flex items-center gap-1.5 rounded-full bg-rose-50 dark:bg-rose-950/40 px-3 py-1 text-sm text-rose-800 dark:text-rose-200"
+                    >
+                      <span lang="fa" className="font-semibold">{v.paar}</span>
+                      <span className="text-xs text-rose-400 dark:text-rose-500">×{v.anzahl}</span>
+                    </span>
+                  ))}
+                </div>
+                {(schwaechen.ausgelassen > 0 || schwaechen.zuviel > 0) && (
+                  <p className="mt-3 text-xs text-slate-400 dark:text-slate-500">
+                    Ausgelassene Zeichen: {schwaechen.ausgelassen} · zu viel getippt:{" "}
+                    {schwaechen.zuviel}
+                  </p>
+                )}
               </section>
             )}
 

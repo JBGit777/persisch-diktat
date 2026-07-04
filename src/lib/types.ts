@@ -30,6 +30,12 @@ export type DictationAttempt = {
   eingabe: string;
   korrekt: boolean;
   zeichen_genauigkeit: number;
+  /** Tippdauer in Millisekunden (Messwert für die Auto-Bewertung). */
+  antwortzeit_ms: number | null;
+  /** Erwarteter Zieltext dieses Versuchs. */
+  ziel: string | null;
+  /** Klassifizierte Fehlerarten (persische Taxonomie), JSON. */
+  fehler: import("@/lib/fehleranalyse").Fehler[] | null;
   erstellt_am: string;
 };
 
@@ -104,7 +110,10 @@ export interface Database {
       };
       dictation_attempts: {
         Row: DictationAttempt;
-        Insert: InsertOf<DictationAttempt, "id" | "user_id" | "erstellt_am">;
+        Insert: InsertOf<
+          DictationAttempt,
+          "id" | "user_id" | "erstellt_am" | "antwortzeit_ms" | "ziel" | "fehler"
+        >;
         Update: Partial<DictationAttempt>;
         Relationships: [];
       };
