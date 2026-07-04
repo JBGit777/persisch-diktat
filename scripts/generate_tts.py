@@ -34,46 +34,18 @@ def fnv1a64(s: str) -> str:
     return format(h, "016x")
 
 def collect_texts() -> dict:
-    """normhash -> roher Text (erste Fundstelle). Wörter + Beispielsätze."""
+    """normhash -> roher Text (erste Fundstelle). Aus der EINEN Quelle
+    data/vokabeln.json: jedes Wort + jeder Beispielsatz."""
+    import json
     texts = {}
     def add(t):
         t = (t or "").strip()
-        if not t:
-            return
-        key = fnv1a64(normalize_fa(t))
-        texts.setdefault(key, t)
-    # Wörter aus der CSV
-    with open(ROOT / "supabase/seed/vokabeln.csv", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            add(row["hangul"])
-    # Wörter + Beispielsätze aus den SQL-Seeds (hangul = 1. Feld, beispielsatz_ko = 5. Feld)
-    sql = "\n".join(
-        (ROOT / "supabase/seed" / name).read_text(encoding="utf-8")
-        for name in ("persisch_seed.sql", "fussball_seed.sql", "seed_persische_phrasen.sql", "ferien_seed.sql")
-        if (ROOT / "supabase/seed" / name).exists()
-    )
-    for m in re.finditer(r"^\s{2}\((.*)\),?\s*$", sql, re.M):
-        fields, cur, q, i = [], "", False, 0
-        line = m.group(1)
-        while i < len(line):
-            ch = line[i]
-            if ch == "'":
-                if q and i + 1 < len(line) and line[i + 1] == "'":
-                    cur += "'"; i += 2; continue
-                q = not q
-            elif ch == "," and not q:
-                fields.append(cur); cur = ""; i += 1; continue
-            else:
-                cur += ch
-            i += 1
-        fields.append(cur)
-        if len(fields) == 8:  # Vokabel-Tupel (Quotes sind oben bereits entfernt)
-            w = fields[0].strip()  # hangul (persisches Wort)
-            if w and w != "NULL":
-                add(w)
-            ex = fields[4].strip()  # beispielsatz_ko
-            if ex and ex != "NULL":
-                add(ex)
+        if t:
+            texts.setdefault(fnv1a64(normalize_fa(t)), t)
+    data = json.loads((ROOT / "data" / "vokabeln.json").read_text(encoding="utf-8"))
+    for w in data["woerter"]:
+        add(w.get("persisch"))
+        add(w.get("beispielsatz_ko"))
     return texts
 
 async def synth(voice, items, concurrency=8):

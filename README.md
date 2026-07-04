@@ -58,14 +58,10 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=DEIN-ANON-PUBLIC-KEY
 ## Schritt 4 – Datenbank-Tabellen erstellen
 
 1. Im Supabase-Dashboard links auf **SQL Editor** → **New query**.
-2. Die Migrationen **der Reihe nach** ausführen (jeweils Inhalt einfügen → **Run**):
-   [`0001_init.sql`](supabase/migrations/0001_init.sql) ·
-   [`0002_lessons.sql`](supabase/migrations/0002_lessons.sql) ·
-   [`0003_haeufigkeit.sql`](supabase/migrations/0003_haeufigkeit.sql) ·
-   [`0004_hinweis.sql`](supabase/migrations/0004_hinweis.sql)
-3. Das legt die Tabellen `vocab_items`, `dictation_attempts`, `review_state`,
-   `lessons`, `lesson_resources`, `lesson_progress` an (inkl. **Row Level
-   Security**) und ergänzt die Spalte `vocab_items.hinweis` (Lernhinweis).
+2. Die Migrationen **`0001` bis `0007`** der Reihe nach ausführen (jeweils Inhalt
+   aus `supabase/migrations/` einfügen → **Run**). Sie legen die Tabellen an
+   (inkl. **Row Level Security**), ergänzen Lernhinweis, Mess-Spalten
+   (Antwortzeit/Fehlerarten) und den Unique-Constraint für den Upsert-Seed.
 
 ## Schritt 5 – Magic-Link-Login konfigurieren
 
@@ -88,15 +84,16 @@ npm run dev
 
 ## Schritt 7 – Vokabeln einspielen
 
-**Empfohlen (vollständig):** der SQL-Seed mit **500 Kern-Vokabeln** (Frequenzrang
-1–500) inkl. Beispielsätzen, Lernhinweisen, Häufigkeit und **28 Lektionen** in 4 Teilen.
+Der gesamte Wortschatz lebt in **einer** kanonischen Quelle
+[`data/vokabeln.json`](data/vokabeln.json); daraus werden Seed, CSV und Audio
+erzeugt (siehe [`data/README.md`](data/README.md)).
 
 1. Einmal in der App **registrieren/anmelden** (damit dein Nutzerkonto existiert).
-2. [`supabase/seed/persisch_seed.sql`](supabase/seed/persisch_seed.sql) öffnen und
-   ganz oben deine **App-Login-E-Mail** eintragen (eine Stelle; aktuell
-   `jreitzenstein@gmail.com`).
-3. Den Inhalt im **SQL Editor** ausführen. Das Skript ist idempotent
-   (löscht vorherige Seed-Vokabeln im Bereich 101–499 und legt sie neu an).
+2. [`supabase/seed/seed.sql`](supabase/seed/seed.sql) im **SQL Editor** ausführen –
+   **Upsert**: aktualisiert bestehende Zeilen in place, dein Übungsfortschritt
+   bleibt erhalten. (E-Mail ist eingetragen; neu erzeugen mit `python3 scripts/build.py`.)
+3. Optional: [`supabase/seed/grammatik_seed.sql`](supabase/seed/grammatik_seed.sql)
+   für die Grammatik-Notizen.
 
 Die Vokabeln sind nach grammatischer Funktion in **4 Teile** gegliedert; große
 Kategorien sind frequenzsortiert in Unter-Lektionen (~25 Wörter) aufgeteilt:
