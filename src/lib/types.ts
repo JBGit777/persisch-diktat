@@ -9,7 +9,8 @@
 // die Schema-Typprüfung (GenericTable) voraussetzt.
 export type VocabItem = {
   id: string;
-  user_id: string;
+  /** Kurator-Konto; null nach Kontolöschung (Inhalte bleiben erhalten, 0008). */
+  user_id: string | null;
   hangul: string;
   romanisierung: string | null;
   deutsch: string;
@@ -51,7 +52,8 @@ export type ReviewState = {
 
 export type Lesson = {
   id: string;
-  user_id: string;
+  /** Kurator-Konto; null nach Kontolöschung (Inhalte bleiben erhalten, 0008). */
+  user_id: string | null;
   buch: number | null;
   lektion_nummer: number;
   titel: string | null;
@@ -64,7 +66,8 @@ export type RessourcenTyp = "grammatik" | "video" | "audio";
 
 export type LessonResource = {
   id: string;
-  user_id: string;
+  /** Kurator-Konto; null nach Kontolöschung (Inhalte bleiben erhalten, 0008). */
+  user_id: string | null;
   lesson_id: string;
   typ: RessourcenTyp;
   titel: string | null;

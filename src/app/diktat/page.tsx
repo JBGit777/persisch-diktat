@@ -82,6 +82,7 @@ export default async function DiktatPage({
           lektionen={lektionen ?? []}
           initialLektion={initialLektion}
           fokusBuchstaben={fokusBuchstaben}
+          kiVerfuegbar={Boolean(process.env.ANTHROPIC_API_KEY)}
         />
       </main>
     </>

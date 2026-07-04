@@ -51,6 +51,8 @@ interface Props {
   initialLektion?: number | null;
   /** Fokus-Buchstaben (aus der Schwächenkarte): nur Wörter, die diese enthalten. */
   fokusBuchstaben?: string;
+  /** ANTHROPIC_API_KEY vorhanden? Steuert den "✨ Warum?"-Button. */
+  kiVerfuegbar?: boolean;
 }
 
 type Phase = "setup" | "frage" | "ergebnis" | "fertig";
@@ -69,6 +71,7 @@ export default function DiktatSession({
   lektionen,
   initialLektion,
   fokusBuchstaben,
+  kiVerfuegbar = false,
 }: Props) {
   const router = useRouter();
   const supabase = useMemo(() => createClient(), []);
@@ -125,8 +128,29 @@ export default function DiktatSession({
   const [statistik, setStatistik] = useState<{ korrekt: boolean; genauigkeit: number }[]>([]);
   const [speichert, setSpeichert] = useState(false);
   const [antwortzeit, setAntwortzeit] = useState<number | null>(null);
+  const [erklaerung, setErklaerung] = useState<string | null>(null);
+  const [erklaertLaedt, setErklaertLaedt] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const frageStartRef = useRef<number>(0);
+
+  // On-demand-Erklärung ("✨ Warum?") über die Claude-API.
+  async function erklaerungHolen() {
+    if (erklaertLaedt) return;
+    setErklaertLaedt(true);
+    try {
+      const res = await fetch("/api/erklaerung", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ziel: aktuellerText, eingabe }),
+      });
+      const json = await res.json();
+      setErklaerung(res.ok ? json.erklaerung : `Fehler: ${json.error}`);
+    } catch {
+      setErklaerung("Erklärung konnte nicht geladen werden.");
+    } finally {
+      setErklaertLaedt(false);
+    }
+  }
 
   const aktuelleKarte = karten[index];
   const aktuellerText = aktuelleKarte ? zielText(aktuelleKarte, zielmodus) : "";
@@ -232,6 +256,7 @@ export default function DiktatSession({
         setIndex((i) => i + 1);
         setEingabe("");
         setVergleich(null);
+        setErklaerung(null);
         setPhase("frage");
       }
     },
@@ -820,6 +845,23 @@ export default function DiktatSession({
                         )}
                       </span>
                     ))}
+                  </div>
+                )}
+
+                {/* KI-Erklärung zum Fehler (on-demand) */}
+                {!vergleich.korrekt && kiVerfuegbar && !erklaerung && (
+                  <button
+                    onClick={erklaerungHolen}
+                    disabled={erklaertLaedt}
+                    className="mt-4 inline-flex items-center gap-1.5 rounded-lg bg-indigo-50 px-3 py-2 text-sm font-medium text-indigo-700 ring-1 ring-indigo-200 transition hover:bg-indigo-100 disabled:opacity-50 dark:bg-indigo-950/40 dark:text-indigo-300 dark:ring-indigo-900"
+                  >
+                    {erklaertLaedt ? "Erklärung wird erstellt …" : "✨ Warum ist das falsch?"}
+                  </button>
+                )}
+                {erklaerung && (
+                  <div className="mt-4 rounded-lg bg-indigo-50 px-4 py-3 text-sm leading-relaxed text-indigo-900 ring-1 ring-indigo-200 dark:bg-indigo-950/40 dark:text-indigo-100 dark:ring-indigo-900">
+                    <span className="font-semibold">✨ Erklärung: </span>
+                    {erklaerung}
                   </div>
                 )}
 

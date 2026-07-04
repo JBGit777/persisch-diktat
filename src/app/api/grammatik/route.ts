@@ -70,7 +70,7 @@ export async function POST(request: NextRequest) {
     .join("\n");
 
   const anthropic = new Anthropic({ apiKey });
-  const model = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-4-6";
+  const model = process.env.ANTHROPIC_MODEL ?? "claude-opus-4-8";
 
   try {
     const antwort = await anthropic.messages.create({
