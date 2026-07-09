@@ -3,7 +3,7 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Play, Square, Volume2, Turtle } from "lucide-react";
+import { Play, Square, Volume2, Turtle, PenLine } from "lucide-react";
 import { audioPfad } from "@/lib/audio";
 import { normalizeFa } from "@/lib/normalizeFa";
 import { findeVokabel } from "@/lib/wortlink";
@@ -11,6 +11,12 @@ import { findeVokabel } from "@/lib/wortlink";
 interface Satz {
   fa: string;
   de: string;
+}
+export interface Frage {
+  frage: string;
+  frage_de?: string;
+  optionen: string[];
+  richtig: number;
 }
 export interface LeseText {
   id: string;
@@ -20,6 +26,7 @@ export interface LeseText {
   bild?: string;
   quelle?: string;
   saetze: Satz[];
+  fragen?: Frage[];
 }
 
 /**
@@ -57,6 +64,11 @@ export default function LeseReader({
   const [aktiv, setAktiv] = useState<number | null>(null);
   const [spielt, setSpielt] = useState(false);
   const [langsam, setLangsam] = useState(false);
+  const [nastaliq, setNastaliq] = useState(false);
+  const [antworten, setAntworten] = useState<Record<number, number>>({});
+
+  // Schrift-Klassen für den persischen Text (Standard vs. Kalligrafie/Nastaliq).
+  const faSatz = nastaliq ? "font-nastaliq text-[1.6rem] leading-[2.6]" : "text-2xl leading-loose";
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const seqRef = useRef(false); // läuft eine Gesamt-Wiedergabe?
 
@@ -135,7 +147,7 @@ export default function LeseReader({
         </div>
       )}
       <div className="mt-4 flex flex-wrap items-baseline justify-between gap-2">
-        <h1 lang="fa" dir="rtl" className="text-3xl font-bold">
+        <h1 lang="fa" dir="rtl" className={`font-bold ${nastaliq ? "font-nastaliq text-2xl leading-[2]" : "text-3xl"}`}>
           {text.titel}
         </h1>
         <span className="text-sm text-slate-500 dark:text-slate-400">{text.titel_de}</span>
@@ -160,6 +172,17 @@ export default function LeseReader({
           title="Langsam vorlesen"
         >
           <Turtle size={15} /> Langsam
+        </button>
+        <button
+          onClick={() => setNastaliq((v) => !v)}
+          className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium ring-1 transition ${
+            nastaliq
+              ? "bg-emerald-100 text-emerald-800 ring-emerald-300 dark:bg-emerald-950/40 dark:text-emerald-200 dark:ring-emerald-900"
+              : "text-slate-600 ring-slate-300 hover:bg-slate-100 dark:text-slate-300 dark:ring-slate-600 dark:hover:bg-slate-700"
+          }`}
+          title="Kalligrafische Nastaliq-Schrift"
+        >
+          <PenLine size={15} /> Nastaliq
         </button>
         <button
           onClick={() => setOffen(alleOffen ? new Set() : new Set(text.saetze.map((_, i) => i)))}
@@ -209,7 +232,7 @@ export default function LeseReader({
                   DE
                 </button>
               </div>
-              <p lang="fa" dir="rtl" className="flex-1 text-right text-2xl leading-loose">
+              <p lang="fa" dir="rtl" className={`flex-1 text-right ${faSatz}`}>
                 {s.fa.split(/\s+/).map((tok, j) => {
                   const treffer = findeVokabel(tok, vokSet);
                   return (
@@ -237,6 +260,55 @@ export default function LeseReader({
           </div>
         ))}
       </div>
+
+      {/* Verständnisfragen */}
+      {text.fragen && text.fragen.length > 0 && (
+        <section className="mt-8">
+          <h2 className="text-lg font-semibold">Verständnisfragen</h2>
+          <div className="mt-3 space-y-4">
+            {text.fragen.map((f, qi) => {
+              const gewaehlt = antworten[qi];
+              const beantwortet = gewaehlt !== undefined;
+              return (
+                <div
+                  key={qi}
+                  className="rounded-xl bg-white p-4 ring-1 ring-slate-200 dark:bg-slate-800 dark:ring-slate-700"
+                >
+                  <p lang="fa" dir="rtl" className={`text-right ${nastaliq ? "font-nastaliq text-lg leading-loose" : "text-lg"}`}>
+                    {f.frage}
+                  </p>
+                  {f.frage_de && (
+                    <p className="mt-0.5 text-right text-xs text-slate-400 dark:text-slate-500">{f.frage_de}</p>
+                  )}
+                  <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
+                    {f.optionen.map((o, oi) => {
+                      const istRichtig = oi === f.richtig;
+                      let cls =
+                        "rounded-lg border px-3 py-2 text-right transition border-slate-300 dark:border-slate-600";
+                      if (!beantwortet) cls += " cursor-pointer hover:border-taeguk-blue hover:bg-taeguk-blue/5";
+                      else if (istRichtig) cls += " border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40";
+                      else if (oi === gewaehlt) cls += " border-red-400 bg-red-50 dark:bg-red-950/40";
+                      else cls += " opacity-50";
+                      return (
+                        <button
+                          key={oi}
+                          lang="fa"
+                          dir="rtl"
+                          disabled={beantwortet}
+                          onClick={() => setAntworten((a) => ({ ...a, [qi]: oi }))}
+                          className={`${cls} ${nastaliq ? "font-nastaliq" : ""}`}
+                        >
+                          {o}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       {text.quelle && (
         <p className="mt-6 text-xs text-slate-400 dark:text-slate-500">Quelle: {text.quelle}</p>

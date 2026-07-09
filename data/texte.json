@@ -80,6 +80,41 @@
      "fa": "خانهٔ ما بزرگ نیست، امّا راحت است.",
      "de": "Unsere Wohnung ist nicht groß, aber gemütlich."
     }
+   ],
+   "fragen": [
+    {
+     "frage": "نویسنده در طبقهٔ چندم زندگی می‌کند؟",
+     "frage_de": "In welchem Stock wohnt die Autorin?",
+     "optionen": [
+      "اول",
+      "دوم",
+      "سوم",
+      "چهارم"
+     ],
+     "richtig": 2
+    },
+    {
+     "frage": "آنها صبحانه را کجا می‌خورند؟",
+     "frage_de": "Wo essen sie Frühstück?",
+     "optionen": [
+      "در هال",
+      "در آشپزخانه",
+      "در حیاط",
+      "در اتاق خواب"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "خانهٔ آنها چگونه است؟",
+     "frage_de": "Wie ist ihre Wohnung?",
+     "optionen": [
+      "بزرگ",
+      "راحت",
+      "نو",
+      "دور"
+     ],
+     "richtig": 1
+    }
    ]
   },
   {
@@ -153,6 +188,41 @@
     {
      "fa": "او از خواندن این شعرها لذّت می‌برد.",
      "de": "Das Lesen dieser Gedichte machte ihm Freude."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "زیگموند اهل کجاست؟",
+     "frage_de": "Woher kommt Sigmund?",
+     "optionen": [
+      "ایران",
+      "آلمان",
+      "سوئد",
+      "فرانسه"
+     ],
+     "richtig": 2
+    },
+    {
+     "frage": "زیگموند برای چه به ایران آمد؟",
+     "frage_de": "Wozu kam er in den Iran?",
+     "optionen": [
+      "برای کار",
+      "برای تحصیل",
+      "برای سفر",
+      "برای خرید"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "زیگموند چه کتاب‌هایی خرید؟",
+     "frage_de": "Was für Bücher kaufte er?",
+     "optionen": [
+      "کتاب علمی",
+      "کتاب شعر",
+      "روزنامه",
+      "کتاب تاریخ"
+     ],
+     "richtig": 1
     }
    ]
   },
@@ -240,6 +310,41 @@
      "fa": "فرهاد آرزو می‌کند که روزی دبیر شود.",
      "de": "Farhad wünscht sich, eines Tages Lehrer zu werden."
     }
+   ],
+   "fragen": [
+    {
+     "frage": "پرویز و فرهاد چه نسبتی دارند؟",
+     "frage_de": "In welcher Beziehung stehen Parviz und Farhad?",
+     "optionen": [
+      "دوست",
+      "دوقلو",
+      "همسایه",
+      "استاد"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "پرویز به چه کاری علاقه دارد؟",
+     "frage_de": "Wofür interessiert sich Parviz?",
+     "optionen": [
+      "کار اداری",
+      "کار آزاد",
+      "تحصیل",
+      "دبیری"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "فرهاد می‌خواهد چه‌کاره شود؟",
+     "frage_de": "Was möchte Farhad werden?",
+     "optionen": [
+      "مکانیک",
+      "دبیر",
+      "پزشک",
+      "راننده"
+     ],
+     "richtig": 1
+    }
    ]
   },
   {
@@ -313,6 +418,41 @@
     {
      "fa": "او همیشه قبل از ساعت یازده مسواک می‌زند و می‌خوابد.",
      "de": "Er putzt sich immer vor elf Uhr die Zähne und geht schlafen."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "ساسان چند سال دارد؟",
+     "frage_de": "Wie alt ist Sasan?",
+     "optionen": [
+      "دوازده",
+      "سیزده",
+      "چهارده",
+      "پانزده"
+     ],
+     "richtig": 2
+    },
+    {
+     "frage": "ساسان بعدازظهر کجا می‌رود؟",
+     "frage_de": "Wohin geht Sasan nachmittags?",
+     "optionen": [
+      "به مدرسه",
+      "به نانوایی پدرش",
+      "به دانشگاه",
+      "به خانهٔ دوستش"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "او با چه چیزی به مدرسه می‌رود؟",
+     "frage_de": "Womit fährt er zur Schule?",
+     "optionen": [
+      "با اتوبوس",
+      "با تاکسی",
+      "پیاده",
+      "با دوچرخه"
+     ],
+     "richtig": 1
     }
    ]
   },
@@ -395,6 +535,41 @@
     {
      "fa": "مهران و آمنه، مادر و مادر بزرگ‌های خود را بوسیدند.",
      "de": "Mehran und Amene küssten ihre Mutter und ihre Großmütter."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "روز مادر، روز چه کسی هم هست؟",
+     "frage_de": "Wessen Tag ist der Muttertag auch?",
+     "optionen": [
+      "روز پدر",
+      "روز زن",
+      "روز کودک",
+      "روز معلم"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "آمنه برای مادرش چه خرید؟",
+     "frage_de": "Was kaufte Amene für ihre Mutter?",
+     "optionen": [
+      "روسری",
+      "عطر",
+      "دامن",
+      "پیراهن"
+     ],
+     "richtig": 2
+    },
+    {
+     "frage": "پدر برای همسرش چه خرید؟",
+     "frage_de": "Was kaufte der Vater für seine Frau?",
+     "optionen": [
+      "پیراهن",
+      "عطر",
+      "روسری",
+      "دامن"
+     ],
+     "richtig": 1
     }
    ]
   }

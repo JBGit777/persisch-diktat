@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Vazirmatn } from "next/font/google";
+import { Vazirmatn, Noto_Nastaliq_Urdu } from "next/font/google";
 import "./globals.css";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 
@@ -12,6 +12,16 @@ const vazirmatn = Vazirmatn({
   variable: "--font-vazirmatn",
   display: "swap",
   fallback: ["Tahoma", "system-ui", "sans-serif"],
+});
+
+// Kalligrafische Nastaliq-Schrift – nur für den Lese-Reader (umschaltbar), damit
+// man diese Schrift gezielt lesen üben kann.
+const nastaliq = Noto_Nastaliq_Urdu({
+  subsets: ["arabic"],
+  weight: ["400", "700"],
+  variable: "--font-nastaliq",
+  display: "swap",
+  fallback: ["serif"],
 });
 
 export const metadata: Metadata = {
@@ -42,7 +52,7 @@ export default function RootLayout({
     <html
       lang="fa"
       dir="rtl"
-      className={vazirmatn.variable}
+      className={`${vazirmatn.variable} ${nastaliq.variable}`}
       suppressHydrationWarning
     >
       <head>

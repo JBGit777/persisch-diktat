@@ -17,6 +17,8 @@ const config: Config = {
           "Segoe UI",
           "sans-serif",
         ],
+        // Kalligrafische Nastaliq-Schrift für den Lese-Reader (umschaltbar).
+        nastaliq: ["var(--font-nastaliq)", "serif"],
       },
       colors: {
         // Akzentfarben der iranischen Flagge (Grün/Rot) – ersetzt die
