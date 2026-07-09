@@ -3,11 +3,17 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import LeseReader, { type LeseText } from "@/components/LeseReader";
+import { normalizeFa } from "@/lib/normalizeFa";
 import texteData from "../../../../data/texte.json";
+import vokabelnData from "../../../../data/vokabeln.json";
 
 export const dynamic = "force-dynamic";
 
 const TEXTE = texteData.texte as LeseText[];
+// Normalisierte Wortschatz-Formen für die Wort-Verlinkung (einmal berechnet).
+const VOKABELN = [
+  ...new Set((vokabelnData.woerter as { persisch: string }[]).map((w) => normalizeFa(w.persisch))),
+];
 
 export default async function LeseTextPage({
   params,
@@ -28,7 +34,7 @@ export default async function LeseTextPage({
         >
           <ChevronRight size={15} className="rotate-180" /> Alle Texte
         </Link>
-        <LeseReader text={text} />
+        <LeseReader text={text} vokabeln={VOKABELN} />
       </main>
     </>
   );

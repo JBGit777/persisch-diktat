@@ -1,9 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Play, Square, Volume2, Turtle } from "lucide-react";
 import { audioPfad } from "@/lib/audio";
+import { normalizeFa } from "@/lib/normalizeFa";
+import { findeVokabel } from "@/lib/wortlink";
 
 interface Satz {
   fa: string;
@@ -25,7 +28,31 @@ export interface LeseText {
  * „ganzen Text vorlesen" (normal/langsam) mit Satz-Hervorhebung. Audio kommt
  * aus den vorab erzeugten MP3s (edge-tts, hash-adressiert wie beim Wortschatz).
  */
-export default function LeseReader({ text }: { text: LeseText }) {
+export default function LeseReader({
+  text,
+  vokabeln = [],
+}: {
+  text: LeseText;
+  /** Normalisierte Wortschatz-Formen (für die Wort-Verlinkung ins Lexikon). */
+  vokabeln?: string[];
+}) {
+  const vokSet = useMemo(() => new Set(vokabeln), [vokabeln]);
+
+  // Abdeckung: wie viele eindeutige Wörter des Textes sind im Wortschatz.
+  const abdeckung = useMemo(() => {
+    const alle = new Set<string>();
+    const drin = new Set<string>();
+    for (const s of text.saetze)
+      for (const tok of s.fa.split(/\s+/)) {
+        const clean = tok.replace(/[،.:؛!؟?().،«»"'…]/g, "").trim();
+        if (!clean) continue;
+        const nn = normalizeFa(clean);
+        alle.add(nn);
+        if (findeVokabel(tok, vokSet)) drin.add(nn);
+      }
+    return { drin: drin.size, alle: alle.size };
+  }, [text, vokSet]);
+
   const [offen, setOffen] = useState<Set<number>>(new Set());
   const [aktiv, setAktiv] = useState<number | null>(null);
   const [spielt, setSpielt] = useState(false);
@@ -142,7 +169,11 @@ export default function LeseReader({ text }: { text: LeseText }) {
         </button>
       </div>
       <p className="mt-2 text-xs text-slate-400 dark:text-slate-500">
-        Tippe einen Satz an, um die Übersetzung zu sehen. 🔊 liest genau diesen Satz vor.
+        <span className="underline decoration-taeguk-blue/50 decoration-dotted underline-offset-2">
+          Unterstrichene Wörter
+        </span>{" "}
+        stehen im Wortschatz – tippen öffnet den Lexikon-Eintrag. „DE" zeigt die Satz-Übersetzung,
+        🔊 liest den Satz vor. ({abdeckung.drin} von {abdeckung.alle} Wörtern im Wortschatz)
       </p>
 
       {/* Sätze */}
@@ -157,22 +188,46 @@ export default function LeseReader({ text }: { text: LeseText }) {
             }`}
           >
             <div className="flex items-start gap-2">
-              <button
-                onClick={() => einzeln(i)}
-                className="mt-1 shrink-0 rounded-md p-1.5 text-taeguk-blue transition hover:bg-taeguk-blue/10"
-                title="Diesen Satz vorlesen"
-                aria-label="Vorlesen"
-              >
-                <Volume2 size={18} />
-              </button>
-              <button
-                onClick={() => toggleUebersetzung(i)}
-                lang="fa"
-                dir="rtl"
-                className="flex-1 cursor-pointer text-right text-2xl leading-loose"
-              >
-                {s.fa}
-              </button>
+              <div className="mt-1 flex shrink-0 items-center gap-0.5">
+                <button
+                  onClick={() => einzeln(i)}
+                  className="rounded-md p-1.5 text-taeguk-blue transition hover:bg-taeguk-blue/10"
+                  title="Diesen Satz vorlesen"
+                  aria-label="Vorlesen"
+                >
+                  <Volume2 size={18} />
+                </button>
+                <button
+                  onClick={() => toggleUebersetzung(i)}
+                  className={`rounded-md px-1.5 py-1 text-xs font-semibold transition ${
+                    offen.has(i)
+                      ? "bg-indigo-100 text-indigo-700 dark:bg-indigo-950/50 dark:text-indigo-300"
+                      : "text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700"
+                  }`}
+                  title="Übersetzung anzeigen"
+                >
+                  DE
+                </button>
+              </div>
+              <p lang="fa" dir="rtl" className="flex-1 text-right text-2xl leading-loose">
+                {s.fa.split(/\s+/).map((tok, j) => {
+                  const treffer = findeVokabel(tok, vokSet);
+                  return (
+                    <Fragment key={j}>
+                      {treffer ? (
+                        <Link
+                          href={`/lexikon?q=${encodeURIComponent(treffer)}`}
+                          className="rounded underline decoration-taeguk-blue/40 decoration-dotted underline-offset-4 transition hover:bg-taeguk-blue/10 hover:decoration-taeguk-blue"
+                        >
+                          {tok}
+                        </Link>
+                      ) : (
+                        <span>{tok}</span>
+                      )}{" "}
+                    </Fragment>
+                  );
+                })}
+              </p>
             </div>
             {offen.has(i) && (
               <p className="mt-2 border-t border-slate-100 pt-2 text-sm text-indigo-700 dark:border-slate-700 dark:text-indigo-300">
