@@ -8,24 +8,394 @@
    "bild": "/lesen/apartman-ma.jpg",
    "quelle": "Farsi-Lesebuch, Lektion 2",
    "saetze": [
-    { "fa": "ما در ساختمانی چهار طبقه زندگی می‌کنیم.", "de": "Wir wohnen in einem vierstöckigen Gebäude." },
-    { "fa": "آپارتمان ما در طبقهٔ سوم آن است.", "de": "Unsere Wohnung ist im dritten Stock." },
-    { "fa": "ما با آسانسور رفت و آمد می‌کنیم.", "de": "Wir fahren mit dem Aufzug hinauf und hinunter." },
-    { "fa": "خانهٔ ما چند اتاق دارد: هال، دو اتاق خواب، و آشپزخانه.", "de": "Unsere Wohnung hat mehrere Zimmer: ein Wohnzimmer, zwei Schlafzimmer und eine Küche." },
-    { "fa": "خانهٔ ما دستشویی و حمّام دارد.", "de": "Unsere Wohnung hat eine Toilette und ein Bad." },
-    { "fa": "ما در ساختمان، حیاط، پارکینگ، و انباری داریم.", "de": "Im Gebäude haben wir einen Hof, einen Parkplatz und einen Abstellraum." },
-    { "fa": "ما بیشتر وقت‌ها در هال می‌نشینیم.", "de": "Meistens sitzen wir im Wohnzimmer." },
-    { "fa": "ما در هال تلویزیون تماشا می‌کنیم، به رادیو گوش می‌کنیم، با هم حرف می‌زنیم، و ناهار و شام می‌خوریم.", "de": "Im Wohnzimmer schauen wir fern, hören Radio, unterhalten uns und essen zu Mittag und zu Abend." },
-    { "fa": "بچّه‌ها گاهی در هال با هم بازی می‌کنند.", "de": "Die Kinder spielen manchmal zusammen im Wohnzimmer." },
-    { "fa": "شوهرم در هال مطالعه می‌کند.", "de": "Mein Mann liest im Wohnzimmer." },
-    { "fa": "در هال ما دو قالی پهن است.", "de": "In unserem Wohnzimmer liegen zwei Teppiche." },
-    { "fa": "در هال ما، چند پشتی و یک دست مبل هم هست.", "de": "Im Wohnzimmer gibt es außerdem einige Sitzkissen und eine Sofagarnitur." },
-    { "fa": "ما بر روی دیوار، چند تابلوی نقّاشی گذاشته‌ایم.", "de": "An die Wand haben wir einige Gemälde gehängt." },
-    { "fa": "من آشپزخانه را بیشتر از بقیهٔ اتاق‌ها دوست دارم.", "de": "Die Küche mag ich mehr als alle anderen Zimmer." },
-    { "fa": "ما صبحانه را در آشپزخانه می‌خوریم.", "de": "Wir frühstücken in der Küche." },
-    { "fa": "در آشپزخانهٔ ما یخچال، فریزر، ماشین لباسشویی، آبگرمکن، میز غذاخوری، و اجاق گاز قرار دارد.", "de": "In unserer Küche stehen ein Kühlschrank, ein Gefrierschrank, eine Waschmaschine, ein Boiler, ein Esstisch und ein Gasherd." },
-    { "fa": "در اتاق‌های خواب، وسایل زیادی قرار دارد: تخت‌خواب، قفسهٔ کتاب، کمد، آینه، و کامپیوتر.", "de": "In den Schlafzimmern stehen viele Dinge: Betten, ein Bücherregal, ein Schrank, ein Spiegel und ein Computer." },
-    { "fa": "خانهٔ ما بزرگ نیست، امّا راحت است.", "de": "Unsere Wohnung ist nicht groß, aber gemütlich." }
+    {
+     "fa": "ما در ساختمانی چهار طبقه زندگی می‌کنیم.",
+     "de": "Wir wohnen in einem vierstöckigen Gebäude."
+    },
+    {
+     "fa": "آپارتمان ما در طبقهٔ سوم آن است.",
+     "de": "Unsere Wohnung ist im dritten Stock."
+    },
+    {
+     "fa": "ما با آسانسور رفت و آمد می‌کنیم.",
+     "de": "Wir fahren mit dem Aufzug hinauf und hinunter."
+    },
+    {
+     "fa": "خانهٔ ما چند اتاق دارد: هال، دو اتاق خواب، و آشپزخانه.",
+     "de": "Unsere Wohnung hat mehrere Zimmer: ein Wohnzimmer, zwei Schlafzimmer und eine Küche."
+    },
+    {
+     "fa": "خانهٔ ما دستشویی و حمّام دارد.",
+     "de": "Unsere Wohnung hat eine Toilette und ein Bad."
+    },
+    {
+     "fa": "ما در ساختمان، حیاط، پارکینگ، و انباری داریم.",
+     "de": "Im Gebäude haben wir einen Hof, einen Parkplatz und einen Abstellraum."
+    },
+    {
+     "fa": "ما بیشتر وقت‌ها در هال می‌نشینیم.",
+     "de": "Meistens sitzen wir im Wohnzimmer."
+    },
+    {
+     "fa": "ما در هال تلویزیون تماشا می‌کنیم، به رادیو گوش می‌کنیم، با هم حرف می‌زنیم، و ناهار و شام می‌خوریم.",
+     "de": "Im Wohnzimmer schauen wir fern, hören Radio, unterhalten uns und essen zu Mittag und zu Abend."
+    },
+    {
+     "fa": "بچّه‌ها گاهی در هال با هم بازی می‌کنند.",
+     "de": "Die Kinder spielen manchmal zusammen im Wohnzimmer."
+    },
+    {
+     "fa": "شوهرم در هال مطالعه می‌کند.",
+     "de": "Mein Mann liest im Wohnzimmer."
+    },
+    {
+     "fa": "در هال ما دو قالی پهن است.",
+     "de": "In unserem Wohnzimmer liegen zwei Teppiche."
+    },
+    {
+     "fa": "در هال ما، چند پشتی و یک دست مبل هم هست.",
+     "de": "Im Wohnzimmer gibt es außerdem einige Sitzkissen und eine Sofagarnitur."
+    },
+    {
+     "fa": "ما بر روی دیوار، چند تابلوی نقّاشی گذاشته‌ایم.",
+     "de": "An die Wand haben wir einige Gemälde gehängt."
+    },
+    {
+     "fa": "من آشپزخانه را بیشتر از بقیهٔ اتاق‌ها دوست دارم.",
+     "de": "Die Küche mag ich mehr als alle anderen Zimmer."
+    },
+    {
+     "fa": "ما صبحانه را در آشپزخانه می‌خوریم.",
+     "de": "Wir frühstücken in der Küche."
+    },
+    {
+     "fa": "در آشپزخانهٔ ما یخچال، فریزر، ماشین لباسشویی، آبگرمکن، میز غذاخوری، و اجاق گاز قرار دارد.",
+     "de": "In unserer Küche stehen ein Kühlschrank, ein Gefrierschrank, eine Waschmaschine, ein Boiler, ein Esstisch und ein Gasherd."
+    },
+    {
+     "fa": "در اتاق‌های خواب، وسایل زیادی قرار دارد: تخت‌خواب، قفسهٔ کتاب، کمد، آینه، و کامپیوتر.",
+     "de": "In den Schlafzimmern stehen viele Dinge: Betten, ein Bücherregal, ein Schrank, ein Spiegel und ein Computer."
+    },
+    {
+     "fa": "خانهٔ ما بزرگ نیست، امّا راحت است.",
+     "de": "Unsere Wohnung ist nicht groß, aber gemütlich."
+    }
+   ]
+  },
+  {
+   "id": "vorud-be-iran",
+   "titel": "ورود به ایران",
+   "titel_de": "Ankunft im Iran",
+   "niveau": "A2",
+   "bild": "/lesen/vorud-be-iran.jpg",
+   "quelle": "Farsi-Lesebuch, Lektion 1",
+   "saetze": [
+    {
+     "fa": "هواپیما ساعت ۹:۱۵ شب، در فرودگاه مهرآباد تهران بر زمین نشست.",
+     "de": "Das Flugzeug landete um 21:15 Uhr am Flughafen Mehrabad in Teheran."
+    },
+    {
+     "fa": "زیگموند همراه با سایر مسافران ایرانی و خارجی از هواپیما پیاده شد.",
+     "de": "Sigmund stieg zusammen mit den anderen iranischen und ausländischen Passagieren aus dem Flugzeug."
+    },
+    {
+     "fa": "زیگموند اهل سوئد است.",
+     "de": "Sigmund kommt aus Schweden."
+    },
+    {
+     "fa": "او برای تحصیل در رشتهٔ ادبیات فارسی به ایران آمد.",
+     "de": "Er kam zum Studium der persischen Literatur in den Iran."
+    },
+    {
+     "fa": "زیگموند زبان فارسی را به خوبی صحبت می‌کند.",
+     "de": "Sigmund spricht gut Persisch."
+    },
+    {
+     "fa": "او مدارک خود را به مأموران فرودگاه نشان داد و به پرسش‌های آنها پاسخ داد.",
+     "de": "Er zeigte den Flughafenbeamten seine Dokumente und beantwortete ihre Fragen."
+    },
+    {
+     "fa": "زیگموند با تاکسی فرودگاه به هتل آزادی رفت.",
+     "de": "Sigmund fuhr mit einem Flughafentaxi zum Hotel Azadi."
+    },
+    {
+     "fa": "او پس از ورود به هتل به بخش اطلاعات آن رفت.",
+     "de": "Nach der Ankunft im Hotel ging er zur Information."
+    },
+    {
+     "fa": "زیگموند در اتاقی یک تخته در طبقهٔ سوم هتل اقامت کرد.",
+     "de": "Sigmund übernachtete in einem Einzelzimmer im dritten Stock des Hotels."
+    },
+    {
+     "fa": "زیگموند صبح روز بعد، صبحانه را در اتاق خود در هتل خورد.",
+     "de": "Am nächsten Morgen frühstückte Sigmund in seinem Zimmer im Hotel."
+    },
+    {
+     "fa": "سپس برای ثبت نام به دانشگاه تهران رفت.",
+     "de": "Dann ging er zur Einschreibung an die Universität Teheran."
+    },
+    {
+     "fa": "زیگموند پس از ثبت نام به کتاب‌فروشی‌های روبه‌روی دانشگاه تهران رفت.",
+     "de": "Nach der Einschreibung ging Sigmund zu den Buchhandlungen gegenüber der Universität Teheran."
+    },
+    {
+     "fa": "زیگموند از دیدن صدها کتاب‌فروشی در یک خیابان تعجّب کرد.",
+     "de": "Sigmund war erstaunt, Hunderte Buchhandlungen in einer Straße zu sehen."
+    },
+    {
+     "fa": "او چند کتاب شعر فارسی خرید.",
+     "de": "Er kaufte einige persische Gedichtbände."
+    },
+    {
+     "fa": "زیگموند پس از بازگشت به هتل تا نیمهٔ شب شعر می‌خواند.",
+     "de": "Nach der Rückkehr ins Hotel las Sigmund bis Mitternacht Gedichte."
+    },
+    {
+     "fa": "او از خواندن این شعرها لذّت می‌برد.",
+     "de": "Das Lesen dieser Gedichte machte ihm Freude."
+    }
+   ]
+  },
+  {
+   "id": "parviz-farhad",
+   "titel": "پرویز و فرهاد",
+   "titel_de": "Parviz und Farhad",
+   "niveau": "A2",
+   "bild": "/lesen/parviz-farhad.jpg",
+   "quelle": "Farsi-Lesebuch, Lektion 3",
+   "saetze": [
+    {
+     "fa": "پرویز و فرهاد دوقلو هستند.",
+     "de": "Parviz und Farhad sind Zwillinge."
+    },
+    {
+     "fa": "آنها هجده سال دارند.",
+     "de": "Sie sind achtzehn Jahre alt."
+    },
+    {
+     "fa": "آنها تقریباً هم‌قد هستند.",
+     "de": "Sie sind fast gleich groß."
+    },
+    {
+     "fa": "رنگ چشم‌های هر دو میشی است.",
+     "de": "Die Augenfarbe beider ist braun."
+    },
+    {
+     "fa": "موهای آنها مثل هم صاف است.",
+     "de": "Ihr Haar ist gleichermaßen glatt."
+    },
+    {
+     "fa": "قیافهٔ آنها خیلی شبیه هم است.",
+     "de": "Ihr Aussehen ist sich sehr ähnlich."
+    },
+    {
+     "fa": "لباس آنها هم شبیه هم است.",
+     "de": "Auch ihre Kleidung ist ähnlich."
+    },
+    {
+     "fa": "پرویز و فرهاد مثل هم حرف می‌زنند.",
+     "de": "Parviz und Farhad reden gleich."
+    },
+    {
+     "fa": "غذاهای مورد علاقهٔ آنها هم یکی است.",
+     "de": "Auch ihre Lieblingsspeisen sind dieselben."
+    },
+    {
+     "fa": "با وجود این، پرویز و فرهاد در یک مورد با هم تفاوت دارند.",
+     "de": "Trotzdem unterscheiden sich Parviz und Farhad in einem Punkt."
+    },
+    {
+     "fa": "پرویز به درس علاقهٔ زیادی ندارد.",
+     "de": "Parviz hat kein großes Interesse am Lernen."
+    },
+    {
+     "fa": "او به دبیرستان می‌رود و امسال دیپلم می‌گیرد.",
+     "de": "Er geht auf die Oberschule und macht dieses Jahr seinen Abschluss."
+    },
+    {
+     "fa": "پرویز مایل به ادامهٔ تحصیل در دانشگاه نیست.",
+     "de": "Parviz möchte nicht an der Universität weiterstudieren."
+    },
+    {
+     "fa": "او به کار اداری علاقه ندارد.",
+     "de": "Er hat kein Interesse an Büroarbeit."
+    },
+    {
+     "fa": "پرویز به کار آزاد علاقه دارد.",
+     "de": "Parviz interessiert sich für selbstständige Arbeit."
+    },
+    {
+     "fa": "او می‌خواهد در کارگاه پدرش کار کند و مکانیک شود.",
+     "de": "Er möchte in der Werkstatt seines Vaters arbeiten und Mechaniker werden."
+    },
+    {
+     "fa": "برعکس، فرهاد به ادامهٔ تحصیل علاقهٔ زیادی دارد.",
+     "de": "Umgekehrt hat Farhad großes Interesse daran, weiterzustudieren."
+    },
+    {
+     "fa": "او می‌خواهد لیسانس فیزیک بگیرد و در دبیرستان درس بدهد.",
+     "de": "Er möchte einen Bachelor in Physik machen und an der Oberschule unterrichten."
+    },
+    {
+     "fa": "فرهاد آرزو می‌کند که روزی دبیر شود.",
+     "de": "Farhad wünscht sich, eines Tages Lehrer zu werden."
+    }
+   ]
+  },
+  {
+   "id": "karhaye-sasan",
+   "titel": "کارهای روزانهٔ ساسان",
+   "titel_de": "Sasans Tagesablauf",
+   "niveau": "A2",
+   "bild": "/lesen/karhaye-sasan.jpg",
+   "quelle": "Farsi-Lesebuch, Lektion 4",
+   "saetze": [
+    {
+     "fa": "ساسان چهارده سال دارد.",
+     "de": "Sasan ist vierzehn Jahre alt."
+    },
+    {
+     "fa": "او به مدرسهٔ راهنمایی می‌رود.",
+     "de": "Er geht auf die Mittelschule."
+    },
+    {
+     "fa": "او دانش‌آموز سال سوم است.",
+     "de": "Er ist Schüler der dritten Klasse."
+    },
+    {
+     "fa": "ساسان هر روز صبح، ساعت هفت، به مدرسه می‌رود.",
+     "de": "Sasan geht jeden Morgen um sieben Uhr zur Schule."
+    },
+    {
+     "fa": "او با تاکسی به مدرسه می‌رود.",
+     "de": "Er fährt mit dem Taxi zur Schule."
+    },
+    {
+     "fa": "کلاس او ساعت هفت و نیم شروع می‌شود.",
+     "de": "Sein Unterricht beginnt um halb acht."
+    },
+    {
+     "fa": "ساسان درس‌های زیادی دارد، مانند تاریخ، جغرافیا، ریاضی، علوم، و تعلیمات دینی.",
+     "de": "Sasan hat viele Fächer, wie Geschichte, Geografie, Mathematik, Naturwissenschaften und Religion."
+    },
+    {
+     "fa": "او در زنگ تفریح به حیاط مدرسه می‌رود و با دوستانش بازی می‌کند.",
+     "de": "In der Pause geht er auf den Schulhof und spielt mit seinen Freunden."
+    },
+    {
+     "fa": "ساسان ساعت یک بعدازظهر به خانه برمی‌گردد.",
+     "de": "Sasan kommt um ein Uhr nachmittags nach Hause zurück."
+    },
+    {
+     "fa": "او با مادر و خواهران خود ناهار می‌خورد.",
+     "de": "Er isst mit seiner Mutter und seinen Schwestern zu Mittag."
+    },
+    {
+     "fa": "بعد از ناهار کمی استراحت می‌کند.",
+     "de": "Nach dem Mittagessen ruht er sich ein wenig aus."
+    },
+    {
+     "fa": "سپس تکلیف‌های روز بعد را انجام می‌دهد.",
+     "de": "Dann macht er die Hausaufgaben für den nächsten Tag."
+    },
+    {
+     "fa": "ساسان معمولاً ساعت چهار بعدازظهر به نانوایی پدرش می‌رود تا به او کمک کند.",
+     "de": "Sasan geht meistens um vier Uhr nachmittags zur Bäckerei seines Vaters, um ihm zu helfen."
+    },
+    {
+     "fa": "ساسان و پدرش ساعت هشت و نیم شب به خانه برمی‌گردند.",
+     "de": "Sasan und sein Vater kommen um halb neun abends nach Hause zurück."
+    },
+    {
+     "fa": "ساسان بعد از شام، تلویزیون تماشا می‌کند و بقیهٔ تکلیف‌های مدرسه را انجام می‌دهد.",
+     "de": "Nach dem Abendessen schaut Sasan fern und macht die restlichen Schulaufgaben."
+    },
+    {
+     "fa": "او همیشه قبل از ساعت یازده مسواک می‌زند و می‌خوابد.",
+     "de": "Er putzt sich immer vor elf Uhr die Zähne und geht schlafen."
+    }
+   ]
+  },
+  {
+   "id": "ruz-e-madar",
+   "titel": "روز مادر",
+   "titel_de": "Muttertag",
+   "niveau": "A2",
+   "bild": "/lesen/ruz-e-madar.jpg",
+   "quelle": "Farsi-Lesebuch, Lektion 5",
+   "saetze": [
+    {
+     "fa": "روز مادر، خیابان‌ها خیلی شلوغ است.",
+     "de": "Am Muttertag sind die Straßen sehr voll."
+    },
+    {
+     "fa": "مغازه‌ها و فروشگاه‌ها پر از جمعیّت است.",
+     "de": "Die Läden und Geschäfte sind voller Menschen."
+    },
+    {
+     "fa": "دخترها و پسرها برای مادرشان هدیه می‌خرند.",
+     "de": "Die Töchter und Söhne kaufen Geschenke für ihre Mutter."
+    },
+    {
+     "fa": "روز مادر، روز زن هم هست.",
+     "de": "Der Muttertag ist zugleich der Frauentag."
+    },
+    {
+     "fa": "به همین دلیل، مردها برای همسرشان هدیه می‌خرند.",
+     "de": "Deshalb kaufen die Männer Geschenke für ihre Frauen."
+    },
+    {
+     "fa": "امروز مهران و آمنه با پدرشان به فروشگاه رفتند.",
+     "de": "Heute gingen Mehran und Amene mit ihrem Vater ins Geschäft."
+    },
+    {
+     "fa": "آمنه برای مادرش دامن خرید.",
+     "de": "Amene kaufte für ihre Mutter einen Rock."
+    },
+    {
+     "fa": "مهران برای مادرش روسری خرید.",
+     "de": "Mehran kaufte für seine Mutter ein Kopftuch."
+    },
+    {
+     "fa": "پدر آنها برای همسرش عطر خرید.",
+     "de": "Ihr Vater kaufte für seine Frau ein Parfüm."
+    },
+    {
+     "fa": "او برای مادرش و مادرزنش هم پیراهن خرید.",
+     "de": "Er kaufte auch für seine Mutter und seine Schwiegermutter ein Kleid."
+    },
+    {
+     "fa": "مهران، آمنه، و پدر با دست‌های پر از هدیه به خانه بازگشتند.",
+     "de": "Mehran, Amene und der Vater kehrten mit Händen voller Geschenke nach Hause zurück."
+    },
+    {
+     "fa": "شب، همه دور هم جمع شدند: مهران، آمنه، پدر و مادر آنها، و مادربزرگ‌ها.",
+     "de": "Am Abend kamen alle zusammen: Mehran, Amene, ihre Eltern und die Großmütter."
+    },
+    {
+     "fa": "مهران و آمنه دامن و روسری را به مادرشان هدیه دادند.",
+     "de": "Mehran und Amene schenkten ihrer Mutter den Rock und das Kopftuch."
+    },
+    {
+     "fa": "آنها روز مادر را به او تبریک گفتند.",
+     "de": "Sie gratulierten ihr zum Muttertag."
+    },
+    {
+     "fa": "پدر مهران پیراهن‌ها را به مادرش و مادر زنش داد و به آنها تبریک گفت.",
+     "de": "Mehrans Vater gab die Kleider seiner Mutter und seiner Schwiegermutter und gratulierte ihnen."
+    },
+    {
+     "fa": "عطر را هم به همسرش داد.",
+     "de": "Das Parfüm gab er seiner Frau."
+    },
+    {
+     "fa": "او روز زن را به همسرش تبریک گفت.",
+     "de": "Er gratulierte seiner Frau zum Frauentag."
+    },
+    {
+     "fa": "مهران و آمنه، مادر و مادر بزرگ‌های خود را بوسیدند.",
+     "de": "Mehran und Amene küssten ihre Mutter und ihre Großmütter."
+    }
    ]
   }
  ]
