@@ -227,6 +227,12 @@
    "buch": 5,
    "titel": "Krieg & Frieden",
    "beschreibung": "Teil 5 – Themen"
+  },
+  {
+   "lektion_nummer": 504,
+   "buch": 5,
+   "titel": "Zuhause & Wohnen",
+   "beschreibung": "Teil 5 – Themen"
   }
  ],
  "woerter": [
@@ -8147,6 +8153,486 @@
    "lektion_nummer": 503,
    "beispielsatz_ko": "همه مردم صلح می‌خواهند.",
    "beispielsatz_de": "Alle Menschen wollen Frieden.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "طبقه",
+   "romanisierung": "tabaghe",
+   "deutsch": "Stockwerk / Etage",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "آپارتمان ما در طبقهٔ سوم است.",
+   "beispielsatz_de": "Unsere Wohnung ist im dritten Stock.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آپارتمان",
+   "romanisierung": "âpârtemân",
+   "deutsch": "Wohnung / Apartment",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "آپارتمان ما بزرگ نیست.",
+   "beispielsatz_de": "Unsere Wohnung ist nicht groß.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ساختمان",
+   "romanisierung": "sâkhtemân",
+   "deutsch": "Gebäude",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ما در یک ساختمان بلند زندگی می‌کنیم.",
+   "beispielsatz_de": "Wir wohnen in einem hohen Gebäude.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آسانسور",
+   "romanisierung": "âsânsor",
+   "deutsch": "Aufzug",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "آسانسور خراب است.",
+   "beispielsatz_de": "Der Aufzug ist kaputt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اتاق",
+   "romanisierung": "otâgh",
+   "deutsch": "Zimmer",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "این اتاق خیلی روشن است.",
+   "beispielsatz_de": "Dieses Zimmer ist sehr hell.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اتاق خواب",
+   "romanisierung": "otâgh-e khâb",
+   "deutsch": "Schlafzimmer",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "اتاق خواب من کوچک است.",
+   "beispielsatz_de": "Mein Schlafzimmer ist klein.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خواب",
+   "romanisierung": "khâb",
+   "deutsch": "Schlaf / Traum",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "خواب خوبی داشتم.",
+   "beispielsatz_de": "Ich hatte einen guten Schlaf.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آشپزخانه",
+   "romanisierung": "âshpazkhâne",
+   "deutsch": "Küche",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ما در آشپزخانه صبحانه می‌خوریم.",
+   "beispielsatz_de": "Wir frühstücken in der Küche.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دستشویی",
+   "romanisierung": "dastshuyi",
+   "deutsch": "Toilette",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "دستشویی آن طرف است.",
+   "beispielsatz_de": "Die Toilette ist auf der anderen Seite.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "حمام",
+   "romanisierung": "hammâm",
+   "deutsch": "Bad / Badezimmer",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "حمام ما تمیز است.",
+   "beispielsatz_de": "Unser Bad ist sauber.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "هال",
+   "romanisierung": "hâl",
+   "deutsch": "Wohnzimmer",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ما در هال تلویزیون تماشا می‌کنیم.",
+   "beispielsatz_de": "Im Wohnzimmer schauen wir fern.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "حیاط",
+   "romanisierung": "hayât",
+   "deutsch": "Hof",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "بچه‌ها در حیاط بازی می‌کنند.",
+   "beispielsatz_de": "Die Kinder spielen im Hof.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پارکینگ",
+   "romanisierung": "pârking",
+   "deutsch": "Parkplatz / Garage",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ماشین در پارکینگ است.",
+   "beispielsatz_de": "Das Auto ist in der Garage.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "انباری",
+   "romanisierung": "anbâri",
+   "deutsch": "Abstellraum",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "وسایل قدیمی در انباری است.",
+   "beispielsatz_de": "Die alten Sachen sind im Abstellraum.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دیوار",
+   "romanisierung": "divâr",
+   "deutsch": "Wand / Mauer",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "روی دیوار یک تابلو است.",
+   "beispielsatz_de": "An der Wand ist ein Bild.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تابلو",
+   "romanisierung": "tâblo",
+   "deutsch": "Bild / Tafel",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "این تابلو زیباست.",
+   "beispielsatz_de": "Dieses Bild ist schön.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نقاشی",
+   "romanisierung": "naghghâshi",
+   "deutsch": "Malerei / Gemälde",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "او نقاشی دوست دارد.",
+   "beispielsatz_de": "Er mag Malerei.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قالی",
+   "romanisierung": "ghâli",
+   "deutsch": "Teppich",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "این قالی خیلی قشنگ است.",
+   "beispielsatz_de": "Dieser Teppich ist sehr schön.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مبل",
+   "romanisierung": "mobl",
+   "deutsch": "Sofa / Sessel",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "روی مبل نشستیم.",
+   "beispielsatz_de": "Wir setzten uns aufs Sofa.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پشتی",
+   "romanisierung": "poshti",
+   "deutsch": "Sitzkissen",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "چند پشتی روی زمین است.",
+   "beispielsatz_de": "Einige Sitzkissen liegen auf dem Boden.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "میز",
+   "romanisierung": "miz",
+   "deutsch": "Tisch",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "کتاب روی میز است.",
+   "beispielsatz_de": "Das Buch ist auf dem Tisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کمد",
+   "romanisierung": "komod",
+   "deutsch": "Schrank",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "لباس‌ها در کمد است.",
+   "beispielsatz_de": "Die Kleider sind im Schrank.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قفسه",
+   "romanisierung": "ghafase",
+   "deutsch": "Regal",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "کتاب‌ها در قفسه است.",
+   "beispielsatz_de": "Die Bücher sind im Regal.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آینه",
+   "romanisierung": "âyene",
+   "deutsch": "Spiegel",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "او در آینه نگاه کرد.",
+   "beispielsatz_de": "Er schaute in den Spiegel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تخت‌خواب",
+   "romanisierung": "takhtekhâb",
+   "deutsch": "Bett",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "من روی تخت‌خواب خوابیدم.",
+   "beispielsatz_de": "Ich schlief im Bett.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "یخچال",
+   "romanisierung": "yakhchâl",
+   "deutsch": "Kühlschrank",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "غذا در یخچال است.",
+   "beispielsatz_de": "Das Essen ist im Kühlschrank.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "فریزر",
+   "romanisierung": "ferizer",
+   "deutsch": "Gefrierschrank",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "گوشت در فریزر است.",
+   "beispielsatz_de": "Das Fleisch ist im Gefrierschrank.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اجاق",
+   "romanisierung": "ojâgh",
+   "deutsch": "Herd",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "غذا روی اجاق است.",
+   "beispielsatz_de": "Das Essen ist auf dem Herd.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گاز",
+   "romanisierung": "gâz",
+   "deutsch": "Gas",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "اجاق گاز روشن است.",
+   "beispielsatz_de": "Der Gasherd ist an.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آبگرمکن",
+   "romanisierung": "âbgarmkon",
+   "deutsch": "Boiler / Warmwasserbereiter",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "آبگرمکن خراب شد.",
+   "beispielsatz_de": "Der Boiler ging kaputt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تلویزیون",
+   "romanisierung": "televizion",
+   "deutsch": "Fernseher",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "تلویزیون روشن است.",
+   "beispielsatz_de": "Der Fernseher ist an.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "رادیو",
+   "romanisierung": "râdio",
+   "deutsch": "Radio",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "به رادیو گوش می‌کنیم.",
+   "beispielsatz_de": "Wir hören Radio.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کامپیوتر",
+   "romanisierung": "kâmpiuter",
+   "deutsch": "Computer",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "کامپیوتر روی میز است.",
+   "beispielsatz_de": "Der Computer ist auf dem Tisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ماشین",
+   "romanisierung": "mâshin",
+   "deutsch": "Maschine / Auto",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ماشین لباسشویی کار می‌کند.",
+   "beispielsatz_de": "Die Waschmaschine läuft.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ماشین لباسشویی",
+   "romanisierung": "mâshin-e lebâsshuyi",
+   "deutsch": "Waschmaschine",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ماشین لباسشویی در حمام است.",
+   "beispielsatz_de": "Die Waschmaschine ist im Bad.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "وسایل",
+   "romanisierung": "vasâyel",
+   "deutsch": "Sachen / Gegenstände",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "وسایل زیادی در اتاق است.",
+   "beispielsatz_de": "Es sind viele Sachen im Zimmer.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "صبحانه",
+   "romanisierung": "sobhâne",
+   "deutsch": "Frühstück",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "صبحانه آماده است.",
+   "beispielsatz_de": "Das Frühstück ist fertig.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ناهار",
+   "romanisierung": "nâhâr",
+   "deutsch": "Mittagessen",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ناهار می‌خوریم.",
+   "beispielsatz_de": "Wir essen zu Mittag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شام",
+   "romanisierung": "shâm",
+   "deutsch": "Abendessen",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "شام حاضر است.",
+   "beispielsatz_de": "Das Abendessen ist fertig.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "راحت",
+   "romanisierung": "râhat",
+   "deutsch": "bequem / gemütlich",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "خانهٔ ما راحت است.",
+   "beispielsatz_de": "Unsere Wohnung ist gemütlich.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بیشتر",
+   "romanisierung": "bishtar",
+   "deutsch": "mehr / meistens",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "من بیشتر در هال هستم.",
+   "beispielsatz_de": "Ich bin meistens im Wohnzimmer.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گاهی",
+   "romanisierung": "gâhi",
+   "deutsch": "manchmal",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "گاهی تلویزیون تماشا می‌کنم.",
+   "beispielsatz_de": "Manchmal schaue ich fern.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پهن",
+   "romanisierung": "pahn",
+   "deutsch": "breit / ausgebreitet",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "قالی روی زمین پهن است.",
+   "beispielsatz_de": "Der Teppich ist auf dem Boden ausgebreitet.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نشستن",
+   "romanisierung": "neshastan",
+   "deutsch": "sitzen",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ما در هال می‌نشینیم.",
+   "beispielsatz_de": "Wir sitzen im Wohnzimmer.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خوردن",
+   "romanisierung": "khordan",
+   "deutsch": "essen",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ناهار می‌خوریم.",
+   "beispielsatz_de": "Wir essen zu Mittag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مطالعه کردن",
+   "romanisierung": "motâle'e kardan",
+   "deutsch": "lesen / studieren",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "او مطالعه می‌کند.",
+   "beispielsatz_de": "Er liest.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تماشا کردن",
+   "romanisierung": "tamâshâ kardan",
+   "deutsch": "anschauen / zusehen",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "ما فیلم تماشا می‌کنیم.",
+   "beispielsatz_de": "Wir schauen einen Film an.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گوش کردن",
+   "romanisierung": "gush kardan",
+   "deutsch": "zuhören",
+   "lektion_nummer": 504,
+   "beispielsatz_ko": "به موسیقی گوش می‌کنم.",
+   "beispielsatz_de": "Ich höre Musik.",
    "hinweis": null,
    "haeufigkeit": 3
   }
