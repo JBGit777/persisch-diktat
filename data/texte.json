@@ -1,0 +1,32 @@
+{
+ "texte": [
+  {
+   "id": "apartman-ma",
+   "titel": "آپارتمان ما",
+   "titel_de": "Unsere Wohnung",
+   "niveau": "A2",
+   "bild": "/lesen/apartman-ma.jpg",
+   "quelle": "Farsi-Lesebuch, Lektion 2",
+   "saetze": [
+    { "fa": "ما در ساختمانی چهار طبقه زندگی می‌کنیم.", "de": "Wir wohnen in einem vierstöckigen Gebäude." },
+    { "fa": "آپارتمان ما در طبقهٔ سوم آن است.", "de": "Unsere Wohnung ist im dritten Stock." },
+    { "fa": "ما با آسانسور رفت و آمد می‌کنیم.", "de": "Wir fahren mit dem Aufzug hinauf und hinunter." },
+    { "fa": "خانهٔ ما چند اتاق دارد: هال، دو اتاق خواب، و آشپزخانه.", "de": "Unsere Wohnung hat mehrere Zimmer: ein Wohnzimmer, zwei Schlafzimmer und eine Küche." },
+    { "fa": "خانهٔ ما دستشویی و حمّام دارد.", "de": "Unsere Wohnung hat eine Toilette und ein Bad." },
+    { "fa": "ما در ساختمان، حیاط، پارکینگ، و انباری داریم.", "de": "Im Gebäude haben wir einen Hof, einen Parkplatz und einen Abstellraum." },
+    { "fa": "ما بیشتر وقت‌ها در هال می‌نشینیم.", "de": "Meistens sitzen wir im Wohnzimmer." },
+    { "fa": "ما در هال تلویزیون تماشا می‌کنیم، به رادیو گوش می‌کنیم، با هم حرف می‌زنیم، و ناهار و شام می‌خوریم.", "de": "Im Wohnzimmer schauen wir fern, hören Radio, unterhalten uns und essen zu Mittag und zu Abend." },
+    { "fa": "بچّه‌ها گاهی در هال با هم بازی می‌کنند.", "de": "Die Kinder spielen manchmal zusammen im Wohnzimmer." },
+    { "fa": "شوهرم در هال مطالعه می‌کند.", "de": "Mein Mann liest im Wohnzimmer." },
+    { "fa": "در هال ما دو قالی پهن است.", "de": "In unserem Wohnzimmer liegen zwei Teppiche." },
+    { "fa": "در هال ما، چند پشتی و یک دست مبل هم هست.", "de": "Im Wohnzimmer gibt es außerdem einige Sitzkissen und eine Sofagarnitur." },
+    { "fa": "ما بر روی دیوار، چند تابلوی نقّاشی گذاشته‌ایم.", "de": "An die Wand haben wir einige Gemälde gehängt." },
+    { "fa": "من آشپزخانه را بیشتر از بقیهٔ اتاق‌ها دوست دارم.", "de": "Die Küche mag ich mehr als alle anderen Zimmer." },
+    { "fa": "ما صبحانه را در آشپزخانه می‌خوریم.", "de": "Wir frühstücken in der Küche." },
+    { "fa": "در آشپزخانهٔ ما یخچال، فریزر، ماشین لباسشویی، آبگرمکن، میز غذاخوری، و اجاق گاز قرار دارد.", "de": "In unserer Küche stehen ein Kühlschrank, ein Gefrierschrank, eine Waschmaschine, ein Boiler, ein Esstisch und ein Gasherd." },
+    { "fa": "در اتاق‌های خواب، وسایل زیادی قرار دارد: تخت‌خواب، قفسهٔ کتاب، کمد، آینه، و کامپیوتر.", "de": "In den Schlafzimmern stehen viele Dinge: Betten, ein Bücherregal, ein Schrank, ein Spiegel und ein Computer." },
+    { "fa": "خانهٔ ما بزرگ نیست، امّا راحت است.", "de": "Unsere Wohnung ist nicht groß, aber gemütlich." }
+   ]
+  }
+ ]
+}

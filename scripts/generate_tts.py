@@ -46,6 +46,12 @@ def collect_texts() -> dict:
     for w in data["woerter"]:
         add(w.get("persisch"))
         add(w.get("beispielsatz_ko"))
+    # Lesetexte (data/texte.json): jeder Satz bekommt Audio
+    tp = ROOT / "data" / "texte.json"
+    if tp.exists():
+        for t in json.loads(tp.read_text(encoding="utf-8")).get("texte", []):
+            for s in t.get("saetze", []):
+                add(s.get("fa"))
     return texts
 
 async def synth(voice, items, concurrency=8):

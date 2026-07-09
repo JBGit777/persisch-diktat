@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, GraduationCap, Headphones, Sparkles, BookText, Upload } from "lucide-react";
+import { LayoutDashboard, GraduationCap, Headphones, Sparkles, BookOpenText, BookText, Upload } from "lucide-react";
 
 const LINKS = [
   { href: "/", label: "Übersicht", Icon: LayoutDashboard, exact: true },
   { href: "/lektionen", label: "Lektionen", Icon: GraduationCap },
+  { href: "/lesen", label: "Lesen", Icon: BookOpenText },
   { href: "/diktat", label: "Üben", Icon: Headphones },
   { href: "/uebung", label: "Quiz", Icon: Sparkles },
   { href: "/lexikon", label: "Lexikon", Icon: BookText },
