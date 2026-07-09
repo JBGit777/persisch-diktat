@@ -245,6 +245,18 @@
    "buch": 5,
    "titel": "Stadt, Reise & Einkaufen",
    "beschreibung": "Teil 5 – Themen"
+  },
+  {
+   "lektion_nummer": 507,
+   "buch": 5,
+   "titel": "Haus & Familienalltag",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۶ (خانهٔ ما)"
+  },
+  {
+   "lektion_nummer": 508,
+   "buch": 5,
+   "titel": "Kleidung & Einkaufen",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۷ (لباس نو)"
   }
  ],
  "woerter": [
@@ -9225,6 +9237,396 @@
    "lektion_nummer": 506,
    "beispielsatz_ko": "از دیدن آن تعجب کردم.",
    "beispielsatz_de": "Ich wunderte mich, das zu sehen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مستأجر",
+   "romanisierung": "mosta'jer",
+   "deutsch": "Mieter",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "آن موقع، ما مستأجر بودیم.",
+   "beispielsatz_de": "Damals waren wir Mieter.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کارمند",
+   "romanisierung": "kârmand",
+   "deutsch": "Angestellte(r)",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "رضا کارمند اداره بود.",
+   "beispielsatz_de": "Reza war Angestellter in einem Amt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "معلم",
+   "romanisierung": "mo'allem",
+   "deutsch": "Lehrer(in)",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "من معلم ابتدایی بودم.",
+   "beispielsatz_de": "Ich war Grundschullehrerin.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ابتدایی",
+   "romanisierung": "ebtedâ'i",
+   "deutsch": "Grundschul-, elementar",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "او معلم ابتدایی است.",
+   "beispielsatz_de": "Sie ist Grundschullehrerin.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پس‌انداز",
+   "romanisierung": "pas-andâz",
+   "deutsch": "Ersparnis, Sparen",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "ما پول پس‌انداز کردیم.",
+   "beispielsatz_de": "Wir haben Geld gespart.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ازدواج",
+   "romanisierung": "ezdevâj",
+   "deutsch": "Heirat, Ehe",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "من ده سال پیش ازدواج کردم.",
+   "beispielsatz_de": "Vor zehn Jahren habe ich geheiratet.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "موقع",
+   "romanisierung": "mowghe'",
+   "deutsch": "Zeitpunkt, Gelegenheit",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "آن موقع خانه نداشتیم.",
+   "beispielsatz_de": "Damals hatten wir kein Haus.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "باغچه",
+   "romanisierung": "bâghche",
+   "deutsch": "Beet, kleiner Garten",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "در حیاط ما یک باغچه است.",
+   "beispielsatz_de": "In unserem Hof gibt es ein Beet.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "حوض",
+   "romanisierung": "howz",
+   "deutsch": "Wasserbecken",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "درون حوض چند ماهی است.",
+   "beispielsatz_de": "Im Becken sind einige Fische.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گلدان",
+   "romanisierung": "goldân",
+   "deutsch": "Blumentopf, Vase",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "چند گلدان در حیاط است.",
+   "beispielsatz_de": "Im Hof stehen einige Blumentöpfe.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قصه",
+   "romanisierung": "ghesse",
+   "deutsch": "Geschichte, Erzählung",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "مادربزرگ برای او قصه می‌گوید.",
+   "beispielsatz_de": "Die Großmutter erzählt ihr Geschichten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قرمز",
+   "romanisierung": "ghermez",
+   "deutsch": "rot",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "درون حوض ماهی قرمز است.",
+   "beispielsatz_de": "Im Becken ist ein roter Fisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پختن",
+   "romanisierung": "pokhtan",
+   "deutsch": "kochen",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "مادربزرگ در پختن غذا کمک می‌کند.",
+   "beispielsatz_de": "Die Großmutter hilft beim Kochen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شستن",
+   "romanisierung": "shostan",
+   "deutsch": "waschen",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "شیرین در شستن ظرف‌ها کمک می‌کند.",
+   "beispielsatz_de": "Schirin hilft beim Abwaschen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ظرف",
+   "romanisierung": "zarf",
+   "deutsch": "Geschirr, Gefäß",
+   "lektion_nummer": 507,
+   "beispielsatz_ko": "ظرف‌ها را می‌شویم.",
+   "beispielsatz_de": "Wir waschen das Geschirr.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نو",
+   "romanisierung": "now",
+   "deutsch": "neu",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "من به لباس نو احتیاج داشتم.",
+   "beispielsatz_de": "Ich brauchte neue Kleidung.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تابستان",
+   "romanisierung": "tâbestân",
+   "deutsch": "Sommer",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "روزهای آخر تابستان بود.",
+   "beispielsatz_de": "Es waren die letzten Sommertage.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خوشحال",
+   "romanisierung": "khoshhâl",
+   "deutsch": "froh, glücklich",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "ما خوشحال بودیم.",
+   "beispielsatz_de": "Wir waren froh.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "احتیاج",
+   "romanisierung": "ehtiyâj",
+   "deutsch": "Bedarf (احتیاج داشتن: brauchen)",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "من به لباس نو احتیاج داشتم.",
+   "beispielsatz_de": "Ich brauchte neue Kleidung.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پوشاک",
+   "romanisierung": "pushâk",
+   "deutsch": "Bekleidung",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "به فروشگاه پوشاک رفتیم.",
+   "beispielsatz_de": "Wir gingen ins Bekleidungsgeschäft.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مانتو",
+   "romanisierung": "mânto",
+   "deutsch": "Manteau, Damenmantel",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "یک مانتوی سرمه‌ای خریدم.",
+   "beispielsatz_de": "Ich kaufte einen dunkelblauen Mantel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سرمه‌ای",
+   "romanisierung": "sorme'i",
+   "deutsch": "dunkelblau, marineblau",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "مانتوی من سرمه‌ای است.",
+   "beispielsatz_de": "Mein Mantel ist dunkelblau.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مقنعه",
+   "romanisierung": "maghna'e",
+   "deutsch": "Kopftuch (Maghnaeh)",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "یک مقنعه خریدم.",
+   "beispielsatz_de": "Ich kaufte ein Kopftuch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کرم",
+   "romanisierung": "kerem",
+   "deutsch": "cremefarben",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "خواهرم یک مانتوی کرم خرید.",
+   "beispielsatz_de": "Meine Schwester kaufte einen cremefarbenen Mantel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شلوار",
+   "romanisierung": "shalvâr",
+   "deutsch": "Hose",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "او یک شلوار مشکی خرید.",
+   "beispielsatz_de": "Sie kaufte eine schwarze Hose.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مشکی",
+   "romanisierung": "meshki",
+   "deutsch": "schwarz",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "شلوار او مشکی است.",
+   "beispielsatz_de": "Ihre Hose ist schwarz.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کاپشن",
+   "romanisierung": "kâpshen",
+   "deutsch": "Jacke, Anorak",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "او می‌خواست کاپشن بخرد.",
+   "beispielsatz_de": "Sie wollte eine Jacke kaufen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دلخواه",
+   "romanisierung": "delkhâh",
+   "deutsch": "gewünscht, nach Wunsch",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "کاپشن دلخواه خود را نیافت.",
+   "beispielsatz_de": "Sie fand nicht die gewünschte Jacke.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کفش",
+   "romanisierung": "kafsh",
+   "deutsch": "Schuh",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "یک جفت کفش ورزشی خریدم.",
+   "beispielsatz_de": "Ich kaufte ein Paar Sportschuhe.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کفش‌فروشی",
+   "romanisierung": "kafsh-forushi",
+   "deutsch": "Schuhgeschäft",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "به کفش‌فروشی رفتیم.",
+   "beispielsatz_de": "Wir gingen zum Schuhgeschäft.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "جفت",
+   "romanisierung": "joft",
+   "deutsch": "Paar",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "یک جفت کفش خریدم.",
+   "beispielsatz_de": "Ich kaufte ein Paar Schuhe.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پوتین",
+   "romanisierung": "putin",
+   "deutsch": "Stiefel",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "خواهرم یک جفت پوتین خرید.",
+   "beispielsatz_de": "Meine Schwester kaufte ein Paar Stiefel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "زنانه",
+   "romanisierung": "zanâne",
+   "deutsch": "Damen-, für Frauen",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "او پوتین زنانه خرید.",
+   "beispielsatz_de": "Sie kaufte Damenstiefel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "میوه‌فروشی",
+   "romanisierung": "mive-forushi",
+   "deutsch": "Obsthändler",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "به میوه‌فروشی رفتیم.",
+   "beispielsatz_de": "Wir gingen zum Obsthändler.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کیلو",
+   "romanisierung": "kilu",
+   "deutsch": "Kilo(gramm)",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "چند کیلو سیب خرید.",
+   "beispielsatz_de": "Sie kaufte einige Kilo Äpfel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "انگور",
+   "romanisierung": "angur",
+   "deutsch": "Weintraube",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "مادرم انگور خرید.",
+   "beispielsatz_de": "Meine Mutter kaufte Trauben.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سیب",
+   "romanisierung": "sib",
+   "deutsch": "Apfel",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "من یک سیب خوردم.",
+   "beispielsatz_de": "Ich habe einen Apfel gegessen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "راضی",
+   "romanisierung": "râzi",
+   "deutsch": "zufrieden",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "من از خرید خود راضی بودم.",
+   "beispielsatz_de": "Ich war mit meinem Einkauf zufrieden.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تنگ",
+   "romanisierung": "tang",
+   "deutsch": "eng",
+   "lektion_nummer": 508,
+   "beispielsatz_ko": "پوتین سارا کمی تنگ بود.",
+   "beispielsatz_de": "Saras Stiefel waren etwas eng.",
    "hinweis": null,
    "haeufigkeit": 3
   }

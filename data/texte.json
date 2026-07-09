@@ -572,6 +572,252 @@
      "richtig": 1
     }
    ]
+  },
+  {
+   "id": "khane-ma",
+   "titel": "خانهٔ ما",
+   "titel_de": "Unser Haus",
+   "niveau": "A2",
+   "bild": "/lesen/khane-ma.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۶ – خانهٔ ما",
+   "saetze": [
+    {
+     "fa": "من ده سال پیش با رضا ازدواج کردم.",
+     "de": "Vor zehn Jahren habe ich Reza geheiratet."
+    },
+    {
+     "fa": "آن موقع، ما مستأجر بودیم.",
+     "de": "Damals waren wir Mieter."
+    },
+    {
+     "fa": "رضا کارمند اداره بود.",
+     "de": "Reza war Angestellter in einem Amt."
+    },
+    {
+     "fa": "من معلم ابتدایی بودم.",
+     "de": "Ich war Grundschullehrerin."
+    },
+    {
+     "fa": "ما سال‌ها مقداری از حقوق خود را پس‌انداز کردیم.",
+     "de": "Wir haben jahrelang einen Teil unseres Gehalts gespart."
+    },
+    {
+     "fa": "ما امسال توانستیم خانه‌ای بخریم.",
+     "de": "Dieses Jahr konnten wir ein Haus kaufen."
+    },
+    {
+     "fa": "اکنون من، رضا، مادر رضا، و دخترم شیرین در خانهٔ خودمان زندگی می‌کنیم.",
+     "de": "Jetzt wohnen ich, Reza, Rezas Mutter und meine Tochter Schirin in unserem eigenen Haus."
+    },
+    {
+     "fa": "خانهٔ ما یک هال، یک آشپزخانه، و دو اتاق خواب دارد.",
+     "de": "Unser Haus hat ein Wohnzimmer, eine Küche und zwei Schlafzimmer."
+    },
+    {
+     "fa": "خانهٔ ما حیاط کوچکی هم دارد.",
+     "de": "Unser Haus hat auch einen kleinen Hof."
+    },
+    {
+     "fa": "در حیاط ما یک باغچه، یک حوض، و چند گلدان است.",
+     "de": "In unserem Hof gibt es ein Beet, ein Wasserbecken und einige Blumentöpfe."
+    },
+    {
+     "fa": "شیرین و مادربزرگش گاهی در حیاط می‌نشینند.",
+     "de": "Schirin und ihre Großmutter sitzen manchmal im Hof."
+    },
+    {
+     "fa": "مادربزرگ برای او قصّه می‌گوید.",
+     "de": "Die Großmutter erzählt ihr Geschichten."
+    },
+    {
+     "fa": "درون حوض چند ماهی قرمز است.",
+     "de": "Im Becken sind einige Goldfische."
+    },
+    {
+     "fa": "شیرین با ماهی‌ها بازی می‌کند.",
+     "de": "Schirin spielt mit den Fischen."
+    },
+    {
+     "fa": "ما در کارها به هم کمک می‌کنیم.",
+     "de": "Wir helfen einander bei den Arbeiten."
+    },
+    {
+     "fa": "مادربزرگ در پختن غذا به من کمک می‌کند.",
+     "de": "Die Großmutter hilft mir beim Kochen."
+    },
+    {
+     "fa": "شیرین در شستن ظرف‌ها به من کمک می‌کند.",
+     "de": "Schirin hilft mir beim Abwaschen."
+    },
+    {
+     "fa": "شوهرم خرید خانه را انجام می‌دهد.",
+     "de": "Mein Mann erledigt die Einkäufe fürs Haus."
+    },
+    {
+     "fa": "ما خانهٔ جدیدمان را خیلی دوست داریم.",
+     "de": "Wir lieben unser neues Haus sehr."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "چه کسی در کارهای داخل خانه به من کمک می‌کند؟",
+     "frage_de": "Wer hilft mir bei der Hausarbeit?",
+     "optionen": [
+      "شوهرم و دخترم",
+      "مادرشوهرم و دخترم",
+      "مادربزرگ و رضا",
+      "همسایه‌ها"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "خانهٔ ما چند اتاق خواب دارد؟",
+     "frage_de": "Wie viele Schlafzimmer hat unser Haus?",
+     "optionen": [
+      "یک اتاق",
+      "دو اتاق",
+      "سه اتاق",
+      "چهار اتاق"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "من و رضا چند فرزند داریم؟",
+     "frage_de": "Wie viele Kinder haben Reza und ich?",
+     "optionen": [
+      "یک فرزند",
+      "دو فرزند",
+      "سه فرزند",
+      "بدون فرزند"
+     ],
+     "richtig": 0
+    }
+   ]
+  },
+  {
+   "id": "lebas-no",
+   "titel": "لباس نو",
+   "titel_de": "Neue Kleidung",
+   "niveau": "A2",
+   "bild": "/lesen/lebas-no.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۷ – لباس نو",
+   "saetze": [
+    {
+     "fa": "روزهای آخر تابستان بود.",
+     "de": "Es waren die letzten Sommertage."
+    },
+    {
+     "fa": "سال تحصیلی جدید نزدیک می‌شد.",
+     "de": "Das neue Schuljahr rückte näher."
+    },
+    {
+     "fa": "من و خواهرم سارا خوشحال بودیم.",
+     "de": "Ich und meine Schwester Sara waren froh."
+    },
+    {
+     "fa": "من به کلاس دوم دبیرستان می‌رفتم.",
+     "de": "Ich ging in die zweite Klasse der Oberschule."
+    },
+    {
+     "fa": "سارا وارد سال دوم دانشگاه می‌شد.",
+     "de": "Sara kam ins zweite Studienjahr an der Universität."
+    },
+    {
+     "fa": "من و سارا به لباس نو احتیاج داشتیم.",
+     "de": "Sara und ich brauchten neue Kleidung."
+    },
+    {
+     "fa": "مادرم ما را به بازار برد تا لباس نو بخریم.",
+     "de": "Meine Mutter nahm uns zum Basar mit, um neue Kleidung zu kaufen."
+    },
+    {
+     "fa": "اوّل به فروشگاه پوشاک رفتیم.",
+     "de": "Zuerst gingen wir ins Bekleidungsgeschäft."
+    },
+    {
+     "fa": "من یک مانتوی سرمه‌ای و یک مقنعه خریدم.",
+     "de": "Ich kaufte einen dunkelblauen Mantel und ein Kopftuch (Maghnaeh)."
+    },
+    {
+     "fa": "خواهرم یک مانتوی کرم خرید.",
+     "de": "Meine Schwester kaufte einen cremefarbenen Mantel."
+    },
+    {
+     "fa": "خواهرم یک شلوار مشکی هم خرید.",
+     "de": "Meine Schwester kaufte auch eine schwarze Hose."
+    },
+    {
+     "fa": "او می‌خواست کاپشن هم بخرد، اما نتوانست کاپشن دلخواه خود را انتخاب کند.",
+     "de": "Sie wollte auch eine Jacke kaufen, konnte aber nicht die gewünschte Jacke auswählen."
+    },
+    {
+     "fa": "ما از فروشگاه پوشاک به کفش‌فروشی رفتیم.",
+     "de": "Vom Bekleidungsgeschäft gingen wir zum Schuhgeschäft."
+    },
+    {
+     "fa": "من یک جفت کفش ورزشی خریدم.",
+     "de": "Ich kaufte ein Paar Sportschuhe."
+    },
+    {
+     "fa": "خواهرم یک جفت پوتین زنانه خرید.",
+     "de": "Meine Schwester kaufte ein Paar Damenstiefel."
+    },
+    {
+     "fa": "ما موقع برگشتن به خانه به میوه‌فروشی رفتیم.",
+     "de": "Auf dem Rückweg nach Hause gingen wir zum Obsthändler."
+    },
+    {
+     "fa": "مادرم چند کیلو انگور و سیب خرید.",
+     "de": "Meine Mutter kaufte einige Kilo Trauben und Äpfel."
+    },
+    {
+     "fa": "بعد به خانه برگشتیم.",
+     "de": "Dann kehrten wir nach Hause zurück."
+    },
+    {
+     "fa": "من و سارا یک بار دیگر لباس‌ها را در خانه پوشیدیم.",
+     "de": "Sara und ich zogen die Kleider zu Hause noch einmal an."
+    },
+    {
+     "fa": "من از خرید خود راضی بودم، اما پوتین سارا کمی تنگ بود.",
+     "de": "Ich war mit meinem Einkauf zufrieden, aber Saras Stiefel waren etwas eng."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "راوی به کدام کلاس می‌رفت؟",
+     "frage_de": "In welche Klasse ging die Erzählerin?",
+     "optionen": [
+      "کلاس اول دبیرستان",
+      "کلاس دوم دبیرستان",
+      "سال دوم دانشگاه",
+      "کلاس سوم راهنمایی"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "مادر در میوه‌فروشی چه خرید؟",
+     "frage_de": "Was kaufte die Mutter beim Obsthändler?",
+     "optionen": [
+      "انگور و سیب",
+      "کفش ورزشی",
+      "مانتو و مقنعه",
+      "پوتین زنانه"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "مشکل پوتین سارا چه بود؟",
+     "frage_de": "Was war das Problem mit Saras Stiefeln?",
+     "optionen": [
+      "کمی تنگ بود",
+      "خیلی گران بود",
+      "رنگش بد بود",
+      "پاره بود"
+     ],
+     "richtig": 0
+    }
+   ]
   }
  ]
 }
