@@ -233,6 +233,18 @@
    "buch": 5,
    "titel": "Zuhause & Wohnen",
    "beschreibung": "Teil 5 – Themen"
+  },
+  {
+   "lektion_nummer": 505,
+   "buch": 5,
+   "titel": "Familie, Schule & Bildung",
+   "beschreibung": "Teil 5 – Themen"
+  },
+  {
+   "lektion_nummer": 506,
+   "buch": 5,
+   "titel": "Stadt, Reise & Einkaufen",
+   "beschreibung": "Teil 5 – Themen"
   }
  ],
  "woerter": [
@@ -8633,6 +8645,586 @@
    "lektion_nummer": 504,
    "beispielsatz_ko": "به موسیقی گوش می‌کنم.",
    "beispielsatz_de": "Ich höre Musik.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مادر",
+   "romanisierung": "mâdar",
+   "deutsch": "Mutter",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "من مادرم را دوست دارم.",
+   "beispielsatz_de": "Ich liebe meine Mutter.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پدر",
+   "romanisierung": "pedar",
+   "deutsch": "Vater",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "پدرم در نانوایی کار می‌کند.",
+   "beispielsatz_de": "Mein Vater arbeitet in der Bäckerei.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خواهر",
+   "romanisierung": "khâhar",
+   "deutsch": "Schwester",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "من دو خواهر دارم.",
+   "beispielsatz_de": "Ich habe zwei Schwestern.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "برادر",
+   "romanisierung": "barâdar",
+   "deutsch": "Bruder",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "برادرم جوان است.",
+   "beispielsatz_de": "Mein Bruder ist jung.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "همسر",
+   "romanisierung": "hamsar",
+   "deutsch": "Ehepartner(in)",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "او برای همسرش هدیه خرید.",
+   "beispielsatz_de": "Er kaufte ein Geschenk für seine Frau.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دختر",
+   "romanisierung": "dokhtar",
+   "deutsch": "Tochter / Mädchen",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "آن دختر دانش‌آموز است.",
+   "beispielsatz_de": "Dieses Mädchen ist Schülerin.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پسر",
+   "romanisierung": "pesar",
+   "deutsch": "Sohn / Junge",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "پسرها فوتبال بازی می‌کنند.",
+   "beispielsatz_de": "Die Jungen spielen Fußball.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مادربزرگ",
+   "romanisierung": "mâdarbozorg",
+   "deutsch": "Großmutter",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "مادربزرگم مهربان است.",
+   "beispielsatz_de": "Meine Großmutter ist lieb.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دانش‌آموز",
+   "romanisierung": "dânesh-âmuz",
+   "deutsch": "Schüler(in)",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "او دانش‌آموز سال سوم است.",
+   "beispielsatz_de": "Er ist Schüler der dritten Klasse.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مسافر",
+   "romanisierung": "mosâfer",
+   "deutsch": "Reisende(r) / Passagier",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "مسافران از هواپیما پیاده شدند.",
+   "beispielsatz_de": "Die Passagiere stiegen aus dem Flugzeug.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "درس",
+   "romanisierung": "dars",
+   "deutsch": "Unterricht / Lektion",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "این درس آسان است.",
+   "beispielsatz_de": "Diese Lektion ist einfach.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کلاس",
+   "romanisierung": "kelâs",
+   "deutsch": "Klasse / Unterricht",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "کلاس ساعت هشت شروع می‌شود.",
+   "beispielsatz_de": "Der Unterricht beginnt um acht.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دبیرستان",
+   "romanisierung": "dabirestân",
+   "deutsch": "Oberschule",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "او به دبیرستان می‌رود.",
+   "beispielsatz_de": "Er geht auf die Oberschule.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تحصیل",
+   "romanisierung": "tahsil",
+   "deutsch": "Studium / Bildung",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "او تحصیل را ادامه می‌دهد.",
+   "beispielsatz_de": "Er setzt das Studium fort.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دیپلم",
+   "romanisierung": "diplom",
+   "deutsch": "Diplom / Abschluss",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "امسال دیپلم می‌گیرم.",
+   "beispielsatz_de": "Dieses Jahr mache ich meinen Abschluss.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "لیسانس",
+   "romanisierung": "lisâns",
+   "deutsch": "Bachelor",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "او لیسانس فیزیک دارد.",
+   "beispielsatz_de": "Er hat einen Bachelor in Physik.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دبیر",
+   "romanisierung": "dabir",
+   "deutsch": "Lehrer(in)",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "دبیر ما خیلی خوب است.",
+   "beispielsatz_de": "Unser Lehrer ist sehr gut.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تکلیف",
+   "romanisierung": "taklif",
+   "deutsch": "Hausaufgabe",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "تکلیف‌هایم را انجام دادم.",
+   "beispielsatz_de": "Ich habe meine Hausaufgaben gemacht.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مکانیک",
+   "romanisierung": "mekânik",
+   "deutsch": "Mechaniker",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "او می‌خواهد مکانیک شود.",
+   "beispielsatz_de": "Er möchte Mechaniker werden.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "استراحت",
+   "romanisierung": "esterâhat",
+   "deutsch": "Ruhe / Pause",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "بعد از ناهار استراحت می‌کنم.",
+   "beispielsatz_de": "Nach dem Mittagessen ruhe ich mich aus.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "زنگ",
+   "romanisierung": "zang",
+   "deutsch": "Klingel / Schulstunde",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "زنگ تفریح خورد.",
+   "beispielsatz_de": "Es klingelte zur Pause.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تفریح",
+   "romanisierung": "tafrih",
+   "deutsch": "Pause / Freizeit",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "در تفریح بازی می‌کنیم.",
+   "beispielsatz_de": "In der Pause spielen wir.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تاریخ",
+   "romanisierung": "târikh",
+   "deutsch": "Geschichte / Datum",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "درس تاریخ را دوست دارم.",
+   "beispielsatz_de": "Ich mag das Fach Geschichte.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "جغرافیا",
+   "romanisierung": "joghrâfiyâ",
+   "deutsch": "Geografie",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "جغرافیا سخت نیست.",
+   "beispielsatz_de": "Geografie ist nicht schwer.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ریاضی",
+   "romanisierung": "riyâzi",
+   "deutsch": "Mathematik",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "ریاضی درس مهمی است.",
+   "beispielsatz_de": "Mathematik ist ein wichtiges Fach.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "فیزیک",
+   "romanisierung": "fizik",
+   "deutsch": "Physik",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "او فیزیک می‌خواند.",
+   "beispielsatz_de": "Er studiert Physik.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "علوم",
+   "romanisierung": "olum",
+   "deutsch": "Naturwissenschaften",
+   "lektion_nummer": 505,
+   "beispielsatz_ko": "علوم جالب است.",
+   "beispielsatz_de": "Naturwissenschaften sind interessant.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "فرودگاه",
+   "romanisierung": "forudgâh",
+   "deutsch": "Flughafen",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "هواپیما در فرودگاه نشست.",
+   "beispielsatz_de": "Das Flugzeug landete am Flughafen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "هتل",
+   "romanisierung": "hotel",
+   "deutsch": "Hotel",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "او در هتل اقامت کرد.",
+   "beispielsatz_de": "Er übernachtete im Hotel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خیابان",
+   "romanisierung": "khiyâbân",
+   "deutsch": "Straße",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "خیابان‌ها شلوغ است.",
+   "beispielsatz_de": "Die Straßen sind voll.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مغازه",
+   "romanisierung": "maghâze",
+   "deutsch": "Laden",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "مغازه باز است.",
+   "beispielsatz_de": "Der Laden ist geöffnet.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "فروشگاه",
+   "romanisierung": "forushgâh",
+   "deutsch": "Geschäft / Kaufhaus",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "به فروشگاه رفتیم.",
+   "beispielsatz_de": "Wir gingen ins Geschäft.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نانوایی",
+   "romanisierung": "nânvâyi",
+   "deutsch": "Bäckerei",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "نان را از نانوایی خریدم.",
+   "beispielsatz_de": "Ich kaufte das Brot in der Bäckerei.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کارگاه",
+   "romanisierung": "kârgâh",
+   "deutsch": "Werkstatt",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "او در کارگاه کار می‌کند.",
+   "beispielsatz_de": "Er arbeitet in der Werkstatt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تاکسی",
+   "romanisierung": "tâksi",
+   "deutsch": "Taxi",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "با تاکسی به مدرسه رفتم.",
+   "beispielsatz_de": "Ich fuhr mit dem Taxi zur Schule.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مدرک",
+   "romanisierung": "madrak",
+   "deutsch": "Dokument / Zeugnis",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "مدارک خود را نشان داد.",
+   "beispielsatz_de": "Er zeigte seine Dokumente.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "هدیه",
+   "romanisierung": "hedye",
+   "deutsch": "Geschenk",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "برای مادرم هدیه خریدم.",
+   "beispielsatz_de": "Ich kaufte ein Geschenk für meine Mutter.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "عطر",
+   "romanisierung": "atr",
+   "deutsch": "Parfüm",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "او عطر دوست دارد.",
+   "beispielsatz_de": "Sie mag Parfüm.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پیراهن",
+   "romanisierung": "pirâhan",
+   "deutsch": "Hemd / Kleid",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "این پیراهن نو است.",
+   "beispielsatz_de": "Dieses Hemd ist neu.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دامن",
+   "romanisierung": "dâman",
+   "deutsch": "Rock",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "او یک دامن خرید.",
+   "beispielsatz_de": "Sie kaufte einen Rock.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "روسری",
+   "romanisierung": "rusari",
+   "deutsch": "Kopftuch",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "روسری قشنگی خرید.",
+   "beispielsatz_de": "Sie kaufte ein schönes Kopftuch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "لباس",
+   "romanisierung": "lebâs",
+   "deutsch": "Kleidung",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "لباس آنها شبیه هم است.",
+   "beispielsatz_de": "Ihre Kleidung ist ähnlich.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تبریک",
+   "romanisierung": "tabrik",
+   "deutsch": "Glückwunsch",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "روز مادر را تبریک گفت.",
+   "beispielsatz_de": "Er gratulierte zum Muttertag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شعر",
+   "romanisierung": "she'r",
+   "deutsch": "Gedicht",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "او شعر فارسی می‌خواند.",
+   "beispielsatz_de": "Er liest persische Gedichte.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "رنگ",
+   "romanisierung": "rang",
+   "deutsch": "Farbe",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "رنگ چشم‌هایش قهوه‌ای است.",
+   "beispielsatz_de": "Seine Augenfarbe ist braun.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مو",
+   "romanisierung": "mu",
+   "deutsch": "Haar",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "موهای او صاف است.",
+   "beispielsatz_de": "Ihr Haar ist glatt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قیافه",
+   "romanisierung": "ghiyâfe",
+   "deutsch": "Aussehen / Gesicht",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "قیافهٔ آنها شبیه است.",
+   "beispielsatz_de": "Ihr Aussehen ist ähnlich.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شبیه",
+   "romanisierung": "shabih",
+   "deutsch": "ähnlich",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "آنها شبیه هم هستند.",
+   "beispielsatz_de": "Sie sind einander ähnlich.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "صاف",
+   "romanisierung": "sâf",
+   "deutsch": "glatt / gerade",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "موهایش صاف است.",
+   "beispielsatz_de": "Sein Haar ist glatt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دوقلو",
+   "romanisierung": "doghlu",
+   "deutsch": "Zwilling",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "آنها دوقلو هستند.",
+   "beispielsatz_de": "Sie sind Zwillinge.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "صبح",
+   "romanisierung": "sobh",
+   "deutsch": "Morgen",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "صبح به مدرسه می‌روم.",
+   "beispielsatz_de": "Am Morgen gehe ich zur Schule.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شب",
+   "romanisierung": "shab",
+   "deutsch": "Nacht / Abend",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "شب به خانه برمی‌گردیم.",
+   "beispielsatz_de": "Abends kehren wir nach Hause zurück.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مسواک",
+   "romanisierung": "mesvâk",
+   "deutsch": "Zahnbürste / Zähneputzen",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "قبل از خواب مسواک می‌زنم.",
+   "beispielsatz_de": "Vor dem Schlafen putze ich die Zähne.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خریدن",
+   "romanisierung": "kharidan",
+   "deutsch": "kaufen",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "من یک کتاب خریدم.",
+   "beispielsatz_de": "Ich kaufte ein Buch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "صحبت کردن",
+   "romanisierung": "sohbat kardan",
+   "deutsch": "sprechen",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "او فارسی صحبت می‌کند.",
+   "beispielsatz_de": "Er spricht Persisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خوابیدن",
+   "romanisierung": "khâbidan",
+   "deutsch": "schlafen",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "من زود خوابیدم.",
+   "beispielsatz_de": "Ich ging früh schlafen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "برگشتن",
+   "romanisierung": "bargashtan",
+   "deutsch": "zurückkehren",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "او به خانه برگشت.",
+   "beispielsatz_de": "Er kehrte nach Hause zurück.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تعجب کردن",
+   "romanisierung": "ta'ajob kardan",
+   "deutsch": "sich wundern",
+   "lektion_nummer": 506,
+   "beispielsatz_ko": "از دیدن آن تعجب کردم.",
+   "beispielsatz_de": "Ich wunderte mich, das zu sehen.",
    "hinweis": null,
    "haeufigkeit": 3
   }
