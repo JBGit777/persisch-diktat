@@ -98,16 +98,42 @@ export default function HoerModus({ texte }: { texte: HoerText[] }) {
       timerRef.current = null;
     }
   }
+
+  /**
+   * EIN dauerhaft wiederverwendetes Audio-Element. Wichtig für iOS/Safari:
+   * ein frisch erzeugtes `new Audio()` verschluckt beim „Aufwärmen" die ersten
+   * Sekundenbruchteile – bei jedem Satz ab dem zweiten. Ein einmal (per
+   * Nutzergeste) entsperrtes, wiederverwendetes Element spielt zuverlässig ab 0.
+   */
+  function getMedia(): HTMLAudioElement {
+    if (!audioRef.current) {
+      const el = new Audio();
+      el.preload = "auto";
+      audioRef.current = el;
+    }
+    return audioRef.current;
+  }
+
+  /** Element weiterlaufen-fähig halten (nur pausieren, NICHT verwerfen). */
   function stopAudio() {
-    if (audioRef.current) {
-      audioRef.current.onended = null;
-      audioRef.current.onerror = null;
-      audioRef.current.pause();
-      audioRef.current = null;
+    const el = audioRef.current;
+    if (el) {
+      el.onended = null;
+      el.onerror = null;
+      el.onplaying = null;
+      el.pause();
     }
     if (typeof window !== "undefined" && "speechSynthesis" in window)
       window.speechSynthesis.cancel();
     clearTimer();
+  }
+
+  /** Quelle setzen und garantiert von Anfang an abspielen (load() erzwingt CT=0). */
+  function spieleQuelle(el: HTMLAudioElement, src: string, rate: number) {
+    el.playbackRate = rate;
+    el.src = src;
+    el.load();
+    return el.play();
   }
 
   function setMediaState(state: MediaSessionPlaybackState) {
@@ -151,22 +177,22 @@ export default function HoerModus({ texte }: { texte: HoerText[] }) {
 
   // Deutsche Übersetzung als echte MP3 (hintergrundfähig), Web-Speech nur Notfall.
   function sprichDeutsch(text: string, done: () => void) {
-    const a = new Audio(audioPfadDe(text));
-    a.playbackRate = optRef.current.langsam ? 0.85 : 1;
-    audioRef.current = a;
+    const el = getMedia();
     let lief = false;
-    a.onplaying = () => {
+    el.onplaying = () => {
       lief = true;
     };
-    a.onended = () => {
+    el.onended = () => {
       if (laeuftRef.current) done();
     };
-    a.onerror = () => {
+    el.onerror = () => {
       if (!lief) sprichDeutschWebSpeech(text, done); // MP3 fehlt → Fallback
     };
-    a.play().catch(() => {
-      if (!lief) sprichDeutschWebSpeech(text, done);
-    });
+    spieleQuelle(el, audioPfadDe(text), optRef.current.langsam ? 0.85 : 1).catch(
+      () => {
+        if (!lief) sprichDeutschWebSpeech(text, done);
+      }
+    );
   }
 
   function advance() {
@@ -193,15 +219,13 @@ export default function HoerModus({ texte }: { texte: HoerText[] }) {
     }
     stopAudio();
     updateMediaSession(item);
-    const a = new Audio(audioPfad(item.fa));
-    a.playbackRate = optRef.current.langsam ? 0.7 : 1;
-    audioRef.current = a;
+    const el = getMedia();
 
     const proceed = () => {
       if (!laeuftRef.current) return;
       if (optRef.current.wiederholPause) {
         const dur =
-          isFinite(a.duration) && a.duration > 0 ? a.duration * 1000 : 2500;
+          isFinite(el.duration) && el.duration > 0 ? el.duration * 1000 : 2500;
         clearTimer();
         timerRef.current = window.setTimeout(advance, Math.min(dur, 6000));
       } else advance();
@@ -211,13 +235,16 @@ export default function HoerModus({ texte }: { texte: HoerText[] }) {
       if (optRef.current.mitDeutsch) sprichDeutsch(item.de, proceed);
       else proceed();
     };
-    a.onended = afterFarsi;
-    a.onerror = () => {
+    el.onplaying = null;
+    el.onended = afterFarsi;
+    el.onerror = () => {
       if (laeuftRef.current) advance();
     }; // fehlende MP3 → still überspringen
-    a.play().catch(() => {
-      if (laeuftRef.current) advance();
-    });
+    spieleQuelle(el, audioPfad(item.fa), optRef.current.langsam ? 0.7 : 1).catch(
+      () => {
+        if (laeuftRef.current) advance();
+      }
+    );
   }
 
   function startAb(index: number) {

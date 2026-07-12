@@ -75,12 +75,23 @@ export default function LeseReader({
   // Aufräumen beim Verlassen.
   useEffect(() => stopp, []);
 
+  // EIN wiederverwendetes Audio-Element (iOS/Safari verschluckt sonst beim
+  // „Aufwärmen" eines frisch erzeugten Elements die ersten Wörter ab Satz 2).
+  function getMedia(): HTMLAudioElement {
+    if (!audioRef.current) {
+      const el = new Audio();
+      el.preload = "auto";
+      audioRef.current = el;
+    }
+    return audioRef.current;
+  }
+
   function stopp() {
     seqRef.current = false;
     if (audioRef.current) {
       audioRef.current.onended = null;
+      audioRef.current.onerror = null;
       audioRef.current.pause();
-      audioRef.current = null;
     }
     setAktiv(null);
     setSpielt(false);
@@ -88,13 +99,14 @@ export default function LeseReader({
 
   function spieleSatz(i: number): Promise<void> {
     return new Promise((resolve) => {
-      const a = new Audio(audioPfad(text.saetze[i].fa));
-      a.playbackRate = langsam ? 0.65 : 1;
-      audioRef.current = a;
+      const el = getMedia();
       setAktiv(i);
-      a.onended = () => resolve();
-      a.onerror = () => resolve(); // MP3 fehlt → still weiter
-      a.play().catch(() => resolve());
+      el.onended = () => resolve();
+      el.onerror = () => resolve(); // MP3 fehlt → still weiter
+      el.playbackRate = langsam ? 0.65 : 1;
+      el.src = audioPfad(text.saetze[i].fa);
+      el.load(); // erzwingt Start bei 0 (kein verschluckter Satzanfang)
+      el.play().catch(() => resolve());
     });
   }
 
