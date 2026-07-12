@@ -26,6 +26,11 @@ def normalize_fa(s: str) -> str:
     s = s.replace("‌", "")
     return re.sub(r"\s+", " ", s).strip()
 
+def normalize_de(s: str) -> str:
+    """Muss identisch zu audioPfadDe() in src/lib/audio.ts sein."""
+    s = unicodedata.normalize("NFC", s or "")
+    return re.sub(r"\s+", " ", s).strip()
+
 def fnv1a64(s: str) -> str:
     h = 14695981039346656037
     for b in s.encode("utf-8"):
@@ -54,13 +59,31 @@ def collect_texts() -> dict:
                 add(s.get("fa"))
     return texts
 
-async def synth(voice, items, concurrency=8):
+def collect_texts_de() -> dict:
+    """normhash -> deutscher Satz. Für den Hörmodus („Deutsch dazwischen"):
+    die Übersetzung jedes Lesetext-Satzes bekommt eine echte MP3 (de-DE),
+    damit sie – anders als Web-Speech – auch im Hintergrund/Sperrbildschirm läuft."""
+    import json
+    texts = {}
+    def add(t):
+        t = (t or "").strip()
+        if t:
+            texts.setdefault(fnv1a64(normalize_de(t)), t)
+    tp = ROOT / "data" / "texte.json"
+    if tp.exists():
+        for t in json.loads(tp.read_text(encoding="utf-8")).get("texte", []):
+            for s in t.get("saetze", []):
+                add(s.get("de"))
+    return texts
+
+async def synth(voice, items, out_dir=OUT, concurrency=8):
     import edge_tts
+    out_dir.mkdir(parents=True, exist_ok=True)
     sem = asyncio.Semaphore(concurrency)
     done = {"n": 0, "err": 0}
     total = len(items)
     async def one(key, text):
-        path = OUT / f"{key}.mp3"
+        path = out_dir / f"{key}.mp3"
         if path.exists() and path.stat().st_size > 0:
             done["n"] += 1; return
         async with sem:
@@ -82,12 +105,22 @@ async def synth(voice, items, concurrency=8):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--voice", default="fa-IR-DilaraNeural")
+    ap.add_argument("--de-voice", default="de-DE-KatjaNeural")
+    ap.add_argument("--skip-de", action="store_true", help="deutsche MP3s nicht erzeugen")
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
+
     texts = collect_texts()
-    print(f"{len(texts)} eindeutige Texte (Wörter + Sätze). Stimme: {args.voice}")
+    print(f"{len(texts)} eindeutige persische Texte (Wörter + Sätze). Stimme: {args.voice}")
     done = asyncio.run(synth(args.voice, texts))
-    print(f"Fertig: {done['n']} erzeugt/vorhanden, {done['err']} Fehler.")
+    print(f"Fertig (fa): {done['n']} erzeugt/vorhanden, {done['err']} Fehler.")
+
+    if not args.skip_de:
+        de_texts = collect_texts_de()
+        print(f"{len(de_texts)} deutsche Übersetzungen (Hörmodus). Stimme: {args.de_voice}")
+        done_de = asyncio.run(synth(args.de_voice, de_texts, OUT / "de"))
+        print(f"Fertig (de): {done_de['n']} erzeugt/vorhanden, {done_de['err']} Fehler.")
+
     print(f"Dateien in: {OUT}")
 
 if __name__ == "__main__":

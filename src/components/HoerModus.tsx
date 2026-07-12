@@ -13,7 +13,7 @@ import {
   Timer,
   Headphones,
 } from "lucide-react";
-import { audioPfad } from "@/lib/audio";
+import { audioPfad, audioPfadDe } from "@/lib/audio";
 
 interface Satz {
   fa: string;
@@ -129,7 +129,9 @@ export default function HoerModus({ texte }: { texte: HoerText[] }) {
     }
   }
 
-  function sprichDeutsch(text: string, done: () => void) {
+  // Web-Speech-Fallback (nur falls die deutsche MP3 fehlt – z. B. neu ergänzter
+  // Text ohne generiertes Audio). Läuft nicht im Hintergrund, daher zweite Wahl.
+  function sprichDeutschWebSpeech(text: string, done: () => void) {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) {
       done();
       return;
@@ -145,6 +147,26 @@ export default function HoerModus({ texte }: { texte: HoerText[] }) {
     u.onend = done;
     u.onerror = () => done();
     window.speechSynthesis.speak(u);
+  }
+
+  // Deutsche Übersetzung als echte MP3 (hintergrundfähig), Web-Speech nur Notfall.
+  function sprichDeutsch(text: string, done: () => void) {
+    const a = new Audio(audioPfadDe(text));
+    a.playbackRate = optRef.current.langsam ? 0.85 : 1;
+    audioRef.current = a;
+    let lief = false;
+    a.onplaying = () => {
+      lief = true;
+    };
+    a.onended = () => {
+      if (laeuftRef.current) done();
+    };
+    a.onerror = () => {
+      if (!lief) sprichDeutschWebSpeech(text, done); // MP3 fehlt → Fallback
+    };
+    a.play().catch(() => {
+      if (!lief) sprichDeutschWebSpeech(text, done);
+    });
   }
 
   function advance() {
