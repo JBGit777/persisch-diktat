@@ -257,6 +257,24 @@
    "buch": 5,
    "titel": "Kleidung & Einkaufen",
    "beschreibung": "Teil 5 – Lehrbuch درس ۷ (لباس نو)"
+  },
+  {
+   "lektion_nummer": 509,
+   "buch": 5,
+   "titel": "Gesundheit & Wochentage",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۸ (پزشک و بیماران)"
+  },
+  {
+   "lektion_nummer": 510,
+   "buch": 5,
+   "titel": "Hausarbeit & Alltag",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۹ (زن خانه‌دار)"
+  },
+  {
+   "lektion_nummer": 511,
+   "buch": 5,
+   "titel": "Gäste & Feiern",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۱۰ (مهمانی خانوادگی)"
   }
  ],
  "woerter": [
@@ -9627,6 +9645,616 @@
    "lektion_nummer": 508,
    "beispielsatz_ko": "پوتین سارا کمی تنگ بود.",
    "beispielsatz_de": "Saras Stiefel waren etwas eng.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پزشک",
+   "romanisierung": "pezeshk",
+   "deutsch": "Arzt, Ärztin",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "خانم دانا پزشک عمومی است.",
+   "beispielsatz_de": "Frau Dana ist Allgemeinärztin.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بیمار",
+   "romanisierung": "bimâr",
+   "deutsch": "Patient; krank",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "او بیماران زیادی را معاینه می‌کند.",
+   "beispielsatz_de": "Sie untersucht viele Patienten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بیماری",
+   "romanisierung": "bimâri",
+   "deutsch": "Krankheit",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "او برای بیماری‌های مختلف می‌آید.",
+   "beispielsatz_de": "Er kommt wegen verschiedener Krankheiten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بیمارستان",
+   "romanisierung": "bimârestân",
+   "deutsch": "Krankenhaus",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "خانم دانا به بیمارستان می‌رود.",
+   "beispielsatz_de": "Frau Dana geht ins Krankenhaus.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مطب",
+   "romanisierung": "matab",
+   "deutsch": "Arztpraxis",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "او به مطب خود می‌رود.",
+   "beispielsatz_de": "Sie geht in ihre Praxis.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "منشی",
+   "romanisierung": "monshi",
+   "deutsch": "Sekretär(in), Sprechstundenhilfe",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "در مطب او یک منشی کار می‌کند.",
+   "beispielsatz_de": "In ihrer Praxis arbeitet eine Sprechstundenhilfe.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "معاینه",
+   "romanisierung": "mo'âyene",
+   "deutsch": "Untersuchung (معاینه کردن: untersuchen)",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "پزشک بیمار را معاینه می‌کند.",
+   "beispielsatz_de": "Der Arzt untersucht den Patienten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نسخه",
+   "romanisierung": "nose",
+   "deutsch": "Rezept",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "خانم دانا نسخه‌ای می‌نویسد.",
+   "beispielsatz_de": "Frau Dana schreibt ein Rezept.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "معالجه",
+   "romanisierung": "mo'âleje",
+   "deutsch": "Behandlung (معالجه کردن: behandeln)",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "او بیمار را معالجه می‌کند.",
+   "beispielsatz_de": "Sie behandelt den Patienten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سرماخوردگی",
+   "romanisierung": "sarmâkhordegi",
+   "deutsch": "Erkältung",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "او سرماخوردگی دارد.",
+   "beispielsatz_de": "Er hat eine Erkältung.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سردرد",
+   "romanisierung": "sardard",
+   "deutsch": "Kopfschmerz",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "من سردرد دارم.",
+   "beispielsatz_de": "Ich habe Kopfschmerzen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دل‌درد",
+   "romanisierung": "deldard",
+   "deutsch": "Bauchweh",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "بچه دل‌درد دارد.",
+   "beispielsatz_de": "Das Kind hat Bauchweh.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تب",
+   "romanisierung": "tab",
+   "deutsch": "Fieber",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "او تب دارد.",
+   "beispielsatz_de": "Er hat Fieber.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تعطیل",
+   "romanisierung": "ta'til",
+   "deutsch": "geschlossen, frei (Feiertag)",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "جمعه روز تعطیل است.",
+   "beispielsatz_de": "Freitag ist ein Ruhetag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نوبت",
+   "romanisierung": "nowbat",
+   "deutsch": "Termin; Reihe (an der Reihe)",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "بیماران به نوبت وارد می‌شوند.",
+   "beispielsatz_de": "Die Patienten kommen der Reihe nach herein.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "احترام",
+   "romanisierung": "ehterâm",
+   "deutsch": "Respekt (احترام گذاشتن: achten)",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "مردم به دکتر احترام می‌گذارند.",
+   "beispielsatz_de": "Die Leute achten den Arzt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خسته",
+   "romanisierung": "khaste",
+   "deutsch": "müde",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "او هرشب خسته به خانه برمی‌گردد.",
+   "beispielsatz_de": "Sie kommt jeden Abend müde nach Hause.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "یکشنبه",
+   "romanisierung": "yekshanbe",
+   "deutsch": "Sonntag",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "یکشنبه به بیمارستان می‌رود.",
+   "beispielsatz_de": "Am Sonntag geht sie ins Krankenhaus.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دوشنبه",
+   "romanisierung": "doshanbe",
+   "deutsch": "Montag",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "دوشنبه کلاس داریم.",
+   "beispielsatz_de": "Am Montag haben wir Unterricht.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سه‌شنبه",
+   "romanisierung": "seshanbe",
+   "deutsch": "Dienstag",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "سه‌شنبه او کار می‌کند.",
+   "beispielsatz_de": "Am Dienstag arbeitet sie.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "چهارشنبه",
+   "romanisierung": "chahârshanbe",
+   "deutsch": "Mittwoch",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "چهارشنبه به مطب می‌رود.",
+   "beispielsatz_de": "Am Mittwoch geht sie in die Praxis.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پنجشنبه",
+   "romanisierung": "panjshanbe",
+   "deutsch": "Donnerstag",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "امروز پنجشنبه است.",
+   "beispielsatz_de": "Heute ist Donnerstag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "جمعه",
+   "romanisierung": "jom'e",
+   "deutsch": "Freitag",
+   "lektion_nummer": 509,
+   "beispielsatz_ko": "او جمعه‌ها کار نمی‌کند.",
+   "beispielsatz_de": "Freitags arbeitet sie nicht.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "متأهل",
+   "romanisierung": "mote'ahhel",
+   "deutsch": "verheiratet",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "پروین متأهل است.",
+   "beispielsatz_de": "Parvin ist verheiratet.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شاغل",
+   "romanisierung": "shâghel",
+   "deutsch": "berufstätig",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "او شاغل نیست.",
+   "beispielsatz_de": "Sie ist nicht berufstätig.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شوهر",
+   "romanisierung": "showhar",
+   "deutsch": "Ehemann",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "پروین با شوهرش زندگی می‌کند.",
+   "beispielsatz_de": "Parvin lebt mit ihrem Mann.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "محله",
+   "romanisierung": "mahalle",
+   "deutsch": "Viertel, Stadtteil",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "خانهٔ آنها در محله‌ای قدیمی است.",
+   "beispielsatz_de": "Ihr Haus liegt in einem alten Viertel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "وضو",
+   "romanisierung": "vozu",
+   "deutsch": "rituelle Waschung",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "او وضو گرفت و نماز خواند.",
+   "beispielsatz_de": "Sie nahm die Waschung vor und betete.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نماز",
+   "romanisierung": "namâz",
+   "deutsch": "(Pflicht-)Gebet",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "پروین نماز خواند.",
+   "beispielsatz_de": "Parvin betete.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "چای",
+   "romanisierung": "chây",
+   "deutsch": "Tee",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "او چای درست کرد.",
+   "beispielsatz_de": "Sie machte Tee.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سفره",
+   "romanisierung": "sofre",
+   "deutsch": "Tischtuch, gedeckter Tisch",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "سفرهٔ صبحانه را پهن کرد.",
+   "beispielsatz_de": "Sie deckte den Frühstückstisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شیر",
+   "romanisierung": "shir",
+   "deutsch": "Milch",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "او به دخترش شیر داد.",
+   "beispielsatz_de": "Sie gab ihrer Tochter Milch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سبزی",
+   "romanisierung": "sabzi",
+   "deutsch": "Gemüse, Kräuter",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "یک کیلو سبزی تازه خرید.",
+   "beispielsatz_de": "Sie kaufte ein Kilo frisches Gemüse.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سبزی‌فروشی",
+   "romanisierung": "sabzi-forushi",
+   "deutsch": "Gemüsehändler",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "پروین به سبزی‌فروشی رفت.",
+   "beispielsatz_de": "Parvin ging zum Gemüsehändler.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "منزل",
+   "romanisierung": "manzel",
+   "deutsch": "Wohnung, Haus",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "سبزی را به منزل آورد.",
+   "beispielsatz_de": "Sie brachte das Gemüse nach Hause.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "برنج",
+   "romanisierung": "berenj",
+   "deutsch": "Reis",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "ناهار برنج پخت.",
+   "beispielsatz_de": "Zum Mittag kochte sie Reis.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خورشت",
+   "romanisierung": "khoresht",
+   "deutsch": "Chorescht (Soßeneintopf)",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "خورشت بادنجان پخت.",
+   "beispielsatz_de": "Sie kochte Auberginen-Chorescht.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بادنجان",
+   "romanisierung": "bâdenjân",
+   "deutsch": "Aubergine",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "خورشت بادنجان خوشمزه است.",
+   "beispielsatz_de": "Auberginen-Chorescht ist lecker.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مطالعه",
+   "romanisierung": "motâle'e",
+   "deutsch": "Lektüre, Studium (مطالعه کردن: lesen)",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "پروین چند ساعت مطالعه کرد.",
+   "beispielsatz_de": "Parvin las einige Stunden.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مشغول",
+   "romanisierung": "mashghul",
+   "deutsch": "beschäftigt",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "او مشغول خواندن کتاب است.",
+   "beispielsatz_de": "Sie ist mit dem Lesen eines Buches beschäftigt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ظهر",
+   "romanisierung": "zohr",
+   "deutsch": "Mittag",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "ساعت یک بعد از ظهر برگشت.",
+   "beispielsatz_de": "Um ein Uhr mittags kam sie zurück.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "عصر",
+   "romanisierung": "asr",
+   "deutsch": "Nachmittag",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "عصر به بازار رفت.",
+   "beispielsatz_de": "Am Nachmittag ging sie zum Basar.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تمیز",
+   "romanisierung": "tamiz",
+   "deutsch": "sauber (تمیز کردن: putzen)",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "سبزی را تمیز کرد.",
+   "beispielsatz_de": "Sie putzte das Gemüse.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بیدار",
+   "romanisierung": "bidâr",
+   "deutsch": "wach (بیدار شدن: aufwachen)",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "پروین ساعت شش بیدار شد.",
+   "beispielsatz_de": "Parvin wachte um sechs auf.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پرکار",
+   "romanisierung": "porkâr",
+   "deutsch": "arbeitsam, arbeitsreich",
+   "lektion_nummer": 510,
+   "beispielsatz_ko": "او یک روز پرکار داشت.",
+   "beispielsatz_de": "Sie hatte einen arbeitsreichen Tag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مهمان",
+   "romanisierung": "mehmân",
+   "deutsch": "Gast",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "آنها امشب مهمان دارند.",
+   "beispielsatz_de": "Sie haben heute Abend Gäste.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مهمانی",
+   "romanisierung": "mehmâni",
+   "deutsch": "Fest, Einladung, Party",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "مهمانی ساعت دوازده تمام شد.",
+   "beispielsatz_de": "Das Fest endete um zwölf.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بستگان",
+   "romanisierung": "bastegân",
+   "deutsch": "Verwandte",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "آنها با بستگان خود رفت و آمد می‌کنند.",
+   "beispielsatz_de": "Sie verkehren mit ihren Verwandten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "علاقه",
+   "romanisierung": "alâghe",
+   "deutsch": "Interesse, Zuneigung (علاقه داشتن: mögen)",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "او به موسیقی علاقه دارد.",
+   "beispielsatz_de": "Er mag Musik.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دعوت",
+   "romanisierung": "da'vat",
+   "deutsch": "Einladung (دعوت کردن: einladen)",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "آنها دوستان را دعوت می‌کنند.",
+   "beispielsatz_de": "Sie laden die Freunde ein.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اعضا",
+   "romanisierung": "a'zâ",
+   "deutsch": "Mitglieder",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "همه اعضای خانواده کار می‌کنند.",
+   "beispielsatz_de": "Alle Familienmitglieder arbeiten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قورمه‌سبزی",
+   "romanisierung": "ghorme-sabzi",
+   "deutsch": "Ghormeh Sabzi (Gericht)",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "خانم موسوی قورمه‌سبزی درست می‌کند.",
+   "beispielsatz_de": "Frau Musavi macht Ghormeh Sabzi.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سالاد",
+   "romanisierung": "sâlâd",
+   "deutsch": "Salat",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "مینا سالاد درست می‌کند.",
+   "beispielsatz_de": "Mina macht Salat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مرتب",
+   "romanisierung": "morattab",
+   "deutsch": "ordentlich (مرتب کردن: aufräumen)",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "آقای موسوی اتاق را مرتب می‌کند.",
+   "beispielsatz_de": "Herr Musavi räumt das Zimmer auf.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "احوال‌پرسی",
+   "romanisierung": "ahvâl-porsi",
+   "deutsch": "Begrüßung, nach dem Befinden fragen",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "او با برادرش احوال‌پرسی می‌کند.",
+   "beispielsatz_de": "Er begrüßt seinen Bruder.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "روبوسی",
+   "romanisierung": "rubusi",
+   "deutsch": "Wangenkuss (zur Begrüßung)",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "آنها روبوسی می‌کنند.",
+   "beispielsatz_de": "Sie küssen sich auf die Wangen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خوشامد",
+   "romanisierung": "khoshâmad",
+   "deutsch": "Willkommen (خوشامد گفتن: willkommen heißen)",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "او به مهمان‌ها خوشامد می‌گوید.",
+   "beispielsatz_de": "Er heißt die Gäste willkommen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تعارف",
+   "romanisierung": "ta'ârof",
+   "deutsch": "Taarof, höfliches Anbieten",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "خانم موسوی میوه تعارف می‌کند.",
+   "beispielsatz_de": "Frau Musavi bietet höflich Obst an.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "صحبت",
+   "romanisierung": "sohbat",
+   "deutsch": "Gespräch (صحبت کردن: reden)",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "دو خانواده سرگرم صحبت شدند.",
+   "beispielsatz_de": "Die beiden Familien unterhielten sich.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "فرزند",
+   "romanisierung": "farzand",
+   "deutsch": "Kind (Nachkomme)",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "آنها سه فرزند دارند.",
+   "beispielsatz_de": "Sie haben drei Kinder.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کارد",
+   "romanisierung": "kârd",
+   "deutsch": "Messer",
+   "lektion_nummer": 511,
+   "beispielsatz_ko": "مهران کاردها را تمیز کرد.",
+   "beispielsatz_de": "Mehran putzte die Messer.",
    "hinweis": null,
    "haeufigkeit": 3
   }

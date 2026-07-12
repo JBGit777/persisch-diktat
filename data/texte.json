@@ -818,6 +818,421 @@
      "richtig": 0
     }
    ]
+  },
+  {
+   "id": "pezeshk-bimaran",
+   "titel": "پزشک و بیماران",
+   "titel_de": "Ärztin und Patienten",
+   "niveau": "A2",
+   "bild": "/lesen/pezeshk-bimaran.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۸ – پزشک و بیماران",
+   "saetze": [
+    {
+     "fa": "خانم دانا پزشک عمومی است.",
+     "de": "Frau Dana ist Allgemeinärztin."
+    },
+    {
+     "fa": "او روزهای شنبه، یکشنبه، دوشنبه، سه‌شنبه، چهارشنبه، و پنجشنبه کار می‌کند.",
+     "de": "Sie arbeitet samstags, sonntags, montags, dienstags, mittwochs und donnerstags."
+    },
+    {
+     "fa": "او جمعه‌ها کار نمی‌کند.",
+     "de": "Freitags arbeitet sie nicht."
+    },
+    {
+     "fa": "جمعه روز تعطیل است.",
+     "de": "Freitag ist ein Ruhetag."
+    },
+    {
+     "fa": "خانم دانا صبح‌ها به بیمارستان می‌رود.",
+     "de": "Frau Dana geht morgens ins Krankenhaus."
+    },
+    {
+     "fa": "او بیماران زیادی را معاینه می‌کند.",
+     "de": "Sie untersucht viele Patienten."
+    },
+    {
+     "fa": "خانم دانا ساعت یک بعد از ظهر به خانه برمی‌گردد.",
+     "de": "Frau Dana kehrt um ein Uhr mittags nach Hause zurück."
+    },
+    {
+     "fa": "او با پدر، مادر، و برادرش ناهار می‌خورد.",
+     "de": "Sie isst mit Vater, Mutter und ihrem Bruder zu Mittag."
+    },
+    {
+     "fa": "او بعد از ناهار کمی استراحت می‌کند.",
+     "de": "Nach dem Mittagessen ruht sie sich etwas aus."
+    },
+    {
+     "fa": "او ساعت چهار بعدازظهر به مطب خود می‌رود.",
+     "de": "Um vier Uhr nachmittags geht sie in ihre Praxis."
+    },
+    {
+     "fa": "در مطب او یک منشی کار می‌کند.",
+     "de": "In ihrer Praxis arbeitet eine Sprechstundenhilfe."
+    },
+    {
+     "fa": "منشی نام بیماران را در دفتر می‌نویسد.",
+     "de": "Die Sprechstundenhilfe trägt die Namen der Patienten ins Buch ein."
+    },
+    {
+     "fa": "او بیماران را به نوبت از اتاق انتظار به داخل مطب می‌فرستد.",
+     "de": "Sie schickt die Patienten der Reihe nach aus dem Wartezimmer in die Praxis."
+    },
+    {
+     "fa": "خانم دانا به دقت به حرف بیماران گوش می‌کند.",
+     "de": "Frau Dana hört den Patienten aufmerksam zu."
+    },
+    {
+     "fa": "آنها برای بیماری‌های مختلف به ملاقات او می‌آیند: سرماخوردگی، دل‌درد، سردرد، تب و مانند اینها.",
+     "de": "Sie kommen mit verschiedenen Beschwerden zu ihr: Erkältung, Bauchweh, Kopfschmerzen, Fieber und Ähnliches."
+    },
+    {
+     "fa": "خانم دانا نسخه‌ای می‌نویسد تا آنها را معالجه کند.",
+     "de": "Frau Dana schreibt ein Rezept, um sie zu behandeln."
+    },
+    {
+     "fa": "خانم دانا هرشب خسته به خانه برمی‌گردد، اما کار خود را دوست دارد.",
+     "de": "Frau Dana kommt jeden Abend müde nach Hause, aber sie liebt ihre Arbeit."
+    },
+    {
+     "fa": "مردم به دکتر دانا احترام می‌گذارند.",
+     "de": "Die Leute achten Doktor Dana."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "خانم دانا چند روز در هفته کار نمی‌کند؟",
+     "frage_de": "An wie vielen Tagen pro Woche arbeitet Frau Dana nicht?",
+     "optionen": [
+      "یک روز",
+      "دو روز",
+      "سه روز",
+      "چهار روز"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "بیماران چه وقت با خانم دانا ملاقات می‌کنند؟",
+     "frage_de": "Wann treffen die Patienten Frau Dana?",
+     "optionen": [
+      "فقط صبح",
+      "صبح و عصر",
+      "فقط شب",
+      "آخر هفته"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "خانم دانا قبل از رفتن به مطب چه می‌کند؟",
+     "frage_de": "Was macht Frau Dana, bevor sie in die Praxis geht?",
+     "optionen": [
+      "استراحت می‌کند",
+      "با منشی خود ناهار می‌خورد",
+      "خرید می‌کند",
+      "ورزش می‌کند"
+     ],
+     "richtig": 0
+    }
+   ]
+  },
+  {
+   "id": "zan-khanedar",
+   "titel": "زن خانه‌دار",
+   "titel_de": "Die Hausfrau",
+   "niveau": "A2",
+   "bild": "/lesen/zan-khanedar.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۹ – زن خانه‌دار",
+   "saetze": [
+    {
+     "fa": "پروین متأهّل است.",
+     "de": "Parvin ist verheiratet."
+    },
+    {
+     "fa": "او لیسانس تاریخ دارد، اما شاغل نیست.",
+     "de": "Sie hat einen Bachelor in Geschichte, ist aber nicht berufstätig."
+    },
+    {
+     "fa": "پروین با شوهر و دخترش زندگی می‌کند.",
+     "de": "Parvin lebt mit ihrem Mann und ihrer Tochter."
+    },
+    {
+     "fa": "خانهٔ آنها در محلّه‌ای قدیمی در شهر تبریز است.",
+     "de": "Ihr Haus liegt in einem alten Viertel der Stadt Täbris."
+    },
+    {
+     "fa": "پروین هر روز کارهای زیادی انجام می‌دهد.",
+     "de": "Parvin erledigt jeden Tag viele Arbeiten."
+    },
+    {
+     "fa": "او امروز هم کارهای زیادی انجام داد.",
+     "de": "Auch heute hat sie viele Arbeiten erledigt."
+    },
+    {
+     "fa": "پروین ساعت شش صبح بیدار شد.",
+     "de": "Parvin wachte um sechs Uhr morgens auf."
+    },
+    {
+     "fa": "ابتدا وضو گرفت و نماز خواند.",
+     "de": "Zuerst nahm sie die rituelle Waschung vor und betete."
+    },
+    {
+     "fa": "بعد، چای درست کرد، و سفرهٔ صبحانه را پهن کرد.",
+     "de": "Dann machte sie Tee und deckte den Frühstückstisch."
+    },
+    {
+     "fa": "او با شوهرش صبحانه خورد.",
+     "de": "Sie frühstückte mit ihrem Mann."
+    },
+    {
+     "fa": "شوهرش از او خداحافظی کرد و به سر کار رفت.",
+     "de": "Ihr Mann verabschiedete sich von ihr und ging zur Arbeit."
+    },
+    {
+     "fa": "پروین ظرف‌های صبحانه را شست.",
+     "de": "Parvin spülte das Frühstücksgeschirr."
+    },
+    {
+     "fa": "بعد به دختر پنج‌ماهه‌اش شیر داد.",
+     "de": "Dann stillte sie ihre fünf Monate alte Tochter."
+    },
+    {
+     "fa": "پروین ساعت هشت به سبزی‌فروشی رفت.",
+     "de": "Um acht Uhr ging Parvin zum Gemüsehändler."
+    },
+    {
+     "fa": "او یک کیلو سبزی تازه خرید.",
+     "de": "Sie kaufte ein Kilo frisches Gemüse."
+    },
+    {
+     "fa": "سبزی را به منزل آورد و تمیز کرد.",
+     "de": "Sie brachte das Gemüse nach Hause und putzte es."
+    },
+    {
+     "fa": "ناهار پخت: برنج و خورشت بادنجان.",
+     "de": "Sie kochte das Mittagessen: Reis und Auberginen-Chorescht."
+    },
+    {
+     "fa": "پروین چند ساعت مطالعه کرد.",
+     "de": "Parvin las einige Stunden."
+    },
+    {
+     "fa": "او مشغول خواندن کتابی دربارهٔ تاریخ ایران است.",
+     "de": "Sie liest gerade ein Buch über die Geschichte Irans."
+    },
+    {
+     "fa": "ساعت سه بعد از ظهر زنگ در به صدا درآمد.",
+     "de": "Um drei Uhr nachmittags klingelte es an der Tür."
+    },
+    {
+     "fa": "شوهر پروین از سر کار برگشت.",
+     "de": "Parvins Mann kam von der Arbeit zurück."
+    },
+    {
+     "fa": "او با نایلون میوه وارد شد.",
+     "de": "Er kam mit einer Tüte Obst herein."
+    },
+    {
+     "fa": "آنها با هم ناهار خوردند.",
+     "de": "Sie aßen zusammen zu Mittag."
+    },
+    {
+     "fa": "عصر، پروین همراه با دختر و شوهرش برای خرید به بازار رفت.",
+     "de": "Am Nachmittag ging Parvin mit Tochter und Mann zum Einkaufen auf den Basar."
+    },
+    {
+     "fa": "پروین یک دامن خرید.",
+     "de": "Parvin kaufte einen Rock."
+    },
+    {
+     "fa": "شوهرش یک جفت کفش نو خرید.",
+     "de": "Ihr Mann kaufte ein Paar neue Schuhe."
+    },
+    {
+     "fa": "آنها شام را در منزل پدر و مادر پروین خوردند.",
+     "de": "Sie aßen zu Abend bei Parvins Eltern."
+    },
+    {
+     "fa": "پروین بعد از شام به مادرش کمک کرد.",
+     "de": "Nach dem Abendessen half Parvin ihrer Mutter."
+    },
+    {
+     "fa": "او همهٔ ظرف‌ها را شست.",
+     "de": "Sie spülte das ganze Geschirr."
+    },
+    {
+     "fa": "الان ساعت یازده شب است.",
+     "de": "Jetzt ist es elf Uhr nachts."
+    },
+    {
+     "fa": "پروین یک روز پرکار دیگر را پشت سر گذاشت.",
+     "de": "Parvin hat einen weiteren arbeitsreichen Tag hinter sich gebracht."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "پروین قبل از ناهار چه کاری انجام داد؟",
+     "frage_de": "Was tat Parvin vor dem Mittagessen?",
+     "optionen": [
+      "مطالعه کرد",
+      "به مادرش کمک کرد",
+      "به سر کار رفت",
+      "خرید کفش"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "پروین با چه کسی زندگی می‌کند؟",
+     "frage_de": "Mit wem lebt Parvin?",
+     "optionen": [
+      "با شوهر و فرزندش",
+      "با والدینش",
+      "تنها",
+      "با خواهرش"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "شوهر پروین کدام کار را قبل از ناهار انجام داد؟",
+     "frage_de": "Was tat Parvins Mann vor dem Mittagessen?",
+     "optionen": [
+      "پاک کردن سبزی",
+      "خریدن میوه",
+      "شستن ظرف‌ها",
+      "پختن ناهار"
+     ],
+     "richtig": 1
+    }
+   ]
+  },
+  {
+   "id": "mehmani-khanevadegi",
+   "titel": "مهمانی خانوادگی",
+   "titel_de": "Ein Familienfest",
+   "niveau": "A2",
+   "bild": "/lesen/mehmani-khanevadegi.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۰ – مهمانی خانوادگی",
+   "saetze": [
+    {
+     "fa": "آقای موسوی و خانواده‌اش علاقه دارند با بستگان و دوستان خود رفت و آمد کنند.",
+     "de": "Herr Musavi und seine Familie verkehren gern mit Verwandten und Freunden."
+    },
+    {
+     "fa": "آنها گاهی بستگان و دوستان خود را برای شام دعوت می‌کنند.",
+     "de": "Manchmal laden sie Verwandte und Freunde zum Abendessen ein."
+    },
+    {
+     "fa": "امروز پنجشنبه است.",
+     "de": "Heute ist Donnerstag."
+    },
+    {
+     "fa": "آنها امشب مهمان دارند.",
+     "de": "Sie haben heute Abend Gäste."
+    },
+    {
+     "fa": "برادر آقای موسوی و خانواده‌اش مهمان آنها هستند.",
+     "de": "Herrn Musavis Bruder und dessen Familie sind ihre Gäste."
+    },
+    {
+     "fa": "همه اعضای خانوادهٔ موسوی مشغول کار هستند.",
+     "de": "Alle Mitglieder der Familie Musavi sind mit der Arbeit beschäftigt."
+    },
+    {
+     "fa": "خانم موسوی در آشپزخانه است.",
+     "de": "Frau Musavi ist in der Küche."
+    },
+    {
+     "fa": "او برنج و قورمه‌سبزی درست می‌کند.",
+     "de": "Sie macht Reis und Ghormeh-Sabzi."
+    },
+    {
+     "fa": "آقای موسوی اتاق را مرتّب می‌کند.",
+     "de": "Herr Musavi räumt das Zimmer auf."
+    },
+    {
+     "fa": "مینا سالاد درست می‌کند.",
+     "de": "Mina macht Salat."
+    },
+    {
+     "fa": "مهران میوه‌ها را در ظرف می‌چیند و کاردهای میوه‌خوری را تمیز می‌کند.",
+     "de": "Mehran richtet das Obst in einer Schale an und putzt die Obstmesser."
+    },
+    {
+     "fa": "ساعت هشت شب مهمان‌ها وارد می‌شوند: برادر آقای موسوی، همسرش، و فرزندان آنها به نام‌های فرزانه، فریبا، و فرخنده.",
+     "de": "Um acht Uhr abends kommen die Gäste an: Herrn Musavis Bruder, dessen Frau und ihre Kinder Farzane, Fariba und Farchonde."
+    },
+    {
+     "fa": "آقای موسوی با برادرش احوال‌پرسی و روبوسی می‌کند.",
+     "de": "Herr Musavi begrüßt seinen Bruder und küsst ihn auf die Wangen."
+    },
+    {
+     "fa": "او به بقیهٔ مهمان‌ها خوشامد می‌گوید.",
+     "de": "Er heißt die übrigen Gäste willkommen."
+    },
+    {
+     "fa": "خانم موسوی با مهمان‌ها احوال‌پرسی می‌کند.",
+     "de": "Frau Musavi begrüßt die Gäste."
+    },
+    {
+     "fa": "مینا و مهران سفرهٔ شام را می‌چینند.",
+     "de": "Mina und Mehran decken den Tisch fürs Abendessen."
+    },
+    {
+     "fa": "بعد از شام دو خانواده سرگرم صحبت می‌شوند.",
+     "de": "Nach dem Essen unterhalten sich die beiden Familien angeregt."
+    },
+    {
+     "fa": "خانم موسوی میوه‌ها را به مهمان‌ها تعارف می‌کند: «بفرمایید، میل کنید. خواهش می‌کنم بفرمایید.»",
+     "de": "Frau Musavi bietet den Gästen Obst an: „Bitte, greifen Sie zu. Bitte bedienen Sie sich.“"
+    },
+    {
+     "fa": "مهمانی ساعت ۱۲ شب به پایان می‌رسد.",
+     "de": "Das Fest endet um zwölf Uhr nachts."
+    },
+    {
+     "fa": "قرار است آقای موسوی و خانواده‌اش شب جمعهٔ آینده به خانهٔ برادرش بروند.",
+     "de": "Herr Musavi und seine Familie wollen nächsten Donnerstagabend zum Haus seines Bruders gehen."
+    },
+    {
+     "fa": "آنها قرار است شام آنجا باشند.",
+     "de": "Sie wollen dort zu Abend essen."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "دختر آقای موسوی در چه کاری کمک کرد؟",
+     "frage_de": "Wobei half Herrn Musavis Tochter?",
+     "optionen": [
+      "چیدن سفره",
+      "شستن میوه‌ها",
+      "پختن برنج",
+      "مرتّب کردن اتاق"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "مهمان آقای موسوی چه کسی بود؟",
+     "frage_de": "Wer war Herrn Musavis Gast?",
+     "optionen": [
+      "یکی از بستگان خانم موسوی",
+      "عموی مهران و خانواده‌اش",
+      "همکار آقای موسوی",
+      "همسایه‌ها"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "آقای موسوی کدام کار را انجام نداد؟",
+     "frage_de": "Welche Arbeit tat Herr Musavi nicht?",
+     "optionen": [
+      "مرتّب کردن اتاق",
+      "روبوسی با برادرزاده‌هایش",
+      "خوشامد گفتن",
+      "احوال‌پرسی با برادرش"
+     ],
+     "richtig": 1
+    }
+   ]
   }
  ]
 }

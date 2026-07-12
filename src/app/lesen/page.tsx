@@ -1,7 +1,7 @@
 import NavBar from "@/components/NavBar";
 import Link from "next/link";
 import Image from "next/image";
-import { BookOpenText } from "lucide-react";
+import { BookOpenText, Headphones } from "lucide-react";
 import texteData from "../../../data/texte.json";
 import type { LeseText } from "@/components/LeseReader";
 
@@ -20,6 +20,22 @@ export default function LesenPage() {
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
           Einfache persische Texte mit Vorlese-Funktion und Übersetzung Satz für Satz.
         </p>
+
+        <Link
+          href="/lesen/hoeren"
+          className="mt-4 flex items-center gap-3 rounded-xl bg-gradient-to-br from-slate-900 to-slate-800 px-4 py-3 text-white shadow-sm ring-1 ring-slate-700 transition hover:brightness-110"
+        >
+          <Headphones size={20} className="shrink-0 text-taeguk-blue" />
+          <span className="flex-1">
+            <span className="block text-sm font-semibold">Hörmodus</span>
+            <span className="block text-xs text-slate-300">
+              Alle Texte am Stück anhören – fürs Unterwegs-Lernen, auch bei gesperrtem Bildschirm.
+            </span>
+          </span>
+          <span aria-hidden className="text-slate-400">
+            →
+          </span>
+        </Link>
 
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {TEXTE.map((t) => (
