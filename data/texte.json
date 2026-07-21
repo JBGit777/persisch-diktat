@@ -1757,6 +1757,655 @@
      "richtig": 1
     }
    ]
+  },
+  {
+   "id": "khabgah-daneshjuyi",
+   "titel": "خوابگاه دانشجویی",
+   "titel_de": "Das Studentenwohnheim",
+   "niveau": "B1",
+   "bild": "/lesen/khabgah-daneshjuyi.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۵ – خوابگاه دانشجویی",
+   "saetze": [
+    {
+     "fa": "نام من کایو است.",
+     "de": "Mein Name ist Kayo."
+    },
+    {
+     "fa": "نام خانوادگی من کوروساوا است.",
+     "de": "Mein Familienname ist Kurosawa."
+    },
+    {
+     "fa": "من ژاپنی هستم.",
+     "de": "Ich bin Japanerin."
+    },
+    {
+     "fa": "من عاشق ادبیات مخصوصاً شعر هستم.",
+     "de": "Ich liebe Literatur, besonders Gedichte."
+    },
+    {
+     "fa": "من سال‌ها با چند نویسندهٔ ایرانی مکاتبه داشتم.",
+     "de": "Jahrelang stand ich mit einigen iranischen Schriftstellern in Briefwechsel."
+    },
+    {
+     "fa": "دو سال قبل برای تحصیل به ایران آمدم.",
+     "de": "Vor zwei Jahren kam ich zum Studium in den Iran."
+    },
+    {
+     "fa": "الان دانشجوی ادبیات فارسی در دانشگاه علامه طباطبایی هستم.",
+     "de": "Jetzt studiere ich persische Literatur an der Allame-Tabatabai-Universität."
+    },
+    {
+     "fa": "دانشگاه من در تهران است.",
+     "de": "Meine Universität ist in Teheran."
+    },
+    {
+     "fa": "من در خوابگاه دانشجویی زندگی می‌کنم.",
+     "de": "Ich wohne im Studentenwohnheim."
+    },
+    {
+     "fa": "خوابگاه ما دور از دانشگاه است.",
+     "de": "Unser Wohnheim ist weit von der Universität entfernt."
+    },
+    {
+     "fa": "من بعد از کلاس به دانشگاه می‌روم.",
+     "de": "Nach dem Unterricht gehe ich zur Universität."
+    },
+    {
+     "fa": "خوابگاه ما مخصوص دختران است.",
+     "de": "Unser Wohnheim ist nur für Mädchen."
+    },
+    {
+     "fa": "اتاق من در طبقهٔ دوم خوابگاه است.",
+     "de": "Mein Zimmer ist im zweiten Stock des Wohnheims."
+    },
+    {
+     "fa": "من و سه دانشجوی ایرانی در این اتاق زندگی می‌کنیم.",
+     "de": "Ich und drei iranische Studentinnen wohnen in diesem Zimmer."
+    },
+    {
+     "fa": "یکی از آنها همکلاسی من است.",
+     "de": "Eine von ihnen ist meine Kommilitonin."
+    },
+    {
+     "fa": "او در درس‌ها به من کمک می‌کند.",
+     "de": "Sie hilft mir bei den Kursen."
+    },
+    {
+     "fa": "رشتهٔ دو دانشجوی دیگر حقوق و فلسفه است.",
+     "de": "Die Fächer der beiden anderen Studentinnen sind Jura und Philosophie."
+    },
+    {
+     "fa": "ما نظافت اتاق و آشپزی را به نوبت انجام می‌دهیم.",
+     "de": "Zimmerreinigung und Kochen erledigen wir abwechselnd."
+    },
+    {
+     "fa": "من به آنها چند غذای ژاپنی یاد داده‌ام.",
+     "de": "Ich habe ihnen einige japanische Gerichte beigebracht."
+    },
+    {
+     "fa": "ما معمولاً روزهای تعطیل در خوابگاه نمی‌مانیم.",
+     "de": "An freien Tagen bleiben wir gewöhnlich nicht im Wohnheim."
+    },
+    {
+     "fa": "من و همکلاسی‌ام به سینما، پارک، تئاتر، یا استخر می‌رویم.",
+     "de": "Meine Kommilitonin und ich gehen ins Kino, in den Park, ins Theater oder ins Schwimmbad."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "من با دانشجوی چه رشته‌ای به سینما یا پارک می‌روم؟",
+     "frage_de": "Mit einer Studentin welchen Fachs gehe ich ins Kino oder in den Park?",
+     "optionen": [
+      "رشتهٔ حقوق",
+      "رشتهٔ ادبیات فارسی",
+      "رشتهٔ فلسفه",
+      "رشتهٔ ریاضی"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "من قبل از سفر به ایران با چه کسی آشنا بودم؟",
+     "frage_de": "Mit wem war ich vor der Reise in den Iran bekannt?",
+     "optionen": [
+      "با دو دانشجوی رشتهٔ حقوق و فلسفه",
+      "با چند نویسندهٔ ایرانی",
+      "با همکلاسی‌ام",
+      "با هیچ‌کس"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "در خوابگاه ما چه کسانی زندگی می‌کنند؟",
+     "frage_de": "Wer wohnt in unserem Wohnheim?",
+     "optionen": [
+      "فقط دانشجویان رشتهٔ فارسی",
+      "فقط دانشجویان دختر",
+      "دختران و پسران",
+      "فقط دانشجویان خارجی"
+     ],
+     "richtig": 1
+    }
+   ]
+  },
+  {
+   "id": "khanevade-faransavi",
+   "titel": "خانوادهٔ فرانسوی در ایران",
+   "titel_de": "Eine französische Familie im Iran",
+   "niveau": "B1",
+   "bild": "/lesen/khanevade-faransavi.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۶ – خانوادهٔ فرانسوی در ایران",
+   "saetze": [
+    {
+     "fa": "من ژان گنون اهل فرانسه هستم.",
+     "de": "Ich, Jean Guenon, komme aus Frankreich."
+    },
+    {
+     "fa": "نام پدرم «رنه» و نام مادرم «سیمون» است.",
+     "de": "Mein Vater heißt René und meine Mutter Simone."
+    },
+    {
+     "fa": "دو سال قبل، دولت فرانسه شغلی را در ایران به پدرم پیشنهاد کرد.",
+     "de": "Vor zwei Jahren bot der französische Staat meinem Vater eine Stelle im Iran an."
+    },
+    {
+     "fa": "پدرم خیلی خوشحال شد.",
+     "de": "Mein Vater freute sich sehr."
+    },
+    {
+     "fa": "او به خاورمیانه علاقه‌مند است.",
+     "de": "Er interessiert sich für den Nahen Osten."
+    },
+    {
+     "fa": "مادرم هم خیلی خوشحال شد.",
+     "de": "Auch meine Mutter freute sich sehr."
+    },
+    {
+     "fa": "او به شعر فارسی خصوصاً شعرهای مولوی علاقه‌مند است.",
+     "de": "Sie interessiert sich für persische Dichtung, besonders für die Gedichte Rumis."
+    },
+    {
+     "fa": "من و والدینم سال قبل به ایران آمدیم.",
+     "de": "Meine Eltern und ich kamen letztes Jahr in den Iran."
+    },
+    {
+     "fa": "ما با هواپیما به تهران، پایتخت ایران، آمدیم.",
+     "de": "Wir kamen mit dem Flugzeug nach Teheran, der Hauptstadt Irans."
+    },
+    {
+     "fa": "در ابتدا، من دوستی در ایران نداشتم.",
+     "de": "Anfangs hatte ich keine Freunde im Iran."
+    },
+    {
+     "fa": "فارسی را به سختی صحبت می‌کردم.",
+     "de": "Ich sprach nur mit Mühe Persisch."
+    },
+    {
+     "fa": "والدینم مرا به کلاس فارسی فرستادند.",
+     "de": "Meine Eltern schickten mich in einen Persischkurs."
+    },
+    {
+     "fa": "الان فارسی را نسبتاً خوب صحبت می‌کنم.",
+     "de": "Jetzt spreche ich ziemlich gut Persisch."
+    },
+    {
+     "fa": "الان دوستان زیادی دارم.",
+     "de": "Jetzt habe ich viele Freunde."
+    },
+    {
+     "fa": "من و والدینم هر هفته به مهمانی می‌رویم.",
+     "de": "Meine Eltern und ich gehen jede Woche zu einer Einladung."
+    },
+    {
+     "fa": "خانواده‌های ایرانی خیلی مهربان و صمیمی هستند.",
+     "de": "Iranische Familien sind sehr freundlich und herzlich."
+    },
+    {
+     "fa": "غذاهای ایرانی مانند غذاهای فرانسوی خیلی خوشمزه است.",
+     "de": "Iranische Gerichte sind wie französische sehr lecker."
+    },
+    {
+     "fa": "ما تاکنون به اصفهان، همدان، یزد، و تبریز رفته‌ایم.",
+     "de": "Wir waren bisher in Isfahan, Hamadan, Yazd und Täbris."
+    },
+    {
+     "fa": "من عکس‌هایی از این شهرهای زیبا گرفته‌ام.",
+     "de": "Ich habe Fotos von diesen schönen Städten gemacht."
+    },
+    {
+     "fa": "امسال تابستان می‌خواهیم به شیراز و کرمان برویم.",
+     "de": "Diesen Sommer wollen wir nach Schiras und Kerman fahren."
+    },
+    {
+     "fa": "من و والدینم می‌خواهیم چند سال دیگر در ایران بمانیم.",
+     "de": "Meine Eltern und ich wollen noch einige Jahre im Iran bleiben."
+    },
+    {
+     "fa": "ما دوستان ایرانی، غذاهای ایرانی، و زندگی ایرانی را دوست داریم.",
+     "de": "Wir mögen die iranischen Freunde, das iranische Essen und das iranische Leben."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "ما به کدام شهر مسافرت نکرده‌ایم؟",
+     "frage_de": "In welche Stadt sind wir nicht gereist?",
+     "optionen": [
+      "کرمان",
+      "یزد",
+      "اصفهان",
+      "تبریز"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "چه کسی از پدرم خواست تا در ایران کار کند؟",
+     "frage_de": "Wer bat meinen Vater, im Iran zu arbeiten?",
+     "optionen": [
+      "مادرم",
+      "دولت فرانسه",
+      "دانشگاه",
+      "دوستانش"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "من در ابتدا چه مشکلی داشتم؟",
+     "frage_de": "Welches Problem hatte ich anfangs?",
+     "optionen": [
+      "فارسی را خوب بلد نبودم",
+      "از تهران خوشم نمی‌آمد",
+      "غذا دوست نداشتم",
+      "خانه نداشتم"
+     ],
+     "richtig": 0
+    }
+   ]
+  },
+  {
+   "id": "kharid-sale-no",
+   "titel": "خرید سال نو",
+   "titel_de": "Der Neujahrseinkauf",
+   "niveau": "B1",
+   "bild": "/lesen/kharid-sale-no.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۷ – خرید سال نو",
+   "saetze": [
+    {
+     "fa": "دیروز بیست و دوم اسفند بود.",
+     "de": "Gestern war der zweiundzwanzigste Esfand."
+    },
+    {
+     "fa": "آزاده به بانک ملّی رفت تا حقوق بگیرد.",
+     "de": "Azade ging zur Melli-Bank, um ihr Gehalt abzuheben."
+    },
+    {
+     "fa": "او ساعت نه صبح به بانک رسید.",
+     "de": "Um neun Uhr morgens kam sie bei der Bank an."
+    },
+    {
+     "fa": "داخل بانک خیلی شلوغ بود.",
+     "de": "In der Bank war sehr viel los."
+    },
+    {
+     "fa": "آزاده در آخر صف ایستاد.",
+     "de": "Azade stellte sich ans Ende der Schlange."
+    },
+    {
+     "fa": "او فیش حقوق را از جیبش بیرون آورد.",
+     "de": "Sie holte den Gehaltszettel aus ihrer Tasche."
+    },
+    {
+     "fa": "حقوق این ماه او صد و چهل و پنج هزار تومان بود.",
+     "de": "Ihr Gehalt betrug diesen Monat 145.000 Toman."
+    },
+    {
+     "fa": "صد هزار تومان هم پول عیدی بود.",
+     "de": "Weitere 100.000 Toman waren das Neujahrsgeld."
+    },
+    {
+     "fa": "آزاده در فکر سال نو و خرید لباس بود.",
+     "de": "Azade dachte an das neue Jahr und an den Kleiderkauf."
+    },
+    {
+     "fa": "بعد از حدود نیم ساعت نوبت آزاده شد.",
+     "de": "Nach etwa einer halben Stunde war Azade an der Reihe."
+    },
+    {
+     "fa": "آزاده دفترچه پس‌انداز خود را به کارمند بانک داد.",
+     "de": "Azade gab dem Bankangestellten ihr Sparbuch."
+    },
+    {
+     "fa": "آزاده به او گفت: «همهٔ حقوق این ماه و عیدی را می‌گیرم: دویست و چهل و پنج هزار تومان.»",
+     "de": "Azade sagte zu ihm: „Ich hebe das ganze Monatsgehalt und das Neujahrsgeld ab: 245.000 Toman.“"
+    },
+    {
+     "fa": "کارمند پول را به او داد.",
+     "de": "Der Angestellte gab ihr das Geld."
+    },
+    {
+     "fa": "آزاده پول را در کیف خود گذاشت و از بانک بیرون رفت.",
+     "de": "Azade steckte das Geld in ihre Tasche und verließ die Bank."
+    },
+    {
+     "fa": "بعد از ظهر آن روز، آزاده با شوهر و مادر خود برای خرید به بازار رفت.",
+     "de": "Am Nachmittag jenes Tages ging Azade mit ihrem Mann und ihrer Mutter zum Einkaufen auf den Basar."
+    },
+    {
+     "fa": "آنها پس از ساعت‌ها به خانه برگشتند.",
+     "de": "Nach Stunden kehrten sie nach Hause zurück."
+    },
+    {
+     "fa": "آزاده کیف پول خود را باز کرد.",
+     "de": "Azade öffnete ihre Geldbörse."
+    },
+    {
+     "fa": "کیف تقریباً خالی بود.",
+     "de": "Die Börse war fast leer."
+    },
+    {
+     "fa": "آزاده پول‌ها را شمرد.",
+     "de": "Azade zählte das Geld."
+    },
+    {
+     "fa": "فقط نود و پنج تومان داخل کیف بود.",
+     "de": "Nur 95 Toman waren in der Börse."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "آزاده چه موقع عیدی گرفت؟",
+     "frage_de": "Wann bekam Azade das Neujahrsgeld?",
+     "optionen": [
+      "قبل از عید",
+      "بعد از عید",
+      "در روز عید",
+      "یک ماه بعد"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "چرا آزاده با شوهر و مادر خود به بازار رفت؟",
+     "frage_de": "Warum ging Azade mit Mann und Mutter zum Basar?",
+     "optionen": [
+      "برای خرید ماهیانه",
+      "برای خرید سال نو",
+      "برای دیدن دوستان",
+      "برای کار"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "کیف پول آزاده بعد از خرید چگونه بود؟",
+     "frage_de": "Wie war Azades Geldbörse nach dem Einkauf?",
+     "optionen": [
+      "پر بود",
+      "تقریباً خالی بود",
+      "گم شده بود",
+      "بسته بود"
+     ],
+     "richtig": 1
+    }
+   ]
+  },
+  {
+   "id": "nowruz",
+   "titel": "نوروز",
+   "titel_de": "Nouruz – das persische Neujahr",
+   "niveau": "B1",
+   "bild": "/lesen/nowruz.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۸ – نوروز",
+   "saetze": [
+    {
+     "fa": "بسیاری از مردم جهان، اولین روز سال نو را جشن می‌گیرند.",
+     "de": "Viele Menschen der Welt feiern den ersten Tag des neuen Jahres."
+    },
+    {
+     "fa": "ایرانی‌ها هم این روز را جشن می‌گیرند.",
+     "de": "Auch die Iraner feiern diesen Tag."
+    },
+    {
+     "fa": "سال نو در ایران از اول فروردین در فصل بهار شروع می‌شود.",
+     "de": "Das neue Jahr beginnt im Iran am ersten Farwardin im Frühling."
+    },
+    {
+     "fa": "این روز را نوروز می‌گویند.",
+     "de": "Diesen Tag nennt man Nouruz."
+    },
+    {
+     "fa": "در نوروز همه جا پر از شکوفه و گل است.",
+     "de": "Zu Nouruz ist überall alles voller Blüten und Blumen."
+    },
+    {
+     "fa": "ایرانی‌ها پیش از نوروز خانه‌های خود را تمیز و مرتّب می‌کنند.",
+     "de": "Vor Nouruz putzen und ordnen die Iraner ihre Häuser."
+    },
+    {
+     "fa": "آنان خود را برای جشن نوروز آماده می‌کنند.",
+     "de": "Sie bereiten sich auf das Nouruz-Fest vor."
+    },
+    {
+     "fa": "مردم لباس نو یا تمیز می‌پوشند.",
+     "de": "Die Leute ziehen neue oder saubere Kleidung an."
+    },
+    {
+     "fa": "آنان سفرهٔ هفت سین را پیش از تحویل سال می‌چینند.",
+     "de": "Sie decken den Haft-Sin-Tisch vor dem Jahreswechsel."
+    },
+    {
+     "fa": "تحویل سال لحظه‌ای است که سال نو شروع می‌شود.",
+     "de": "Der Jahreswechsel ist der Augenblick, in dem das neue Jahr beginnt."
+    },
+    {
+     "fa": "آنان بر سر سفرهٔ هفت سین می‌نشینند.",
+     "de": "Sie setzen sich an den Haft-Sin-Tisch."
+    },
+    {
+     "fa": "ایرانی‌ها در سفرهٔ هفت سین هفت چیز می‌گذارند که نام همهٔ آنها با حرف «س» شروع می‌شود.",
+     "de": "Die Iraner stellen sieben Dinge auf den Haft-Sin-Tisch, deren Namen alle mit dem Buchstaben „S“ beginnen."
+    },
+    {
+     "fa": "سبزه، سرکه، سماق، سمنو، سنجد، سیر، و سیب.",
+     "de": "Grünkeimlinge, Essig, Sumach, Samanu, Mehlbeere, Knoblauch und Apfel."
+    },
+    {
+     "fa": "گاهی مردم در سفرهٔ هفت سین میوه، تخم مرغ پخته و رنگ کرده، گلاب، و ظرف آب می‌گذارند.",
+     "de": "Manchmal stellen die Leute auch Obst, gekochte und gefärbte Eier, Rosenwasser und eine Wasserschale dazu."
+    },
+    {
+     "fa": "در این ظرف، ماهی قرمز کوچکی شنا می‌کند.",
+     "de": "In dieser Schale schwimmt ein kleiner Goldfisch."
+    },
+    {
+     "fa": "ایرانی‌ها در سفرهٔ هفت سین قرآن، آینه، و شمع می‌گذارند.",
+     "de": "Die Iraner stellen auch Koran, Spiegel und Kerze auf den Haft-Sin-Tisch."
+    },
+    {
+     "fa": "در نوروز مردم از یکدیگر دیدن می‌کنند.",
+     "de": "Zu Nouruz besuchen die Leute einander."
+    },
+    {
+     "fa": "آنان با یکدیگر روبوسی می‌کنند.",
+     "de": "Sie küssen einander auf die Wangen."
+    },
+    {
+     "fa": "بزرگ‌ترها به کوچک‌ترها پولی می‌دهند که به آن عیدی می‌گویند.",
+     "de": "Die Älteren geben den Jüngeren Geld, das man Eidi nennt."
+    },
+    {
+     "fa": "بسیاری از ایرانی‌ها در تعطیلات نوروز به مسافرت می‌روند.",
+     "de": "Viele Iraner verreisen in den Nouruz-Ferien."
+    },
+    {
+     "fa": "همهٔ ایرانی‌ها نوروز را دوست دارند.",
+     "de": "Alle Iraner lieben Nouruz."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "کودکان در سال نو چه می‌کنند؟",
+     "frage_de": "Was machen die Kinder im neuen Jahr?",
+     "optionen": [
+      "عیدی می‌دهند",
+      "بر سر سفرهٔ هفت سین می‌نشینند",
+      "خانه را تمیز می‌کنند",
+      "به مسافرت نمی‌روند"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "سال نو ایرانی‌ها چه نام دارد؟",
+     "frage_de": "Wie heißt das iranische Neujahr?",
+     "optionen": [
+      "روز نو",
+      "نوروز",
+      "تحویل",
+      "فروردین"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "ایرانی‌ها بر سر سفرهٔ هفت‌سین چه چیزی نمی‌گذارند؟",
+     "frage_de": "Was stellen die Iraner nicht auf den Haft-Sin-Tisch?",
+     "optionen": [
+      "ماهی",
+      "شیر",
+      "آینه",
+      "شمع"
+     ],
+     "richtig": 1
+    }
+   ]
+  },
+  {
+   "id": "kuhnavardi",
+   "titel": "کوهنوردی",
+   "titel_de": "Bergsteigen",
+   "niveau": "B1",
+   "bild": "/lesen/kuhnavardi.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۹ – کوهنوردی",
+   "saetze": [
+    {
+     "fa": "مهدی هر جمعه به کوه می‌رود.",
+     "de": "Mehdi geht jeden Freitag ins Gebirge."
+    },
+    {
+     "fa": "او از صبح تا ظهر در کوه می‌ماند.",
+     "de": "Von morgens bis mittags bleibt er im Gebirge."
+    },
+    {
+     "fa": "مهدی به هوای شهر علاقه ندارد.",
+     "de": "Mehdi mag die Stadtluft nicht."
+    },
+    {
+     "fa": "هوای شهر آلوده است.",
+     "de": "Die Stadtluft ist verschmutzt."
+    },
+    {
+     "fa": "همه جا پر از دود است.",
+     "de": "Überall ist es voller Rauch."
+    },
+    {
+     "fa": "مهدی به هوای کوهستان علاقه دارد.",
+     "de": "Mehdi mag die Bergluft."
+    },
+    {
+     "fa": "آنجا هوا تمیز و تازه است.",
+     "de": "Dort ist die Luft sauber und frisch."
+    },
+    {
+     "fa": "کوهنوردی هم برای سلامت خوب است.",
+     "de": "Bergsteigen ist außerdem gut für die Gesundheit."
+    },
+    {
+     "fa": "مهدی ساعت پنج بیدار می‌شود.",
+     "de": "Mehdi wacht um fünf Uhr auf."
+    },
+    {
+     "fa": "او وضو می‌گیرد و نماز می‌خواند.",
+     "de": "Er nimmt die rituelle Waschung vor und betet."
+    },
+    {
+     "fa": "بعد کوله‌پشتی خود را بر می‌دارد.",
+     "de": "Dann nimmt er seinen Rucksack."
+    },
+    {
+     "fa": "او یک بطری آب، چند دانه خرما، مقداری پنیر، و یک دانه نان بربری در کوله‌پشتی‌اش می‌گذارد.",
+     "de": "Er packt eine Flasche Wasser, einige Datteln, etwas Käse und ein Barbari-Brot in seinen Rucksack."
+    },
+    {
+     "fa": "او از مادرش خداحافظی می‌کند.",
+     "de": "Er verabschiedet sich von seiner Mutter."
+    },
+    {
+     "fa": "آن موقع صبح، همسرش هنوز خواب است.",
+     "de": "Zu dieser Morgenstunde schläft seine Frau noch."
+    },
+    {
+     "fa": "مهدی معمولاً با اتوبوس تا پای کوه می‌رود.",
+     "de": "Mehdi fährt gewöhnlich mit dem Bus bis zum Fuß des Berges."
+    },
+    {
+     "fa": "او از آنجا پیاده به قلّهٔ کوه می‌رود.",
+     "de": "Von dort geht er zu Fuß zum Gipfel."
+    },
+    {
+     "fa": "مهدی حدود ساعت هشت به قلّه می‌رسد.",
+     "de": "Gegen acht Uhr erreicht Mehdi den Gipfel."
+    },
+    {
+     "fa": "چند ساعت در کوه می‌ماند.",
+     "de": "Einige Stunden bleibt er im Gebirge."
+    },
+    {
+     "fa": "اطراف را تماشا می‌کند و لذّت می‌برد.",
+     "de": "Er betrachtet die Umgebung und genießt es."
+    },
+    {
+     "fa": "مهدی نزدیک ظهر به خانه برمی‌گردد.",
+     "de": "Gegen Mittag kehrt Mehdi nach Hause zurück."
+    },
+    {
+     "fa": "او ابتدا دوش می‌گیرد.",
+     "de": "Zuerst duscht er."
+    },
+    {
+     "fa": "بعد با مادر و همسرش ناهار می‌خورد.",
+     "de": "Dann isst er mit seiner Mutter und seiner Frau zu Mittag."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "مهدی با چه کسی به کوه می‌رود؟",
+     "frage_de": "Mit wem geht Mehdi ins Gebirge?",
+     "optionen": [
+      "با همسرش",
+      "به تنهایی",
+      "با مادرش",
+      "با دوستانش"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "مهدی قبل از رفتن چه می‌کند؟",
+     "frage_de": "Was macht Mehdi vor dem Aufbruch?",
+     "optionen": [
+      "نماز می‌خواند",
+      "مقداری نان و پنیر می‌خورد",
+      "دوش می‌گیرد",
+      "تلویزیون تماشا می‌کند"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "همسر مهدی چه موقع او را می‌بیند؟",
+     "frage_de": "Wann sieht Mehdis Frau ihn?",
+     "optionen": [
+      "موقع ناهار",
+      "ساعت پنج صبح",
+      "موقع شام",
+      "قبل از رفتن"
+     ],
+     "richtig": 0
+    }
+   ]
   }
  ]
 }
