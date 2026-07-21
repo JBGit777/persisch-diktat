@@ -275,6 +275,30 @@
    "buch": 5,
    "titel": "Gäste & Feiern",
    "beschreibung": "Teil 5 – Lehrbuch درس ۱۰ (مهمانی خانوادگی)"
+  },
+  {
+   "lektion_nummer": 512,
+   "buch": 5,
+   "titel": "Essen & Mahlzeiten",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۱۱ (غذاهای روزانه)"
+  },
+  {
+   "lektion_nummer": 513,
+   "buch": 5,
+   "titel": "Schule, Studium & Freundschaft",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۱۲ (دوست قدیمی من)"
+  },
+  {
+   "lektion_nummer": 514,
+   "buch": 5,
+   "titel": "Monate & Jahreszeiten",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۱۳ (ماه‌ها و فصل‌های سال)"
+  },
+  {
+   "lektion_nummer": 515,
+   "buch": 5,
+   "titel": "Reisen, Verwandte & Kunst",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۱۴ (خاله ناهید)"
   }
  ],
  "woerter": [
@@ -10255,6 +10279,776 @@
    "lektion_nummer": 511,
    "beispielsatz_ko": "مهران کاردها را تمیز کرد.",
    "beispielsatz_de": "Mehran putzte die Messer.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "وعده",
+   "romanisierung": "va'de",
+   "deutsch": "Mahlzeit; Zusage",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "ایرانی‌ها سه وعده غذا می‌خورند.",
+   "beispielsatz_de": "Die Iraner essen drei Mahlzeiten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "غذا",
+   "romanisierung": "ghazâ",
+   "deutsch": "Speise, Essen",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "او غذای خوشمزه درست می‌کند.",
+   "beispielsatz_de": "Sie kocht leckeres Essen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نان",
+   "romanisierung": "nân",
+   "deutsch": "Brot",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "صبحانه نان و پنیر است.",
+   "beispielsatz_de": "Zum Frühstück gibt es Brot und Käse.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پنیر",
+   "romanisierung": "panir",
+   "deutsch": "Käse",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "من پنیر دوست دارم.",
+   "beispielsatz_de": "Ich mag Käse.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کره",
+   "romanisierung": "kare",
+   "deutsch": "Butter",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "او کره و عسل می‌خورد.",
+   "beispielsatz_de": "Er isst Butter und Honig.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مربا",
+   "romanisierung": "morabbâ",
+   "deutsch": "Marmelade",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "مربا روی نان خوشمزه است.",
+   "beispielsatz_de": "Marmelade auf Brot ist lecker.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "عسل",
+   "romanisierung": "asal",
+   "deutsch": "Honig",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "عسل شیرین است.",
+   "beispielsatz_de": "Honig ist süß.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خامه",
+   "romanisierung": "khâme",
+   "deutsch": "Sahne",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "او خامه می‌خورد.",
+   "beispielsatz_de": "Sie isst Sahne.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کباب",
+   "romanisierung": "kabâb",
+   "deutsch": "Kebab",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "ناهار برنج با کباب است.",
+   "beispielsatz_de": "Zum Mittag gibt es Reis mit Kebab.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آبگوشت",
+   "romanisierung": "âbgusht",
+   "deutsch": "Abgusht (Fleischeintopf)",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "آبگوشت غذای ایرانی است.",
+   "beispielsatz_de": "Abgusht ist ein iranisches Gericht.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آش",
+   "romanisierung": "âsh",
+   "deutsch": "Asch (dicke Suppe)",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "مادرم آش درست کرد.",
+   "beispielsatz_de": "Meine Mutter kochte Asch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سوپ",
+   "romanisierung": "sup",
+   "deutsch": "Suppe",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "شام ما سوپ است.",
+   "beispielsatz_de": "Unser Abendessen ist Suppe.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کوکو",
+   "romanisierung": "kuku",
+   "deutsch": "Kuku (Kräuterfrittata)",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "کوکو غذای سبک است.",
+   "beispielsatz_de": "Kuku ist ein leichtes Gericht.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کتلت",
+   "romanisierung": "kotlet",
+   "deutsch": "Kotlet (Frikadelle)",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "او کتلت درست می‌کند.",
+   "beispielsatz_de": "Sie macht Kotlet.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "املت",
+   "romanisierung": "omlet",
+   "deutsch": "Omelett",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "شام ما املت بود.",
+   "beispielsatz_de": "Unser Abendessen war Omelett.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ماکارونی",
+   "romanisierung": "mâkâroni",
+   "deutsch": "Nudeln, Makkaroni",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "بچه‌ها ماکارونی دوست دارند.",
+   "beispielsatz_de": "Kinder mögen Nudeln.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ماست",
+   "romanisierung": "mâst",
+   "deutsch": "Joghurt",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "ما غذا را با ماست می‌خوریم.",
+   "beispielsatz_de": "Wir essen das Essen mit Joghurt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ترشی",
+   "romanisierung": "torshi",
+   "deutsch": "eingelegtes Gemüse",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "ترشی با غذا خوشمزه است.",
+   "beispielsatz_de": "Eingelegtes Gemüse schmeckt zum Essen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "رستوران",
+   "romanisierung": "restorân",
+   "deutsch": "Restaurant",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "کمتر خانواده‌ای به رستوران می‌رود.",
+   "beispielsatz_de": "Wenige Familien gehen ins Restaurant.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آشپزی",
+   "romanisierung": "âshpazi",
+   "deutsch": "Kochen, Kochkunst",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "او به آشپزی علاقه دارد.",
+   "beispielsatz_de": "Sie kocht gern.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خوشمزه",
+   "romanisierung": "khoshmaze",
+   "deutsch": "lecker",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "این غذا خیلی خوشمزه است.",
+   "beispielsatz_de": "Dieses Essen ist sehr lecker.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بعضی",
+   "romanisierung": "ba'zi",
+   "deutsch": "manche, einige",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "بعضی از مردم چای می‌خورند.",
+   "beispielsatz_de": "Manche Leute trinken Tee.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کمتر",
+   "romanisierung": "kamtar",
+   "deutsch": "weniger, seltener",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "کمتر خانواده‌ای غذای آماده می‌خورد.",
+   "beispielsatz_de": "Weniger Familien essen Fertiggerichte.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "معمولا",
+   "romanisierung": "ma'mulan",
+   "deutsch": "gewöhnlich, meistens",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "مردم معمولا سه وعده غذا می‌خورند.",
+   "beispielsatz_de": "Die Leute essen gewöhnlich drei Mahlzeiten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تقریبا",
+   "romanisierung": "taghriban",
+   "deutsch": "fast, ungefähr",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "تقریبا همه خانواده‌ها ناهار درست می‌کنند.",
+   "beispielsatz_de": "Fast alle Familien kochen zu Mittag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "هنگام",
+   "romanisierung": "hengâm",
+   "deutsch": "zur Zeit von, während",
+   "lektion_nummer": 512,
+   "beispielsatz_ko": "ایرانی‌ها هنگام ظهر ناهار می‌خورند.",
+   "beispielsatz_de": "Die Iraner essen mittags.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قدیمی",
+   "romanisierung": "ghadimi",
+   "deutsch": "alt, langjährig",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "او دوست قدیمی من است.",
+   "beispielsatz_de": "Sie ist meine alte Freundin.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آشنا",
+   "romanisierung": "âshnâ",
+   "deutsch": "bekannt (آشنا شدن: kennenlernen)",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "ما بیست سال پیش آشنا شدیم.",
+   "beispielsatz_de": "Wir lernten uns vor zwanzig Jahren kennen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "همسایگی",
+   "romanisierung": "hamsâyegi",
+   "deutsch": "Nachbarschaft",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "او در همسایگی ما زندگی می‌کرد.",
+   "beispielsatz_de": "Sie wohnte in unserer Nachbarschaft.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "راهنمایی",
+   "romanisierung": "râhnamâyi",
+   "deutsch": "Mittelschule; Anleitung",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "دختر من اوّل راهنمایی است.",
+   "beispielsatz_de": "Meine Tochter ist in der ersten Mittelschulklasse.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "یکدیگر",
+   "romanisierung": "yekdigar",
+   "deutsch": "einander",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "ما یکدیگر را ملاقات نکردیم.",
+   "beispielsatz_de": "Wir trafen einander nicht.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ملاقات",
+   "romanisierung": "molâghât",
+   "deutsch": "Treffen, Besuch",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "آنها به ملاقات او می‌آیند.",
+   "beispielsatz_de": "Sie kommen zu Besuch zu ihr.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شاگرد",
+   "romanisierung": "shâgerd",
+   "deutsch": "Schüler(in)",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "آنها هر دو شاگرد اوّل هستند.",
+   "beispielsatz_de": "Beide sind Klassenbeste.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تصمیم",
+   "romanisierung": "tasmim",
+   "deutsch": "Entschluss (تصمیم گرفتن: beschließen)",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "من تصمیم گرفتم به دانشگاه بروم.",
+   "beispielsatz_de": "Ich beschloss, an die Uni zu gehen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کنکور",
+   "romanisierung": "konkur",
+   "deutsch": "Hochschul-Aufnahmeprüfung",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "امسال در کنکور شرکت کردم.",
+   "beispielsatz_de": "Dieses Jahr nahm ich an der Aufnahmeprüfung teil.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قبول",
+   "romanisierung": "ghabul",
+   "deutsch": "Annahme (قبول شدن: bestehen)",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "من در رشتهٔ ریاضی قبول شدم.",
+   "beispielsatz_de": "Ich wurde im Fach Mathematik angenommen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نیمسال",
+   "romanisierung": "nimsâl",
+   "deutsch": "Semester",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "برنامهٔ نیمسال اوّل را دادند.",
+   "beispielsatz_de": "Man gab den Plan des ersten Semesters bekannt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دانشجو",
+   "romanisierung": "dâneshju",
+   "deutsch": "Student(in)",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "من دانشجوی سال اوّل هستم.",
+   "beispielsatz_de": "Ich bin Studentin im ersten Jahr.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ساله",
+   "romanisierung": "sâle",
+   "deutsch": "-jährig",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "آن موقع ما ده ساله بودیم.",
+   "beispielsatz_de": "Damals waren wir zehn Jahre alt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اولین",
+   "romanisierung": "avvalin",
+   "deutsch": "erste(r)",
+   "lektion_nummer": 513,
+   "beispielsatz_ko": "اولین کلاس ما با این استاد بود.",
+   "beispielsatz_de": "Unsere erste Vorlesung war bei dieser Dozentin.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بهار",
+   "romanisierung": "bahâr",
+   "deutsch": "Frühling",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "بهار اولین فصل سال است.",
+   "beispielsatz_de": "Der Frühling ist die erste Jahreszeit.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پاییز",
+   "romanisierung": "pâyiz",
+   "deutsch": "Herbst",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "پاییز سومین فصل سال است.",
+   "beispielsatz_de": "Der Herbst ist die dritte Jahreszeit.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "زمستان",
+   "romanisierung": "zemestân",
+   "deutsch": "Winter",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "زمستان آخرین فصل سال است.",
+   "beispielsatz_de": "Der Winter ist die letzte Jahreszeit.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "فروردین",
+   "romanisierung": "farvardin",
+   "deutsch": "Farwardin (1. Monat, März/April)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "فروردین اولین ماه سال است.",
+   "beispielsatz_de": "Farwardin ist der erste Monat des Jahres.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اردیبهشت",
+   "romanisierung": "ordibehesht",
+   "deutsch": "Ordibehescht (2. Monat, April/Mai)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "اردیبهشت ماه دوم بهار است.",
+   "beispielsatz_de": "Ordibehescht ist der zweite Frühlingsmonat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خرداد",
+   "romanisierung": "khordâd",
+   "deutsch": "Chordad (3. Monat, Mai/Juni)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "امتحانات در خرداد برگزار می‌شود.",
+   "beispielsatz_de": "Die Prüfungen finden im Chordad statt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تیر",
+   "romanisierung": "tir",
+   "deutsch": "Tir (4. Monat, Juni/Juli)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "تیر اولین ماه تابستان است.",
+   "beispielsatz_de": "Tir ist der erste Sommermonat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مرداد",
+   "romanisierung": "mordâd",
+   "deutsch": "Mordad (5. Monat, Juli/August)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "مرداد ماه گرمی است.",
+   "beispielsatz_de": "Mordad ist ein heißer Monat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شهریور",
+   "romanisierung": "shahrivar",
+   "deutsch": "Schahriwar (6. Monat, Aug./Sept.)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "شهریور آخرین ماه تابستان است.",
+   "beispielsatz_de": "Schahriwar ist der letzte Sommermonat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مهر",
+   "romanisierung": "mehr",
+   "deutsch": "Mehr (7. Monat, Sept./Okt.)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "روز اول مهر مدرسه‌ها باز می‌شود.",
+   "beispielsatz_de": "Am ersten Mehr öffnen die Schulen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آبان",
+   "romanisierung": "âbân",
+   "deutsch": "Aban (8. Monat, Okt./Nov.)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "آبان ماه دوم پاییز است.",
+   "beispielsatz_de": "Aban ist der zweite Herbstmonat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آذر",
+   "romanisierung": "âzar",
+   "deutsch": "Asar (9. Monat, Nov./Dez.)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "آذر آخرین ماه پاییز است.",
+   "beispielsatz_de": "Asar ist der letzte Herbstmonat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دی",
+   "romanisierung": "dey",
+   "deutsch": "Dey (10. Monat, Dez./Jan.)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "دی اولین ماه زمستان است.",
+   "beispielsatz_de": "Dey ist der erste Wintermonat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بهمن",
+   "romanisierung": "bahman",
+   "deutsch": "Bahman (11. Monat, Jan./Feb.)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "بهمن ماه سردی است.",
+   "beispielsatz_de": "Bahman ist ein kalter Monat.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اسفند",
+   "romanisierung": "esfand",
+   "deutsch": "Esfand (12. Monat, Feb./März)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "ماه اسفند گاهی بیست و نه روز است.",
+   "beispielsatz_de": "Der Monat Esfand hat manchmal 29 Tage.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خنک",
+   "romanisierung": "khonak",
+   "deutsch": "kühl",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "هوای بهار خنک است.",
+   "beispielsatz_de": "Die Frühlingsluft ist kühl.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گرم",
+   "romanisierung": "garm",
+   "deutsch": "warm, heiß",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "تابستان فصل گرم سال است.",
+   "beispielsatz_de": "Der Sommer ist die warme Jahreszeit.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سرد",
+   "romanisierung": "sard",
+   "deutsch": "kalt",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "هوا در زمستان سرد است.",
+   "beispielsatz_de": "Im Winter ist es kalt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "باران",
+   "romanisierung": "bârân",
+   "deutsch": "Regen",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "در پاییز باران می‌بارد.",
+   "beispielsatz_de": "Im Herbst regnet es.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "برف",
+   "romanisierung": "barf",
+   "deutsch": "Schnee",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "در زمستان برف می‌بارد.",
+   "beispielsatz_de": "Im Winter schneit es.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "برگ",
+   "romanisierung": "barg",
+   "deutsch": "Blatt",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "برگ درختان در پاییز می‌ریزد.",
+   "beispielsatz_de": "Im Herbst fallen die Blätter.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "درخت",
+   "romanisierung": "derakht",
+   "deutsch": "Baum",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "همهٔ درختان سبز هستند.",
+   "beispielsatz_de": "Alle Bäume sind grün.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سبز",
+   "romanisierung": "sabz",
+   "deutsch": "grün",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "درختان در بهار سبز هستند.",
+   "beispielsatz_de": "Im Frühling sind die Bäume grün.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مسافرت",
+   "romanisierung": "mosâferat",
+   "deutsch": "Reise",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "مردم در تابستان به مسافرت می‌روند.",
+   "beispielsatz_de": "Im Sommer verreisen die Leute.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نهایی",
+   "romanisierung": "nahâyi",
+   "deutsch": "End-, Abschluss-",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "امتحانات نهایی در خرداد است.",
+   "beispielsatz_de": "Die Abschlussprüfungen sind im Chordad.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دومین",
+   "romanisierung": "dovvomin",
+   "deutsch": "zweite(r)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "تابستان دومین فصل سال است.",
+   "beispielsatz_de": "Der Sommer ist die zweite Jahreszeit.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سومین",
+   "romanisierung": "sevvomin",
+   "deutsch": "dritte(r)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "پاییز سومین فصل سال است.",
+   "beispielsatz_de": "Der Herbst ist die dritte Jahreszeit.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آخرین",
+   "romanisierung": "âkharin",
+   "deutsch": "letzte(r)",
+   "lektion_nummer": 514,
+   "beispielsatz_ko": "زمستان آخرین فصل سال است.",
+   "beispielsatz_de": "Der Winter ist die letzte Jahreszeit.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خاله",
+   "romanisierung": "khâle",
+   "deutsch": "Tante (Schwester der Mutter)",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "خاله ناهید فردا می‌آید.",
+   "beispielsatz_de": "Tante Nahid kommt morgen.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "استقبال",
+   "romanisierung": "esteghbâl",
+   "deutsch": "Empfang (استقبال کردن: empfangen)",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "ما از خاله استقبال می‌کنیم.",
+   "beispielsatz_de": "Wir empfangen die Tante.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سالگی",
+   "romanisierung": "sâlegi",
+   "deutsch": "Lebensalter (im Alter von)",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "او در بیست و دو سالگی ازدواج کرد.",
+   "beispielsatz_de": "Sie heiratete mit zweiundzwanzig.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اوقات",
+   "romanisierung": "owghât",
+   "deutsch": "Zeiten (اوقات بیکاری: Freizeit)",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "او در اوقات بیکاری نقاشی می‌کند.",
+   "beispielsatz_de": "In der Freizeit malt sie.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بیکاری",
+   "romanisierung": "bikâri",
+   "deutsch": "Muße; Arbeitslosigkeit",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "اوقات بیکاری او کم است.",
+   "beispielsatz_de": "Sie hat wenig freie Zeit.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خوشنویسی",
+   "romanisierung": "khoshnevisi",
+   "deutsch": "Kalligrafie",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "او به کلاس خوشنویسی می‌رفت.",
+   "beispielsatz_de": "Sie besuchte einen Kalligrafie-Kurs.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خوشنویس",
+   "romanisierung": "khoshnevis",
+   "deutsch": "Kalligraf(in)",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "او هنرمند خوشنویس است.",
+   "beispielsatz_de": "Sie ist Kalligrafie-Künstlerin.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "هنرمند",
+   "romanisierung": "honarmand",
+   "deutsch": "Künstler(in)",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "او هنرمند بزرگی است.",
+   "beispielsatz_de": "Sie ist eine große Künstlerin.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "یاد",
+   "romanisierung": "yâd",
+   "deutsch": "Erinnerung (یاد دادن: beibringen)",
+   "lektion_nummer": 515,
+   "beispielsatz_ko": "او به من خوشنویسی یاد می‌دهد.",
+   "beispielsatz_de": "Sie bringt mir Kalligrafie bei.",
    "hinweis": null,
    "haeufigkeit": 3
   }

@@ -1233,6 +1233,530 @@
      "richtig": 1
     }
    ]
+  },
+  {
+   "id": "ghazahaye-ruzane",
+   "titel": "غذاهای روزانه",
+   "titel_de": "Tägliche Speisen",
+   "niveau": "A2",
+   "bild": "/lesen/ghazahaye-ruzane.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۱ – غذاهای روزانه",
+   "saetze": [
+    {
+     "fa": "مردم دنیا معمولاً هر روز سه وعده غذا می‌خورند.",
+     "de": "Die Menschen der Welt essen gewöhnlich jeden Tag drei Mahlzeiten."
+    },
+    {
+     "fa": "ایرانی‌ها هم مانند آنها سه وعده غذا می‌خورند: صبحانه، ناهار، و شام.",
+     "de": "Auch die Iraner essen wie sie drei Mahlzeiten: Frühstück, Mittagessen und Abendessen."
+    },
+    {
+     "fa": "صبحانه غذایی است که مردم صبح‌ها می‌خورند.",
+     "de": "Das Frühstück ist die Mahlzeit, die die Leute morgens essen."
+    },
+    {
+     "fa": "صبحانهٔ بیشتر ایرانی‌ها نان، پنیر، و چای است.",
+     "de": "Das Frühstück der meisten Iraner besteht aus Brot, Käse und Tee."
+    },
+    {
+     "fa": "بعضی از ایرانی‌ها کره، مربّا، عسل، شیر یا خامه می‌خورند.",
+     "de": "Manche Iraner essen Butter, Marmelade, Honig, Milch oder Sahne."
+    },
+    {
+     "fa": "ایرانی‌ها هنگام ظهر ناهار می‌خورند.",
+     "de": "Die Iraner essen mittags zu Mittag."
+    },
+    {
+     "fa": "بیشتر ایرانی‌ها در خانه ناهار می‌خورند.",
+     "de": "Die meisten Iraner essen zu Hause zu Mittag."
+    },
+    {
+     "fa": "بعضی از آنها هم در محلّ کار ناهار می‌خورند.",
+     "de": "Einige von ihnen essen auch am Arbeitsplatz zu Mittag."
+    },
+    {
+     "fa": "ناهار ایرانی‌ها غذاهایی مانند برنج با خورشت، برنج با کباب، آبگوشت، یا آش است.",
+     "de": "Das Mittagessen der Iraner sind Gerichte wie Reis mit Chorescht, Reis mit Kebab, Abgusht oder Asch."
+    },
+    {
+     "fa": "تقریباً همهٔ خانواده‌ها ناهار درست می‌کنند.",
+     "de": "Fast alle Familien kochen das Mittagessen selbst."
+    },
+    {
+     "fa": "کمتر خانواده‌ای از غذای آماده استفاده می‌کند.",
+     "de": "Nur wenige Familien nutzen Fertiggerichte."
+    },
+    {
+     "fa": "کمتر خانواده‌ای برای ناهار به رستوران می‌رود.",
+     "de": "Nur wenige Familien gehen zum Mittagessen ins Restaurant."
+    },
+    {
+     "fa": "ایرانی‌ها در شب شام می‌خورند.",
+     "de": "Die Iraner essen abends zu Abend."
+    },
+    {
+     "fa": "شام ایرانی‌ها غذاهایی مانند سوپ، آش، کوکو، کتلت، آبگوشت، املت، یا ماکارونی است.",
+     "de": "Das Abendessen der Iraner sind Gerichte wie Suppe, Asch, Kuku, Kotlet, Abgusht, Omelett oder Nudeln."
+    },
+    {
+     "fa": "ایرانی‌ها گاهی موقع شام مهمان دارند یا به مهمانی می‌روند.",
+     "de": "Die Iraner haben abends manchmal Gäste oder gehen zu einer Einladung."
+    },
+    {
+     "fa": "بیشتر ایرانی‌ها ناهار یا شام خود را با ماست، سبزی، ترشی، یا سالاد می‌خورند.",
+     "de": "Die meisten Iraner essen ihr Mittag- oder Abendessen mit Joghurt, Kräutern, eingelegtem Gemüse oder Salat."
+    },
+    {
+     "fa": "زنان ایرانی علاقهٔ زیادی به آشپزی دارند.",
+     "de": "Iranische Frauen kochen sehr gern."
+    },
+    {
+     "fa": "آنها غذاهای خوشمزه درست می‌کنند.",
+     "de": "Sie bereiten leckere Gerichte zu."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "در ایران، روی سفرهٔ صبحانه معمولاً چه غذایی وجود دارد؟",
+     "frage_de": "Was steht im Iran üblicherweise auf dem Frühstückstisch?",
+     "optionen": [
+      "خامه",
+      "پنیر",
+      "کباب",
+      "سالاد"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "دومین وعدهٔ غذا در بین ایرانی‌ها چیست؟",
+     "frage_de": "Welches ist die zweite Mahlzeit der Iraner?",
+     "optionen": [
+      "شام",
+      "ناهار",
+      "صبحانه",
+      "عصرانه"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "بیشتر ایرانی‌ها ناهار را در کجا می‌خورند؟",
+     "frage_de": "Wo essen die meisten Iraner zu Mittag?",
+     "optionen": [
+      "در منزل یا محلّ کار",
+      "در محلّ کار یا رستوران",
+      "فقط در رستوران",
+      "در مدرسه"
+     ],
+     "richtig": 0
+    }
+   ]
+  },
+  {
+   "id": "dust-ghadimi",
+   "titel": "دوست قدیمی من",
+   "titel_de": "Meine alte Freundin",
+   "niveau": "A2",
+   "bild": "/lesen/dust-ghadimi.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۲ – دوست قدیمی من",
+   "saetze": [
+    {
+     "fa": "زهرا قربانی، دوست قدیمی من است.",
+     "de": "Zahra Ghorbani ist meine alte Freundin."
+    },
+    {
+     "fa": "ما بیست سال پیش با هم آشنا شدیم.",
+     "de": "Wir haben uns vor zwanzig Jahren kennengelernt."
+    },
+    {
+     "fa": "آن موقع من و زهرا ده ساله بودیم.",
+     "de": "Damals waren Zahra und ich zehn Jahre alt."
+    },
+    {
+     "fa": "زهرا در همسایگی ما زندگی می‌کرد.",
+     "de": "Zahra wohnte in unserer Nachbarschaft."
+    },
+    {
+     "fa": "من و زهرا با هم به مدرسهٔ ابتدایی می‌رفتیم.",
+     "de": "Zahra und ich gingen zusammen in die Grundschule."
+    },
+    {
+     "fa": "مدرسهٔ راهنمایی و دبیرستان ما هم یکی بود.",
+     "de": "Auch unsere Mittel- und Oberschule war dieselbe."
+    },
+    {
+     "fa": "من بعد از دیپلم ازدواج کردم.",
+     "de": "Nach dem Abitur habe ich geheiratet."
+    },
+    {
+     "fa": "من و همسرم به شهر دیگری رفتیم.",
+     "de": "Mein Mann und ich zogen in eine andere Stadt."
+    },
+    {
+     "fa": "من و زهرا دیگر یکدیگر را ملاقات نکردیم.",
+     "de": "Zahra und ich trafen einander nicht mehr."
+    },
+    {
+     "fa": "من پس از ازدواج صاحب دو فرزند شدم.",
+     "de": "Nach der Heirat bekam ich zwei Kinder."
+    },
+    {
+     "fa": "دختر من دانش‌آموز اوّل راهنمایی است.",
+     "de": "Meine Tochter ist Schülerin der ersten Mittelschulklasse."
+    },
+    {
+     "fa": "پسر من دانش‌آموز دوم ابتدایی است.",
+     "de": "Mein Sohn ist Schüler der zweiten Grundschulklasse."
+    },
+    {
+     "fa": "آنها هر دو شاگرد اوّل هستند.",
+     "de": "Beide sind Klassenbeste."
+    },
+    {
+     "fa": "آنها به درس و مدرسه علاقه دارند.",
+     "de": "Sie interessieren sich für Unterricht und Schule."
+    },
+    {
+     "fa": "من هم تصمیم گرفتم به دانشگاه بروم.",
+     "de": "Auch ich beschloss, an die Universität zu gehen."
+    },
+    {
+     "fa": "امسال در امتحان کنکور شرکت کردم.",
+     "de": "Dieses Jahr nahm ich an der Aufnahmeprüfung teil."
+    },
+    {
+     "fa": "من در رشتهٔ ریاضی قبول شدم.",
+     "de": "Ich wurde im Fach Mathematik angenommen."
+    },
+    {
+     "fa": "دیروز برنامه نیمسال اوّل را به ما اعلان کردند.",
+     "de": "Gestern gab man uns den Plan des ersten Semesters bekannt."
+    },
+    {
+     "fa": "نام استادهای خود را خواندم.",
+     "de": "Ich las die Namen meiner Dozenten."
+    },
+    {
+     "fa": "اوّلین کلاس ما با این استاد بود: دکتر زهرا قربانی.",
+     "de": "Unsere erste Vorlesung war bei dieser Dozentin: Dr. Zahra Ghorbani."
+    },
+    {
+     "fa": "اکنون من و زهرا سی ساله هستیم.",
+     "de": "Jetzt sind Zahra und ich dreißig Jahre alt."
+    },
+    {
+     "fa": "دکتر زهرا قربانی استاد دانشگاه است.",
+     "de": "Dr. Zahra Ghorbani ist Universitätsdozentin."
+    },
+    {
+     "fa": "من دانشجوی سال اوّل رشتهٔ ریاضی هستم.",
+     "de": "Ich bin Erstsemester-Studentin im Fach Mathematik."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "من و زهرا در مدرسه چه رابطه‌ای داشتیم؟",
+     "frage_de": "In welcher Beziehung standen Zahra und ich in der Schule?",
+     "optionen": [
+      "همکلاس بودیم",
+      "معلم و شاگرد بودیم",
+      "همسایه نبودیم",
+      "یکدیگر را نمی‌شناختیم"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "من از چه موقع از زهرا جدا شدم؟",
+     "frage_de": "Ab wann war ich von Zahra getrennt?",
+     "optionen": [
+      "بعد از ازدواج",
+      "از ده سالگی",
+      "بعد از دانشگاه",
+      "هرگز"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "من چرا به دانشگاه رفتم؟",
+     "frage_de": "Warum ging ich an die Universität?",
+     "optionen": [
+      "برای دیدن زهرا",
+      "برای تحصیل",
+      "برای کار",
+      "برای سفر"
+     ],
+     "richtig": 1
+    }
+   ]
+  },
+  {
+   "id": "mahha-faslha",
+   "titel": "ماه‌ها و فصل‌های سال",
+   "titel_de": "Monate und Jahreszeiten",
+   "niveau": "A2",
+   "bild": "/lesen/mahha-faslha.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۳ – ماه‌ها و فصل‌های سال",
+   "saetze": [
+    {
+     "fa": "هر سال چهار فصل دارد.",
+     "de": "Jedes Jahr hat vier Jahreszeiten."
+    },
+    {
+     "fa": "هر فصل سه ماه دارد.",
+     "de": "Jede Jahreszeit hat drei Monate."
+    },
+    {
+     "fa": "فصل‌های سال، بهار، تابستان، پاییز، و زمستان است.",
+     "de": "Die Jahreszeiten sind Frühling, Sommer, Herbst und Winter."
+    },
+    {
+     "fa": "بهار اوّلین فصل سال است.",
+     "de": "Der Frühling ist die erste Jahreszeit des Jahres."
+    },
+    {
+     "fa": "ماه‌های بهار: فروردین، اردیبهشت، و خرداد.",
+     "de": "Die Frühlingsmonate: Farwardin, Ordibehescht und Chordad."
+    },
+    {
+     "fa": "هر ماه بهار سی و یک روز است.",
+     "de": "Jeder Frühlingsmonat hat 31 Tage."
+    },
+    {
+     "fa": "من فصل بهار را دوست دارم.",
+     "de": "Ich mag den Frühling."
+    },
+    {
+     "fa": "فصل بهار خیلی زیباست.",
+     "de": "Der Frühling ist sehr schön."
+    },
+    {
+     "fa": "همهٔ درختان سبز هستند و هوا خنک است.",
+     "de": "Alle Bäume sind grün und die Luft ist kühl."
+    },
+    {
+     "fa": "امتحانات نهایی دانشجویان و دانش‌آموزان ایرانی معمولاً در خرداد برگزار می‌شود.",
+     "de": "Die Abschlussprüfungen iranischer Studenten und Schüler finden meist im Chordad statt."
+    },
+    {
+     "fa": "بعد مدرسه‌ها و دانشگاه‌ها تعطیل می‌شود.",
+     "de": "Danach schließen Schulen und Universitäten."
+    },
+    {
+     "fa": "تابستان دومین فصل سال است.",
+     "de": "Der Sommer ist die zweite Jahreszeit des Jahres."
+    },
+    {
+     "fa": "تابستان سه ماه دارد: تیر، مرداد، و شهریور.",
+     "de": "Der Sommer hat drei Monate: Tir, Mordad und Schahriwar."
+    },
+    {
+     "fa": "هر ماه تابستان سی و یک روز است.",
+     "de": "Jeder Sommermonat hat 31 Tage."
+    },
+    {
+     "fa": "تابستان فصل گرم سال است.",
+     "de": "Der Sommer ist die warme Jahreszeit des Jahres."
+    },
+    {
+     "fa": "مدرسه‌ها و دانشگاه‌ها در تابستان تعطیل است.",
+     "de": "Schulen und Universitäten sind im Sommer geschlossen."
+    },
+    {
+     "fa": "بعضی از مردم ایران در این فصل به مسافرت می‌روند.",
+     "de": "Manche Iraner verreisen in dieser Jahreszeit."
+    },
+    {
+     "fa": "پاییز سومین فصل سال است.",
+     "de": "Der Herbst ist die dritte Jahreszeit des Jahres."
+    },
+    {
+     "fa": "پاییز سه ماه دارد: مهر، آبان، و آذر.",
+     "de": "Der Herbst hat drei Monate: Mehr, Aban und Asar."
+    },
+    {
+     "fa": "هر ماه پاییز سی روز است.",
+     "de": "Jeder Herbstmonat hat 30 Tage."
+    },
+    {
+     "fa": "روز اوّل مهر مدرسه‌ها و دانشگاه‌ها باز می‌شود.",
+     "de": "Am ersten Mehr öffnen Schulen und Universitäten."
+    },
+    {
+     "fa": "هوای پاییز کمی سرد است و باران می‌بارد.",
+     "de": "Das Herbstwetter ist etwas kalt und es regnet."
+    },
+    {
+     "fa": "برگ درختان در پاییز می‌ریزد.",
+     "de": "Im Herbst fallen die Blätter der Bäume."
+    },
+    {
+     "fa": "زمستان آخرین فصل سال است.",
+     "de": "Der Winter ist die letzte Jahreszeit des Jahres."
+    },
+    {
+     "fa": "زمستان سه ماه دارد: دی، بهمن، و اسفند.",
+     "de": "Der Winter hat drei Monate: Dey, Bahman und Esfand."
+    },
+    {
+     "fa": "هر ماه زمستان سی روز است.",
+     "de": "Jeder Wintermonat hat 30 Tage."
+    },
+    {
+     "fa": "ماه اسفند گاهی بیست و نه روز است.",
+     "de": "Der Monat Esfand hat manchmal 29 Tage."
+    },
+    {
+     "fa": "هوا در زمستان سرد است و در بعضی جاها برف می‌بارد.",
+     "de": "Im Winter ist es kalt und mancherorts schneit es."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "فصل آخر سال چه نام دارد؟",
+     "frage_de": "Wie heißt die letzte Jahreszeit des Jahres?",
+     "optionen": [
+      "اسفند",
+      "زمستان",
+      "پاییز",
+      "آذر"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "ماه‌های کدام فصل سی و یک روز دارد؟",
+     "frage_de": "Die Monate welcher Jahreszeiten haben 31 Tage?",
+     "optionen": [
+      "بهار و تابستان",
+      "تابستان و پاییز",
+      "پاییز و زمستان",
+      "زمستان و بهار"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "امتحان نهایی مدرسه‌ها و دانشگاه‌ها معمولاً چه موقع برگزار می‌شود؟",
+     "frage_de": "Wann finden die Abschlussprüfungen meist statt?",
+     "optionen": [
+      "در ماه آخر بهار",
+      "در ماه آخر تابستان",
+      "در ماه اوّل پاییز",
+      "در زمستان"
+     ],
+     "richtig": 0
+    }
+   ]
+  },
+  {
+   "id": "khale-nahid",
+   "titel": "خاله ناهید",
+   "titel_de": "Tante Nahid",
+   "niveau": "A2",
+   "bild": "/lesen/khale-nahid.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۱۴ – خاله ناهید",
+   "saetze": [
+    {
+     "fa": "خاله ناهید فردا از شیراز به تهران می‌آید.",
+     "de": "Tante Nahid kommt morgen von Schiras nach Teheran."
+    },
+    {
+     "fa": "او با هواپیما به تهران می‌آید.",
+     "de": "Sie kommt mit dem Flugzeug nach Teheran."
+    },
+    {
+     "fa": "من همراه با مادرم به فرودگاه مهرآباد می‌روم.",
+     "de": "Ich fahre zusammen mit meiner Mutter zum Flughafen Mehrabad."
+    },
+    {
+     "fa": "ما می‌خواهیم از خاله ناهید استقبال کنیم.",
+     "de": "Wir wollen Tante Nahid empfangen."
+    },
+    {
+     "fa": "خاله ناهید خواهر بزرگ مادرم است.",
+     "de": "Tante Nahid ist die ältere Schwester meiner Mutter."
+    },
+    {
+     "fa": "او در سال هزار و سیصد و بیست در تهران به دنیا آمد.",
+     "de": "Sie wurde im Jahr 1320 in Teheran geboren."
+    },
+    {
+     "fa": "او و مادرم در تهران بزرگ شدند.",
+     "de": "Sie und meine Mutter wuchsen in Teheran auf."
+    },
+    {
+     "fa": "خاله ناهید در بیست و دو سالگی ازدواج کرد.",
+     "de": "Tante Nahid heiratete mit zweiundzwanzig Jahren."
+    },
+    {
+     "fa": "شوهرش شیرازی بود.",
+     "de": "Ihr Mann stammte aus Schiras."
+    },
+    {
+     "fa": "او در سال هزار و سیصد و چهل و دو به شیراز رفت.",
+     "de": "Im Jahr 1342 zog sie nach Schiras."
+    },
+    {
+     "fa": "خاله ناهید در اوقات بیکاری به کلاس خوشنویسی می‌رفت.",
+     "de": "In ihrer freien Zeit besuchte Tante Nahid einen Kalligrafie-Kurs."
+    },
+    {
+     "fa": "او دوست داشت خطّ خوبی داشته باشد.",
+     "de": "Sie wollte eine schöne Handschrift haben."
+    },
+    {
+     "fa": "او سال‌ها به کلاس خوشنویسی رفت.",
+     "de": "Sie ging jahrelang in den Kalligrafie-Kurs."
+    },
+    {
+     "fa": "اکنون او هنرمند خوشنویس است.",
+     "de": "Heute ist sie eine Kalligrafie-Künstlerin."
+    },
+    {
+     "fa": "ماه قبل شوهر خاله ناهید مرد.",
+     "de": "Im vergangenen Monat starb Tante Nahids Mann."
+    },
+    {
+     "fa": "خاله ناهید قرار است با ما زندگی کند.",
+     "de": "Tante Nahid wird bei uns wohnen."
+    },
+    {
+     "fa": "من خیلی خوشحال هستم، چون خاله ناهید می‌خواهد به من خوشنویسی یاد بدهد.",
+     "de": "Ich freue mich sehr, denn Tante Nahid will mir Kalligrafie beibringen."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "ما چرا می‌خواهیم به فرودگاه برویم؟",
+     "frage_de": "Warum wollen wir zum Flughafen fahren?",
+     "optionen": [
+      "برای استقبال از خاله ناهید",
+      "برای سفر به شیراز",
+      "برای دیدن هواپیما",
+      "برای کار"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "خاله ناهید چه موقع به شیراز رفت؟",
+     "frage_de": "Wann zog Tante Nahid nach Schiras?",
+     "optionen": [
+      "در بیست و دو سالگی",
+      "قبل از ازدواج",
+      "در ده سالگی",
+      "بعد از مرگ شوهرش"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "خاله ناهید چرا شیراز را ترک کرد؟",
+     "frage_de": "Warum verlässt Tante Nahid Schiras?",
+     "optionen": [
+      "برای تدریس",
+      "برای زندگی با خواهرش",
+      "برای تحصیل",
+      "برای کار"
+     ],
+     "richtig": 1
+    }
+   ]
   }
  ]
 }
