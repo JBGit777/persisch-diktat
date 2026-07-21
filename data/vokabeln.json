@@ -329,6 +329,36 @@
    "buch": 5,
    "titel": "Berge & Natur",
    "beschreibung": "Teil 5 – Lehrbuch درس ۱۹ (کوهنوردی)"
+  },
+  {
+   "lektion_nummer": 521,
+   "buch": 5,
+   "titel": "Städte & Sehenswürdigkeiten",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۲۰ (شهر قدیمی و زیبا)"
+  },
+  {
+   "lektion_nummer": 522,
+   "buch": 5,
+   "titel": "Hochzeit & Feiern",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۲۱ (جشن عروسی)"
+  },
+  {
+   "lektion_nummer": 523,
+   "buch": 5,
+   "titel": "Sprache & Dichtung",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۲۲ (زبان فارسی)"
+  },
+  {
+   "lektion_nummer": 524,
+   "buch": 5,
+   "titel": "Post & Brief",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۲۴ (نامه به خانواده)"
+  },
+  {
+   "lektion_nummer": 525,
+   "buch": 5,
+   "titel": "Dorf & Landwirtschaft",
+   "beschreibung": "Teil 5 – Lehrbuch درس ۲۵ (خانوادهٔ روستایی)"
   }
  ],
  "woerter": [
@@ -11889,6 +11919,586 @@
    "lektion_nummer": 520,
    "beispielsatz_ko": "ما تلویزیون تماشا می‌کنیم.",
    "beispielsatz_de": "Wir schauen fern.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مسجد",
+   "romanisierung": "masjed",
+   "deutsch": "Moschee",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "مسجد امام در اصفهان است.",
+   "beispielsatz_de": "Die Imam-Moschee ist in Isfahan.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پل",
+   "romanisierung": "pol",
+   "deutsch": "Brücke",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "پل‌های قدیمی اصفهان زیبا هستند.",
+   "beispielsatz_de": "Die alten Brücken Isfahans sind schön.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "رودخانه",
+   "romanisierung": "rudkhâne",
+   "deutsch": "Fluss",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "رودخانه از وسط شهر می‌گذرد.",
+   "beispielsatz_de": "Der Fluss fließt durch die Stadt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دیدنی",
+   "romanisierung": "didani",
+   "deutsch": "sehenswert",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "او ما را به جاهای دیدنی برد.",
+   "beispielsatz_de": "Er führte uns zu den Sehenswürdigkeiten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "بلد",
+   "romanisierung": "balad",
+   "deutsch": "kundig (بلد بودن: können)",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "بعضی از آنها فارسی بلد بودند.",
+   "beispielsatz_de": "Einige von ihnen konnten Persisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "اروپایی",
+   "romanisierung": "orupâyi",
+   "deutsch": "europäisch; Europäer(in)",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "بیشتر اروپایی‌ها انگلیسی می‌دانستند.",
+   "beispielsatz_de": "Die meisten Europäer konnten Englisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تعریف",
+   "romanisierung": "ta'rif",
+   "deutsch": "Lob; Erzählung (تعریف کردن: loben)",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "آنها از اصفهان تعریف کردند.",
+   "beispielsatz_de": "Sie lobten Isfahan.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "واقعا",
+   "romanisierung": "vâghe'an",
+   "deutsch": "wirklich",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "اصفهان واقعا زیبا است.",
+   "beispielsatz_de": "Isfahan ist wirklich schön.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "منتظر",
+   "romanisierung": "montazer",
+   "deutsch": "wartend (منتظر بودن: warten)",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "همه منتظر تابستان آینده هستند.",
+   "beispielsatz_de": "Alle warten auf den nächsten Sommer.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آلمانی",
+   "romanisierung": "âlmâni",
+   "deutsch": "deutsch; Deutsche(r)",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "او آلمانی صحبت می‌کند.",
+   "beispielsatz_de": "Er spricht Deutsch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "روسی",
+   "romanisierung": "rusi",
+   "deutsch": "russisch",
+   "lektion_nummer": 521,
+   "beispielsatz_ko": "او زبان روسی بلد است.",
+   "beispielsatz_de": "Er kann Russisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "عروسی",
+   "romanisierung": "arusi",
+   "deutsch": "Hochzeit",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "فردا جشن عروسی است.",
+   "beispielsatz_de": "Morgen ist die Hochzeitsfeier.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "عروس",
+   "romanisierung": "arus",
+   "deutsch": "Braut",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "آنها لباس برای عروس خریدند.",
+   "beispielsatz_de": "Sie kauften Kleidung für die Braut.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "داماد",
+   "romanisierung": "dâmâd",
+   "deutsch": "Bräutigam",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "برای داماد ساعت خریدند.",
+   "beispielsatz_de": "Für den Bräutigam kauften sie eine Uhr.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "نامزد",
+   "romanisierung": "nâmzad",
+   "deutsch": "Verlobte(r)",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "آنها یک سال است نامزد هستند.",
+   "beispielsatz_de": "Sie sind seit einem Jahr verlobt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خواستگاری",
+   "romanisierung": "khâstegâri",
+   "deutsch": "Brautwerbung",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "او به خواستگاری رفت.",
+   "beispielsatz_de": "Er ging zur Brautwerbung.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "داروخانه",
+   "romanisierung": "dârukhâne",
+   "deutsch": "Apotheke",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "او در داروخانه کار می‌کند.",
+   "beispielsatz_de": "Er arbeitet in einer Apotheke.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "طلا",
+   "romanisierung": "talâ",
+   "deutsch": "Gold",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "آنها طلا برای عروس خریدند.",
+   "beispielsatz_de": "Sie kauften Gold für die Braut.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "لوازم",
+   "romanisierung": "lavâzem",
+   "deutsch": "Zubehör, Utensilien",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "سایر لوازم خانه را خریدند.",
+   "beispielsatz_de": "Sie kauften die übrigen Haushaltsdinge.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تالار",
+   "romanisierung": "tâlâr",
+   "deutsch": "Saal",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "جشن در تالاری بزرگ برگزار می‌شود.",
+   "beispielsatz_de": "Das Fest findet in einem großen Saal statt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "سفارش",
+   "romanisierung": "sefâresh",
+   "deutsch": "Bestellung (سفارش دادن: bestellen)",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "آنها یک کیک بزرگ سفارش دادند.",
+   "beispielsatz_de": "Sie bestellten eine große Torte.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گوشت",
+   "romanisierung": "gusht",
+   "deutsch": "Fleisch",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "سبزی‌پلو با گوشت سفارش دادند.",
+   "beispielsatz_de": "Sie bestellten Sabzi-Polo mit Fleisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کیک",
+   "romanisierung": "keyk",
+   "deutsch": "Kuchen, Torte",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "کیک عروسی بزرگ بود.",
+   "beispielsatz_de": "Die Hochzeitstorte war groß.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "چهارصد",
+   "romanisierung": "chahârsad",
+   "deutsch": "vierhundert",
+   "lektion_nummer": 522,
+   "beispielsatz_ko": "تعداد مهمان‌ها چهارصد نفر است.",
+   "beispielsatz_de": "Die Zahl der Gäste beträgt 400.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کلمه",
+   "romanisierung": "kalame",
+   "deutsch": "Wort",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "این کلمه ریشهٔ عربی دارد.",
+   "beispielsatz_de": "Dieses Wort hat eine arabische Wurzel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ریشه",
+   "romanisierung": "rishe",
+   "deutsch": "Wurzel",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "بسیاری از کلمه‌ها ریشهٔ عربی دارند.",
+   "beispielsatz_de": "Viele Wörter haben eine arabische Wurzel.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "عربی",
+   "romanisierung": "arabi",
+   "deutsch": "arabisch",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "قرآن به زبان عربی است.",
+   "beispielsatz_de": "Der Koran ist auf Arabisch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مسلمان",
+   "romanisierung": "mosalmân",
+   "deutsch": "Muslim(in)",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "بیشتر مردم ایران مسلمان هستند.",
+   "beispielsatz_de": "Die meisten Menschen im Iran sind Muslime.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مقدس",
+   "romanisierung": "moghaddas",
+   "deutsch": "heilig",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "قرآن کتاب مقدس مسلمانان است.",
+   "beispielsatz_de": "Der Koran ist das heilige Buch der Muslime.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "زیرا",
+   "romanisierung": "zirâ",
+   "deutsch": "denn, weil",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "او نیامد، زیرا بیمار بود.",
+   "beispielsatz_de": "Er kam nicht, denn er war krank.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "ایمان",
+   "romanisierung": "imân",
+   "deutsch": "Glaube",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "«ایمان» یک کلمهٔ عربی است.",
+   "beispielsatz_de": "„Iman“ ist ein arabisches Wort.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شاعر",
+   "romanisierung": "shâ'er",
+   "deutsch": "Dichter(in)",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "حافظ شاعر بزرگ ایرانی است.",
+   "beispielsatz_de": "Hafis ist ein großer iranischer Dichter.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "عبارت",
+   "romanisierung": "ebârat",
+   "deutsch": "Ausdruck (عبارت است از: besteht aus)",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "برخی از کلمه‌ها عبارت است از: سلام و کتاب.",
+   "beispielsatz_de": "Einige Wörter sind: Salam und Ketab.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "شکر",
+   "romanisierung": "shekar",
+   "deutsch": "Zucker",
+   "lektion_nummer": 523,
+   "beispielsatz_ko": "ایرانی‌ها می‌گویند: «فارسی شکر است».",
+   "beispielsatz_de": "Die Iraner sagen: „Persisch ist Zucker.“",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مهندس",
+   "romanisierung": "mohandes",
+   "deutsch": "Ingenieur(in)",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "الکسی مهندس است.",
+   "beispielsatz_de": "Alexej ist Ingenieur.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "روسیه",
+   "romanisierung": "rusiye",
+   "deutsch": "Russland",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "او اهل روسیه است.",
+   "beispielsatz_de": "Er kommt aus Russland.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کارخانه",
+   "romanisierung": "kârkhâne",
+   "deutsch": "Fabrik",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "او در کارخانه‌ای مهم کار می‌کند.",
+   "beispielsatz_de": "Er arbeitet in einer wichtigen Fabrik.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خودکار",
+   "romanisierung": "khodkâr",
+   "deutsch": "Kugelschreiber",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "او خودکار را برداشت.",
+   "beispielsatz_de": "Er nahm den Kugelschreiber.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پاکت",
+   "romanisierung": "pâkat",
+   "deutsch": "Umschlag, Tüte",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "او نامه را داخل پاکت گذاشت.",
+   "beispielsatz_de": "Er steckte den Brief in den Umschlag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پست",
+   "romanisierung": "post",
+   "deutsch": "Post",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "او به ادارهٔ پست رفت.",
+   "beispielsatz_de": "Er ging zum Postamt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "تمبر",
+   "romanisierung": "tambr",
+   "deutsch": "Briefmarke",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "او چند تمبر خرید.",
+   "beispielsatz_de": "Er kaufte einige Briefmarken.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گیرنده",
+   "romanisierung": "girande",
+   "deutsch": "Empfänger(in)",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "نشانی گیرنده را نوشت.",
+   "beispielsatz_de": "Er schrieb die Adresse des Empfängers.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "فرستنده",
+   "romanisierung": "ferestande",
+   "deutsch": "Absender(in)",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "نشانی فرستنده روی پاکت است.",
+   "beispielsatz_de": "Die Absenderadresse steht auf dem Umschlag.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "آرامگاه",
+   "romanisierung": "ârâmgâh",
+   "deutsch": "Mausoleum, Grabmal",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "آرامگاه فردوسی دیدنی است.",
+   "beispielsatz_de": "Das Ferdowsi-Mausoleum ist sehenswert.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "دل",
+   "romanisierung": "del",
+   "deutsch": "Herz (دلم تنگ شده: ich habe Sehnsucht)",
+   "lektion_nummer": 524,
+   "beispielsatz_ko": "دل او برای خانواده‌اش تنگ شده است.",
+   "beispielsatz_de": "Er hat Sehnsucht nach seiner Familie.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "روستا",
+   "romanisierung": "rustâ",
+   "deutsch": "Dorf",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "آنها در روستا زندگی می‌کنند.",
+   "beispielsatz_de": "Sie leben auf dem Dorf.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مزرعه",
+   "romanisierung": "mazra'e",
+   "deutsch": "Feld, Bauernhof",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "او در مزرعه کار می‌کند.",
+   "beispielsatz_de": "Er arbeitet auf dem Feld.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گندم",
+   "romanisierung": "gandom",
+   "deutsch": "Weizen",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "آنها به مزرعهٔ گندم می‌روند.",
+   "beispielsatz_de": "Sie gehen zum Weizenfeld.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "گاو",
+   "romanisierung": "gâv",
+   "deutsch": "Kuh",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "آنها شیر گاو را می‌فروشند.",
+   "beispielsatz_de": "Sie verkaufen die Kuhmilch.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "خروس",
+   "romanisierung": "khorus",
+   "deutsch": "Hahn",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "خروس‌ها صبح زود بیدار می‌شوند.",
+   "beispielsatz_de": "Die Hähne wachen früh auf.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "مراقبت",
+   "romanisierung": "morâghebat",
+   "deutsch": "Fürsorge (مراقبت کردن: sich kümmern)",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "آنها از حیوانات مراقبت می‌کنند.",
+   "beispielsatz_de": "Sie kümmern sich um die Tiere.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "قند",
+   "romanisierung": "ghand",
+   "deutsch": "Würfelzucker",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "آنها قند و چای می‌خرند.",
+   "beispielsatz_de": "Sie kaufen Zucker und Tee.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "کبریت",
+   "romanisierung": "kebrit",
+   "deutsch": "Streichholz",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "یک بسته کبریت خرید.",
+   "beispielsatz_de": "Er kaufte eine Schachtel Streichhölzer.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "صابون",
+   "romanisierung": "sâbun",
+   "deutsch": "Seife",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "او صابون و برنج خرید.",
+   "beispielsatz_de": "Er kaufte Seife und Reis.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "امور",
+   "romanisierung": "omur",
+   "deutsch": "Angelegenheiten",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "مادر امور خانه را اداره می‌کند.",
+   "beispielsatz_de": "Die Mutter führt den Haushalt.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "روزانه",
+   "romanisierung": "ruzâne",
+   "deutsch": "täglich",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "او کارهای روزانه را انجام می‌دهد.",
+   "beispielsatz_de": "Sie erledigt die täglichen Arbeiten.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "پذیرایی",
+   "romanisierung": "pazirâyi",
+   "deutsch": "Bewirtung (پذیرایی کردن: bewirten)",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "او از مهمان‌ها پذیرایی می‌کند.",
+   "beispielsatz_de": "Sie bewirtet die Gäste.",
+   "hinweis": null,
+   "haeufigkeit": 3
+  },
+  {
+   "persisch": "زود",
+   "romanisierung": "zud",
+   "deutsch": "früh; schnell",
+   "lektion_nummer": 525,
+   "beispielsatz_ko": "آنها صبح زود بیدار می‌شوند.",
+   "beispielsatz_de": "Sie stehen früh am Morgen auf.",
    "hinweis": null,
    "haeufigkeit": 3
   }

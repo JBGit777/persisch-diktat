@@ -2406,6 +2406,575 @@
      "richtig": 0
     }
    ]
+  },
+  {
+   "id": "shahre-ghadimi-ziba",
+   "titel": "شهر قدیمی و زیبا",
+   "titel_de": "Eine alte und schöne Stadt",
+   "niveau": "B1",
+   "bild": "/lesen/shahre-ghadimi-ziba.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۲۰ – شهر قدیمی و زیبا",
+   "saetze": [
+    {
+     "fa": "بهروز و خانواده‌اش امسال تابستان به مسافرت رفتند.",
+     "de": "Behruz und seine Familie sind diesen Sommer verreist."
+    },
+    {
+     "fa": "آنها تصمیم گرفتند به شهر اصفهان بروند.",
+     "de": "Sie beschlossen, in die Stadt Isfahan zu fahren."
+    },
+    {
+     "fa": "پدر بهروز می‌گوید که اصفهان شهری قدیمی است.",
+     "de": "Behruz’ Vater sagt, dass Isfahan eine alte Stadt ist."
+    },
+    {
+     "fa": "آنجا مسجدها، حمام‌ها، و پل‌های قدیمی زیادی وجود دارد.",
+     "de": "Dort gibt es viele alte Moscheen, Bäder und Brücken."
+    },
+    {
+     "fa": "مادر بهروز می‌گوید اصفهان شهری زیبا است.",
+     "de": "Behruz’ Mutter sagt, Isfahan sei eine schöne Stadt."
+    },
+    {
+     "fa": "آنجا رودخانه‌ها، پارک‌ها، و میدان‌های زیبایی وجود دارد.",
+     "de": "Dort gibt es schöne Flüsse, Parks und Plätze."
+    },
+    {
+     "fa": "بهروز و خانواده‌اش با هواپیما وارد اصفهان شدند.",
+     "de": "Behruz und seine Familie kamen mit dem Flugzeug in Isfahan an."
+    },
+    {
+     "fa": "آنها به یک هتل بزرگ رفتند.",
+     "de": "Sie gingen in ein großes Hotel."
+    },
+    {
+     "fa": "بهروز و خانواده‌اش پنج روز در اصفهان ماندند.",
+     "de": "Behruz und seine Familie blieben fünf Tage in Isfahan."
+    },
+    {
+     "fa": "پدر بهروز آنها را به جاهای دیدنی اصفهان برد.",
+     "de": "Behruz’ Vater führte sie zu den Sehenswürdigkeiten Isfahans."
+    },
+    {
+     "fa": "مسافرانی از کشورهای خارجی در اصفهان بودند.",
+     "de": "Reisende aus dem Ausland waren in Isfahan."
+    },
+    {
+     "fa": "ژاپنی، کره‌ای، روسی، فرانسوی، آلمانی، و کانادایی.",
+     "de": "Japaner, Koreaner, Russen, Franzosen, Deutsche und Kanadier."
+    },
+    {
+     "fa": "بعضی از آنها فارسی بلد بودند.",
+     "de": "Einige von ihnen konnten Persisch."
+    },
+    {
+     "fa": "بهروز با آنها فارسی صحبت کرد.",
+     "de": "Behruz sprach mit ihnen Persisch."
+    },
+    {
+     "fa": "بیشتر اروپایی‌ها انگلیسی می‌دانستند.",
+     "de": "Die meisten Europäer konnten Englisch."
+    },
+    {
+     "fa": "پدر بهروز با آنها انگلیسی صحبت کرد.",
+     "de": "Behruz’ Vater sprach mit ihnen Englisch."
+    },
+    {
+     "fa": "آنها از اصفهان خیلی تعریف کردند.",
+     "de": "Sie lobten Isfahan sehr."
+    },
+    {
+     "fa": "آنها گفتند که اصفهان واقعاً زیبا است.",
+     "de": "Sie sagten, Isfahan sei wirklich schön."
+    },
+    {
+     "fa": "بهروز و خانواده‌اش پس از پنج روز به شهرشان برگشتند.",
+     "de": "Nach fünf Tagen kehrten Behruz und seine Familie in ihre Stadt zurück."
+    },
+    {
+     "fa": "همهٔ آنها منتظر تابستان آینده هستند.",
+     "de": "Sie alle warten auf den nächsten Sommer."
+    },
+    {
+     "fa": "آنها می‌خواهند تابستان آینده دوباره به اصفهان بروند.",
+     "de": "Nächsten Sommer wollen sie wieder nach Isfahan fahren."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "بهروز تاکنون چند بار به اصفهان سفر کرده است؟",
+     "frage_de": "Wie oft ist Behruz bisher nach Isfahan gereist?",
+     "optionen": [
+      "یک بار",
+      "دو بار",
+      "سه بار",
+      "هرگز"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "چه کسی از بناهای قدیمی اصفهان تعریف کرد؟",
+     "frage_de": "Wer lobte die alten Bauwerke Isfahans?",
+     "optionen": [
+      "مادر بهروز",
+      "پدر بهروز",
+      "بهروز",
+      "مسافران"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "بهروز با چه زبانی با بعضی از خارجی‌ها صحبت کرد؟",
+     "frage_de": "In welcher Sprache sprach Behruz mit einigen Ausländern?",
+     "optionen": [
+      "انگلیسی",
+      "فارسی",
+      "آلمانی",
+      "روسی"
+     ],
+     "richtig": 1
+    }
+   ]
+  },
+  {
+   "id": "jashne-arusi",
+   "titel": "جشن عروسی",
+   "titel_de": "Die Hochzeitsfeier",
+   "niveau": "B1",
+   "bild": "/lesen/jashne-arusi.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۲۱ – جشن عروسی",
+   "saetze": [
+    {
+     "fa": "فردا جشن عروسی «فریدون» و «فرزانه» است.",
+     "de": "Morgen ist die Hochzeitsfeier von Fereydun und Farzane."
+    },
+    {
+     "fa": "فریدون بیست و چهار ساله است.",
+     "de": "Fereydun ist vierundzwanzig Jahre alt."
+    },
+    {
+     "fa": "او در داروخانه کار می‌کند.",
+     "de": "Er arbeitet in einer Apotheke."
+    },
+    {
+     "fa": "فرزانه بیست ساله است.",
+     "de": "Farzane ist zwanzig Jahre alt."
+    },
+    {
+     "fa": "او کارمند بانک است.",
+     "de": "Sie ist Bankangestellte."
+    },
+    {
+     "fa": "فریدون و فرزانه در همسایگی هم زندگی می‌کنند.",
+     "de": "Fereydun und Farzane wohnen in derselben Nachbarschaft."
+    },
+    {
+     "fa": "آنها دو سال بود که به یکدیگر علاقه داشتند.",
+     "de": "Sie mochten einander seit zwei Jahren."
+    },
+    {
+     "fa": "سال گذشته، فریدون با خانواده‌اش به خواستگاری فرزانه رفت.",
+     "de": "Letztes Jahr ging Fereydun mit seiner Familie zur Brautwerbung zu Farzane."
+    },
+    {
+     "fa": "الان یک سال است که آنها با هم نامزد هستند.",
+     "de": "Seit einem Jahr sind sie nun verlobt."
+    },
+    {
+     "fa": "امروز فریدون و فرزانه همراه با خانواده‌ها و بستگان نزدیک خود به بازار رفتند.",
+     "de": "Heute gingen Fereydun und Farzane mit ihren Familien und nahen Verwandten auf den Basar."
+    },
+    {
+     "fa": "آنها طلا، کفش، لباس، و سایر لوازم را برای عروس خریدند.",
+     "de": "Sie kauften Gold, Schuhe, Kleidung und weitere Dinge für die Braut."
+    },
+    {
+     "fa": "آنها برای داماد هم کفش، ساعت، و لباس خریدند.",
+     "de": "Für den Bräutigam kauften sie ebenfalls Schuhe, eine Uhr und Kleidung."
+    },
+    {
+     "fa": "جشن عروسی در تالاری بزرگ برگزار خواهد شد.",
+     "de": "Die Hochzeitsfeier wird in einem großen Saal stattfinden."
+    },
+    {
+     "fa": "تعداد مهمان‌ها برای جشن عروسی چهارصد نفر است.",
+     "de": "Die Zahl der Gäste für die Hochzeitsfeier beträgt vierhundert Personen."
+    },
+    {
+     "fa": "آنها برای جشن فردا کیکی بزرگ سفارش داده‌اند.",
+     "de": "Für die morgige Feier haben sie eine große Torte bestellt."
+    },
+    {
+     "fa": "آنها برای شام دو نوع غذا سفارش داده‌اند: «زرشک‌پلو با مرغ» و «سبزی‌پلو با گوشت».",
+     "de": "Zum Abendessen haben sie zwei Gerichte bestellt: Zereschk-Polo mit Huhn und Sabzi-Polo mit Fleisch."
+    },
+    {
+     "fa": "فریدون و فرزانه در انتظار جشن فردا هستند.",
+     "de": "Fereydun und Farzane warten auf die morgige Feier."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "مهمان‌ها شام را در کجا می‌خورند؟",
+     "frage_de": "Wo essen die Gäste zu Abend?",
+     "optionen": [
+      "در خانهٔ فریدون",
+      "در تالار",
+      "در رستوران",
+      "در خانهٔ فرزانه"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "عروس چه کاره است؟",
+     "frage_de": "Was ist die Braut von Beruf?",
+     "optionen": [
+      "خانه‌دار",
+      "کارمند",
+      "پزشک",
+      "معلم"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "پارسال چه اتفاقی افتاد؟",
+     "frage_de": "Was geschah letztes Jahr?",
+     "optionen": [
+      "فریدون با فرزانه نامزد کرد",
+      "فریدون با فرزانه عروسی کرد",
+      "آنها به بازار رفتند",
+      "آنها همسایه شدند"
+     ],
+     "richtig": 0
+    }
+   ]
+  },
+  {
+   "id": "zabane-farsi",
+   "titel": "زبان فارسی",
+   "titel_de": "Die persische Sprache",
+   "niveau": "B1",
+   "bild": "/lesen/zabane-farsi.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۲۲ – زبان فارسی",
+   "saetze": [
+    {
+     "fa": "من مریم هستم.",
+     "de": "Ich bin Maryam."
+    },
+    {
+     "fa": "من در ایران زندگی می‌کنم.",
+     "de": "Ich lebe im Iran."
+    },
+    {
+     "fa": "من فارسی صحبت می‌کنم.",
+     "de": "Ich spreche Persisch."
+    },
+    {
+     "fa": "فارسی، زبان بیشتر مردم ایران است.",
+     "de": "Persisch ist die Sprache der meisten Menschen im Iran."
+    },
+    {
+     "fa": "فارسی‌زبان‌های زیادی در کشورهای دیگر مانند افغانستان، تاجیکستان، پاکستان، و هندوستان زندگی می‌کنند.",
+     "de": "Viele Persischsprachige leben in anderen Ländern wie Afghanistan, Tadschikistan, Pakistan und Indien."
+    },
+    {
+     "fa": "فارسی، زبان مادری بیش از صد میلیون نفر است.",
+     "de": "Persisch ist die Muttersprache von mehr als hundert Millionen Menschen."
+    },
+    {
+     "fa": "بسیاری از کلمه‌های فارسی ریشهٔ عربی دارد، زیرا تقریباً همهٔ مردم ایران مسلمان هستند.",
+     "de": "Viele persische Wörter haben eine arabische Wurzel, denn fast alle Menschen im Iran sind Muslime."
+    },
+    {
+     "fa": "قرآن، کتاب مقدّس مسلمانان، به زبان عربی است.",
+     "de": "Der Koran, das heilige Buch der Muslime, ist auf Arabisch."
+    },
+    {
+     "fa": "برخی از این کلمه‌ها عبارت است از: سلام، ایمان، انسان، دنیا، و کتاب.",
+     "de": "Einige dieser Wörter sind: Salam, Iman, Ensan, Donya und Ketab."
+    },
+    {
+     "fa": "در سال‌های اخیر، ایرانی‌ها ارتباط زیادی با اروپایی‌ها داشته‌اند.",
+     "de": "In den letzten Jahren hatten die Iraner viel Kontakt mit Europäern."
+    },
+    {
+     "fa": "از این رو، تعدادی از کلمه‌های فرانسوی و انگلیسی وارد زبان فارسی شده است.",
+     "de": "Daher sind einige französische und englische Wörter ins Persische gelangt."
+    },
+    {
+     "fa": "کلمهٔ «مرسی» از زبان فرانسه و کلمه‌های «کامپیوتر»، «فریزر»، و «فیلم» از زبان انگلیسی وارد زبان فارسی شده است.",
+     "de": "Das Wort „merci“ kam aus dem Französischen und die Wörter „Computer“, „Freezer“ und „Film“ aus dem Englischen ins Persische."
+    },
+    {
+     "fa": "شاعران بزرگ ایرانی مانند حافظ، مولوی، و فردوسی به زبان فارسی شعر سروده‌اند.",
+     "de": "Große iranische Dichter wie Hafis, Rumi und Ferdowsi haben auf Persisch gedichtet."
+    },
+    {
+     "fa": "ایرانی‌ها و فارسی‌زبان‌ها در سایر کشورها این شعرها را می‌خوانند.",
+     "de": "Die Iraner und die Persischsprachigen in anderen Ländern lesen diese Gedichte."
+    },
+    {
+     "fa": "آنان از این شعرها لذّت می‌برند.",
+     "de": "Sie genießen diese Gedichte."
+    },
+    {
+     "fa": "ایرانی‌ها می‌گویند: «فارسی شکر است».",
+     "de": "Die Iraner sagen: „Persisch ist Zucker.“"
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "کدام کلمه در سال‌های اخیر وارد فارسی شده است؟",
+     "frage_de": "Welches Wort ist in den letzten Jahren ins Persische gelangt?",
+     "optionen": [
+      "مرسی",
+      "انسان",
+      "سلام",
+      "کتاب"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "فارسی با کدام زبان ارتباط بیشتری دارد؟",
+     "frage_de": "Mit welcher Sprache hat Persisch die engste Verbindung?",
+     "optionen": [
+      "انگلیسی",
+      "عربی",
+      "فرانسوی",
+      "هندی"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "فارسی را بیشتر چه کسانی صحبت می‌کنند؟",
+     "frage_de": "Wer spricht überwiegend Persisch?",
+     "optionen": [
+      "مردم کشورهای مسلمان",
+      "مردم ایران",
+      "اروپایی‌ها",
+      "مردم هندوستان"
+     ],
+     "richtig": 1
+    }
+   ]
+  },
+  {
+   "id": "name-be-khanevade",
+   "titel": "نامه به خانواده",
+   "titel_de": "Ein Brief an die Familie",
+   "niveau": "B1",
+   "bild": "/lesen/name-be-khanevade.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۲۴ – نامه به خانواده",
+   "saetze": [
+    {
+     "fa": "الکسی پتروشفسکی مهندس است.",
+     "de": "Alexej Petrowski ist Ingenieur."
+    },
+    {
+     "fa": "او اهل روسیه است.",
+     "de": "Er kommt aus Russland."
+    },
+    {
+     "fa": "الکسی سال گذشته به ایران آمد.",
+     "de": "Alexej kam letztes Jahr in den Iran."
+    },
+    {
+     "fa": "او در کارخانه‌ای مهم کار می‌کند.",
+     "de": "Er arbeitet in einer wichtigen Fabrik."
+    },
+    {
+     "fa": "در این مدّت، الکسی فقط یک بار به روسیه رفته است.",
+     "de": "In dieser Zeit ist Alexej nur einmal nach Russland gefahren."
+    },
+    {
+     "fa": "او دوست دارد تعطیلات تابستانی را در روسیه بگذراند.",
+     "de": "Er möchte die Sommerferien in Russland verbringen."
+    },
+    {
+     "fa": "دل الکسی برای خانواده‌اش تنگ شده است.",
+     "de": "Alexej hat Heimweh nach seiner Familie."
+    },
+    {
+     "fa": "الکسی خودکار را برداشت و نامه‌ای نوشت.",
+     "de": "Alexej nahm den Kugelschreiber und schrieb einen Brief."
+    },
+    {
+     "fa": "او به همسر و فرزندانش در روسیه اطّلاع داد که تعطیلات را آنجا می‌رود.",
+     "de": "Er teilte seiner Frau und seinen Kindern in Russland mit, dass er die Ferien dort verbringt."
+    },
+    {
+     "fa": "او نامه را داخل پاکت گذاشت.",
+     "de": "Er steckte den Brief in einen Umschlag."
+    },
+    {
+     "fa": "الکسی چند عکس از ایران را هم داخل پاکت گذاشت.",
+     "de": "Alexej legte auch einige Fotos aus dem Iran in den Umschlag."
+    },
+    {
+     "fa": "الکسی این عکس‌ها را از جاهای مختلف گرفته بود.",
+     "de": "Alexej hatte diese Fotos an verschiedenen Orten aufgenommen."
+    },
+    {
+     "fa": "میدان آزادی در تهران، مسجد امام در اصفهان، تخت جمشید در شیراز، و آرامگاه فردوسی در مشهد.",
+     "de": "Der Azadi-Platz in Teheran, die Imam-Moschee in Isfahan, Persepolis bei Schiras und das Ferdowsi-Mausoleum bei Maschhad."
+    },
+    {
+     "fa": "بعد الکسی به ادارهٔ پست رفت.",
+     "de": "Dann ging Alexej zum Postamt."
+    },
+    {
+     "fa": "او در آنجا چند تمبر خرید و بر روی پاکت چسباند.",
+     "de": "Dort kaufte er einige Briefmarken und klebte sie auf den Umschlag."
+    },
+    {
+     "fa": "الکسی نشانی گیرنده و فرستنده را بر روی پاکت نوشت.",
+     "de": "Alexej schrieb die Adresse von Empfänger und Absender auf den Umschlag."
+    },
+    {
+     "fa": "او نامه را به کارمند ادارهٔ پست داد و به خانه برگشت.",
+     "de": "Er gab den Brief dem Postangestellten und kehrte nach Hause zurück."
+    },
+    {
+     "fa": "الکسی منتظر دیدار با خانواده‌اش است.",
+     "de": "Alexej wartet auf das Wiedersehen mit seiner Familie."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "چه کسی تمبرها را چسباند؟",
+     "frage_de": "Wer klebte die Briefmarken auf?",
+     "optionen": [
+      "کارمند ادارهٔ پست",
+      "الکسی",
+      "همسرش",
+      "فرزندانش"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "الکسی چرا به ایران آمد؟",
+     "frage_de": "Warum kam Alexej in den Iran?",
+     "optionen": [
+      "برای دیدن شهرهای ایران",
+      "برای کار کردن",
+      "برای تحصیل",
+      "برای تعطیلات"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "الکسی برای چندمین بار به روسیه برمی‌گردد؟",
+     "frage_de": "Zum wievielten Mal kehrt Alexej nach Russland zurück?",
+     "optionen": [
+      "اوّلین بار",
+      "دومین بار",
+      "سومین بار",
+      "هرگز"
+     ],
+     "richtig": 1
+    }
+   ]
+  },
+  {
+   "id": "khanevade-rustayi",
+   "titel": "خانوادهٔ روستایی",
+   "titel_de": "Eine Familie auf dem Land",
+   "niveau": "B1",
+   "bild": "/lesen/khanevade-rustayi.jpg",
+   "quelle": "Farsi-Lehrbuch, درس ۲۵ – خانوادهٔ روستایی",
+   "saetze": [
+    {
+     "fa": "ابراهیم و خانواده‌اش در روستا زندگی می‌کنند.",
+     "de": "Ebrahim und seine Familie leben auf dem Dorf."
+    },
+    {
+     "fa": "ابراهیم دو برادر و یک خواهر دارد.",
+     "de": "Ebrahim hat zwei Brüder und eine Schwester."
+    },
+    {
+     "fa": "آنها از ابراهیم کوچک‌تر هستند.",
+     "de": "Sie sind jünger als Ebrahim."
+    },
+    {
+     "fa": "ابراهیم در کارهای مزرعه به پدرش کمک می‌کند.",
+     "de": "Ebrahim hilft seinem Vater bei der Arbeit auf dem Feld."
+    },
+    {
+     "fa": "او و پدرش صبح زود به مزرعهٔ گندم می‌روند و کار می‌کنند.",
+     "de": "Er und sein Vater gehen früh am Morgen zum Weizenfeld und arbeiten."
+    },
+    {
+     "fa": "برادران ابراهیم از گاوها، مرغ‌ها، و خروس‌ها مراقبت می‌کنند.",
+     "de": "Ebrahims Brüder kümmern sich um die Kühe, Hühner und Hähne."
+    },
+    {
+     "fa": "آنها شیر گاو و تخم مرغ‌ها را به مغازهٔ روستا می‌برند و می‌فروشند.",
+     "de": "Sie bringen die Kuhmilch und die Eier zum Dorfladen und verkaufen sie."
+    },
+    {
+     "fa": "آنها با پول آن قند، چای، کبریت، برنج، صابون، و سایر لوازم خانه را می‌خرند.",
+     "de": "Mit dem Geld kaufen sie Zucker, Tee, Streichhölzer, Reis, Seife und andere Haushaltsdinge."
+    },
+    {
+     "fa": "خواهر و مادر ابراهیم کارهای خانه را انجام می‌دهند.",
+     "de": "Ebrahims Schwester und Mutter erledigen die Hausarbeit."
+    },
+    {
+     "fa": "خواهر ابراهیم خانه را تمیز و مرتّب می‌کند.",
+     "de": "Ebrahims Schwester putzt und ordnet das Haus."
+    },
+    {
+     "fa": "او نان می‌پزد و نان گرم را در سفره می‌گذارد.",
+     "de": "Sie bäckt Brot und legt das warme Brot auf den Tisch."
+    },
+    {
+     "fa": "مادر ابراهیم هم امور خانه را اداره می‌کند.",
+     "de": "Ebrahims Mutter führt den Haushalt."
+    },
+    {
+     "fa": "او کارهای روزانه را انجام می‌دهد.",
+     "de": "Sie erledigt die täglichen Arbeiten."
+    },
+    {
+     "fa": "او غذا می‌پزد، لباس می‌شوید، از مهمان‌ها پذیرایی می‌کند، و گاهی برای خرید به شهر می‌رود.",
+     "de": "Sie kocht, wäscht die Kleidung, bewirtet die Gäste und fährt manchmal zum Einkaufen in die Stadt."
+    }
+   ],
+   "fragen": [
+    {
+     "frage": "والدین ابراهیم چند فرزند دارند؟",
+     "frage_de": "Wie viele Kinder haben Ebrahims Eltern?",
+     "optionen": [
+      "سه فرزند",
+      "چهار فرزند",
+      "دو فرزند",
+      "پنج فرزند"
+     ],
+     "richtig": 1
+    },
+    {
+     "frage": "چه کسی از حیوانات نگهداری می‌کند؟",
+     "frage_de": "Wer kümmert sich um die Tiere?",
+     "optionen": [
+      "برادران ابراهیم",
+      "خواهر و مادر ابراهیم",
+      "پدر ابراهیم",
+      "ابراهیم"
+     ],
+     "richtig": 0
+    },
+    {
+     "frage": "خانوادهٔ ابراهیم نان خود را چگونه تهیه می‌کند؟",
+     "frage_de": "Wie kommt Ebrahims Familie zu ihrem Brot?",
+     "optionen": [
+      "در خانه می‌پزد",
+      "از نانوایی می‌خرد",
+      "از مغازه می‌خرد",
+      "از شهر می‌آورد"
+     ],
+     "richtig": 0
+    }
+   ]
   }
  ]
 }
